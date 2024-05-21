@@ -1,7 +1,7 @@
 export default function NotFound(){
     return(
         <>
-            hey from not found
+            hi from contact
         </>
     )
 }
