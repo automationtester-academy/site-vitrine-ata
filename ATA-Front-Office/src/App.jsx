@@ -1,13 +1,17 @@
-import { useState } from 'react'
-import './App.css'
+import FooterComponent from './components/footer/FooterComponent'
+import FooterPartenaires from './components/footer/FooterPartenaires.jsx'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     HI
+      <FooterPartenaires />
+      <FooterComponent />
     </>
+    // <h1 className="text-3xl font-bold underline">
+    //   Hello world!
+    // </h1>
   )
 }
 
