@@ -1,4 +1,4 @@
-import CartIcon from '../../assets/images/simplon.png';
+import CartIcon from '../images/simplon.png';
 export default function SimplonLogo() {
     return (
         <>

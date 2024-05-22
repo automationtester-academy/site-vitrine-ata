@@ -1,8 +1,8 @@
 import '../../assets/css/App.css'
-import ATAWhiteLogo from '../logos/ATAWhiteLogo';
+import ATAWhiteLogo from '../../assets/logos/ATAWhiteLogo';
 import FooterFirstList from './FooterFirstList';
 import FooterSecondtList from './FooterSecondList';
-import FooterIcons from '../logos/FooterIcons';
+import FooterIcons from './FooterIcons';
 export default function FooterComponent() {
     return (
         <>

@@ -1,3 +1,7 @@
+.user-page {
+    background-color: #071323;
+}
+
 footer {
     background-color: #0C1827;
     display: flex;
@@ -49,9 +53,16 @@ footer .footer-container {
         width: 90%;
         margin-bottom: 15px;
     }
+
+    .footer-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-@media only screen and (max-width: 790px){
+@media only screen and (max-width: 790px) {
     .footer-icons-container {
         margin-top: 15px;
     }
