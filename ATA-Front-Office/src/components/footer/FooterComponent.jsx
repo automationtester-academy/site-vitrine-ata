@@ -7,8 +7,8 @@ export default function FooterComponent() {
     return (
         <>
             <footer>
-                <div className='d-flex justify-content-evenly footer-container'>
-                    <div className='d-flex align-items-center justify-content-center icon-container'>
+                <div className='flex justify-evenly footer-container'>
+                    <div className='flex items-center justify-center icon-container'>
                         <ATAWhiteLogo />
                     </div>
                     <FooterFirstList />

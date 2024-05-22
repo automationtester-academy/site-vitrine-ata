@@ -1,7 +1,10 @@
+import CartIcon from '../../assets/images/agefiph.png';
 export default function AgefiphLogo() {
     return (
         <>
-            <h3>AgefiphLogo</h3>
+        <div className='p-5 icon-partenaires'>
+            <img src={ CartIcon } alt="" />
+        </div>
         </>
     );
 }

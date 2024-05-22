@@ -1,7 +1,11 @@
+import CartIcon from '../../assets/images/CPF.png';
 export default function CPFLogo(){
     return (
         <>
-        <h3>CPF logo</h3>
+        <div className='p-5 icon-partenaires'>
+            <img src={ CartIcon } alt="" />
+        </div>
+        
         </>
     );
 }
