@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <div className='user-page'>
-      {/* Salima Her hoti Header dyalek */}
+      {/* Salima Here hoti Header dyalek */}
       <Outlet />
       <FooterPartenaires />
       <FooterComponent />
