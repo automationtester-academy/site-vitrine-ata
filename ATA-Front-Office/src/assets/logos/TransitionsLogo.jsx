@@ -1,4 +1,4 @@
-import CartIcon from '../../assets/images/transitions.png';
+import CartIcon from '../images/transitions.png';
 export default function TransitionsLogo() {
     return (
         <>

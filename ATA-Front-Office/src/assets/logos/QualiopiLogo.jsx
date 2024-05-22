@@ -1,4 +1,4 @@
-import CartIcon from '../../assets/images/qualiopi.png';
+import CartIcon from '../images/qualiopi.png';
 export default function QualiopiLogo() {
     return (
         <>

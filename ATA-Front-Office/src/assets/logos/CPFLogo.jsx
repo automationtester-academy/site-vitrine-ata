@@ -1,4 +1,4 @@
-import CartIcon from '../../assets/images/CPF.png';
+import CartIcon from '../images/CPF.png';
 export default function CPFLogo(){
     return (
         <>

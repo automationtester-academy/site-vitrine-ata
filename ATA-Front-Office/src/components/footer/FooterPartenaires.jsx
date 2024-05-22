@@ -1,8 +1,8 @@
-import AgefiphLogo from "../logos/AgefiphLogo";
-import SimplonLogo from "../logos/SimplonLogo";
-import QualiopiLogo from "../logos/QualiopiLogo";
-import TransitionsLogo from "../logos/TransitionsLogo";
-import CPFLogo from "../logos/CPFLogo";
+import AgefiphLogo from "../../assets/logos/AgefiphLogo";
+import SimplonLogo from "../../assets/logos/SimplonLogo";
+import QualiopiLogo from "../../assets/logos/QualiopiLogo";
+import TransitionsLogo from "../../assets/logos/TransitionsLogo";
+import CPFLogo from "../../assets/logos/CPFLogo";
 
 export default function FooterPartenaires(){
     return (
