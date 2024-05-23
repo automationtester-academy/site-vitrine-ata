@@ -1,7 +1,10 @@
+import FinancerSaFormationComponent from "../components/financement/FinancerSaFormationComponent";
+import FooterPartenaires from "../components/footer/FooterPartenaires"
 export default function FinancementPage(){
     return (
         <>
-        <h2 className="text-red-700 ">Hello from Financement page</h2>
+        <FinancerSaFormationComponent />
+        <FooterPartenaires />
         </>
     );
 }
