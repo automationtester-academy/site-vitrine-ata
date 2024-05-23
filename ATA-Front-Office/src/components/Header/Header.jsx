@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import ATALogo from "../assets/images/ATALogo";
+import ATALogo from "../../assets/logos/ATALogo";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,19 +28,13 @@ export default function Header() {
                         <Link to="" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 mr-4 hover:underline font-semibold">
                             Formations
                         </Link>
-                        <Link
-                            to="/Financement"
-                            className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 hover:underline font-semibold"
-                        >
+                        <Link to="/Financement" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 hover:underline font-semibold">
                             Financements
                         </Link>
                     </div>
                     <div className="flex-shrink-0 my-2.5 lg:my-0">
                         <div className="relative inline-block p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
-                            <Link
-                                to="/Contact"
-                                className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold"
-                            >
+                            <Link to="/Contact" className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                                 Nous Contacter
                             </Link>
                         </div>
