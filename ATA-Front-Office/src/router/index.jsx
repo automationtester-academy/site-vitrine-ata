@@ -22,6 +22,7 @@ export const router = createBrowserRouter([
                 path:'/Contact',
                 element: <Contact/>
             },
+ 
             {
                 path:'*',
                 element: <NotFound/>
