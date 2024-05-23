@@ -1,9 +1,9 @@
 import {createBrowserRouter} from 'react-router-dom'
 import Layout from '../Layouts/Layout'
-import Home from '../Pages/Home'
-import Financement from '../Pages/Financement'
-import Contact from '../Pages/Contact'
-import NotFound from '../Pages/NotFound'
+import Home from '../pages/Home'
+import Financement from '../pages/Financement'
+import Contact from '../pages/Contact'
+import NotFound from '../pages/NotFound'
 
 
 export const router = createBrowserRouter([
