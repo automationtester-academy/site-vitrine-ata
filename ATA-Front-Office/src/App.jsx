@@ -1,19 +1,13 @@
-import { Outlet } from 'react-router-dom'
-import FooterComponent from './components/footer/FooterComponent'
-import FooterPartenaires from './components/footer/FooterPartenaires.jsx'
-import './assets/css/App.css'
+import { useState } from 'react'
+import { router } from './router/index'
+import {RouterProvider} from 'react-router-dom'
+import './App.css'
 
 function App() {
 
   return (
     <>
-    <div className='user-page'>
-      {/* Salima Here hoti Header dyalek */}
-      <Outlet />
-      <FooterPartenaires />
-      <FooterComponent />
-    </div>
-      
+        <RouterProvider router={router}/>
     </>
   )
 }
