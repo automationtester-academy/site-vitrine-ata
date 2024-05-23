@@ -1,6 +1,16 @@
 .user-page {
     background-color: #071323;
 }
+.Herosection_firstcomp{
+    position: relative;
+    text-align: center;
+}
+.Herosection_Text {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+  }
 
 footer {
     background-color: #0C1827;
@@ -63,13 +73,16 @@ footer .footer-container {
 
 .financer-text-background :nth-child(1) h2 {
     font-family: 'Montserrat';
-    font-weight: bold;
 }
 
 .financer-text-background div p {
     font-family: 'Montserrat';
     font-size: 20px;
 }
+/* .Herosection_Text_title{
+    width:30px;
+    font-family: 'Montserrat';
+} */
 
 @media only screen and (max-width: 570px) {
     footer .footer-container .icon-container {
