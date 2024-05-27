@@ -6,19 +6,19 @@ export default function ProfilsBordereauCompoment() {
                 <div className="button-container">
                     <div className="flex justify-evenly items-center flex-wrap w-3/4">
                         <div className="">
-                            <button className="uppercase text-white font-bold font-bold py-2 px-4 rounded hover:bg-gradient-to-r hover:from-[#3390B2] hover:to-[#87E5EC]">DEMANDEUR D’EMPLOI</button>
+                            <button className="uppercase text-white font-bold font-bold py-2 px-4 rounded hover:bg-cyan-600">DEMANDEUR D’EMPLOI</button>
                         </div>
                         <div className="">
-                            <button className="uppercase text-white font-bold font-bold py-2 px-4 rounded hover:bg-gradient-to-r hover:from-[#3390B2] hover:to-[#87E5EC]">SALARIÉ</button>
+                            <button className="uppercase text-white font-bold font-bold py-2 px-4 rounded hover:bg-cyan-600">SALARIÉ</button>
                         </div>
                         <div className="">
-                            <button className="uppercase text-white font-bold font-bold py-2 px-4 rounded hover:bg-gradient-to-r hover:from-[#3390B2] hover:to-[#87E5EC]">ÉTUDIANT</button>
+                            <button className="uppercase text-white font-bold font-bold py-2 px-4 rounded hover:bg-cyan-600">ÉTUDIANT</button>
                         </div>
                         <div className="">
-                            <button className="uppercase text-white font-bold font-bold py-2 px-4 rounded hover:bg-gradient-to-r hover:from-[#3390B2] hover:to-[#87E5EC]">INDÉPENDANT</button>
+                            <button className="uppercase text-white font-bold font-bold py-2 px-4 rounded hover:bg-cyan-600">INDÉPENDANT</button>
                         </div>
                         <div className="">
-                            <button className="uppercase text-white font-bold font-bold py-2 px-4 rounded hover:bg-gradient-to-r hover:from-[#3390B2] hover:to-[#87E5EC]">SITUATION DE HANDICAP</button>
+                            <button className="uppercase text-white font-bold font-bold py-2 px-4 rounded hover:bg-cyan-600">SITUATION DE HANDICAP</button>
                         </div>
                     </div>
                 </div>
