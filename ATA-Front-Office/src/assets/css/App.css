@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Herosection_Text_Title{
+    font-family:Montserrat;
+}
+.Header-text{
+    background-color:rgb(7 19 35);
+}
+.Header-text:hover{
+    background-color:rgb(42,133,171);
+}
+/* .Header_Box_border:hover{
+    background-color:rgb(42,133,171) !important;
+} */
 .user-page {
     background-color: #071323;
 }
@@ -9,7 +23,6 @@
     position: absolute;
     top: 0%;
     left: 0%;
-    /* transform: translate(-50%, -50%); */
   }
 
 footer {
@@ -79,10 +92,10 @@ footer .footer-container {
     font-family: 'Montserrat';
     font-size: 20px;
 }
-/* .Herosection_Text_title{
-    width:30px;
-    font-family: 'Montserrat';
-} */
+
+.hero_main_section{
+    width: 87.333333% !important;
+}
 
 @media only screen and (max-width: 570px) {
     footer .footer-container .icon-container {
@@ -131,3 +144,16 @@ footer .footer-container {
         margin: 20px 0 20px 0;
     }
 }
+
+
+@media (min-width: 640px) {
+    @media not all and (min-width: 1024px) {
+        .hero_main_section {
+            width: 100% !important;
+        }
+        .Herosection_image{
+            
+        }
+    }
+}
+
