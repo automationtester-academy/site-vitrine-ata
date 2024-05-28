@@ -2,7 +2,8 @@ import { useState } from "react";
 import CartIcon from "../../assets/icons/droDownIcon.png"
 import CartIcon2 from "../../assets/icons/closeDropDownIcon.png"
 
-export default function DemandeDeEmploiFourthDropDown() {
+export default function SalarieThirdDropDown() {
+
     const [isActive, setActive] = useState(false);
 
     const activeDropDown = () => {
@@ -20,7 +21,7 @@ export default function DemandeDeEmploiFourthDropDown() {
                     onClick={activeDropDown}
                 >
                     {isActive ? <img src={CartIcon2} alt="" /> : <img src={CartIcon} alt="" />}
-                    <span className={`ml-4 text-xl ${textColor}`}>Les Aides de votre région</span>
+                    <span className={`ml-4 text-xl ${textColor}`}>L'OPCO</span>
                 </button>
                 {isActive && (
                     <div className="mt-4 w-full p-4 drop-down-style">

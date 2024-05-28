@@ -15,7 +15,7 @@ export default function DemandeDeEmploiFirstDropDown() {
 
     return (
         <>
-            <div className="container mx-auto flex flex-col items-center justify-center mt-6 p-4">
+            <div className="container mx-auto flex flex-col items-center justify-center mt-6 ">
                 <button
                     className={`${dropDownStyle}`}
                     onClick={activeDropDown}
