@@ -10,7 +10,7 @@ export default function DemandeDeEmploiFourthDropDown() {
     }
 
     const textColor = isActive ? "text-[#39DDF5]" : "text-white";
-    const dropDownStyle = isActive ? "flex text-white font-bold py-5 px-4 w-full items-center" : "drop-down-style flex items-center text-white font-bold py-5 px-4 w-11/12";
+    const dropDownStyle = isActive ? "flex text-white font-bold py-5 px-4 w-11/12 items-center" : "drop-down-style flex items-center text-white font-bold py-5 px-4 w-11/12";
 
     return (
         <>
@@ -23,7 +23,7 @@ export default function DemandeDeEmploiFourthDropDown() {
                     <span className={`ml-4 text-xl ${textColor}`}>Les Aides de votre région</span>
                 </button>
                 {isActive && (
-                    <div className="mt-4 w-full p-4 drop-down-style">
+                    <div className="mt-4 w-11/12 p-4 drop-down-style">
                         <div>
                             <div className="my-2">
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
