@@ -2,7 +2,7 @@ import { useState } from "react";
 import CartIcon from "../../assets/icons/droDownIcon.png"
 import CartIcon2 from "../../assets/icons/closeDropDownIcon.png"
 
-export default function DemandeDeEmploiFifthDropDown() {
+export default function DemandeDeEmploiSixthDropDown() {
 
     const [isActive, setActive] = useState(false);
 
@@ -21,7 +21,7 @@ export default function DemandeDeEmploiFifthDropDown() {
                     onClick={activeDropDown}
                 >
                     {isActive ? <img src={CartIcon2} alt="" /> : <img src={CartIcon} alt="" />}
-                    <span className={`ml-4 text-xl ${textColor}`}>L'Autofinancement</span>
+                    <span className={`ml-4 text-xl ${textColor}`}>La Préparation opérationnelle à l'emploi individuelle</span>
                 </button>
                 {isActive && (
                     <div className="mt-4 w-full p-4 drop-down-style">
