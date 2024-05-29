@@ -7,11 +7,11 @@ export default function LearningByDoingComponent(){
         <section className="border-b-[0.0001vh] border-slate-500 ">
             <div className="flex justify-between  h-[65vh] ml-56 mt-10 mb-20 sm:max-lg:w-full sm:max-lg:mx-0  max-sm:mx-0 max-sm:flex-col  max-sm:h-fit">
             <div className="image w-[65vh] sm:max-lg:w-[70%] sm:max-lg:pl-4  max-sm:w-full max-sm:px-10" alt="image of two mates learning together">
-                <img className="w-full h-full sm:max-lg:h-[70%]"src={WorkingTogetherImg} alt="" />
+                <img className="w-full h-full sm:max-lg:h-[50%]"src={WorkingTogetherImg} alt="two students are studiying together" />
             </div>
-            <div className="image_container relative mr-16 max-sm:w-full  max-sm:h-full max-sm:static max-sm:bg-fuchsia-900">
+            <div className="image_container relative mr-16  max-sm:w-full  max-sm:h-full max-sm:static ">
                 <HomeHerosectionBackground />
-                <div className="flex flex-col  text-overlay absolute left-0 top-0 sm:max-lg:mt-[5%] sm:max-lg:w-[115%] max-sm:top-[115vh] max-sm:w-full max-sm:h-fit">
+                <div className="flex flex-col  text-overlay absolute left-0 top-0 sm:max-lg:mt-[5%] sm:max-lg:w-[115%] max-sm:top-[115vh] max-sm:w-full max-sm:static max-sm:h-fit">
                         <h1 className="Herosection_Text_Title w-[30rem] text-white text-center  text-[26px] font-bold mb-[3.5%] mt-[6.5%] leading-tight sm:max-lg:text-2xl sm:max-lg:w-full max-sm:w-full ">Apprendre 
                             <span className="Herosection_Text_Title_span text-cyan-400 sm:max-lg:text-2xl"> en s'exerçant !</span></h1>
                         <p className=" Herosection_Text_Title_paragraph text-center text-white w-10/12 text-lg leading-[119%] mb-[3.5%] ml-5 sm:max-lg:w-[90%] sm:max-lg:text-base max-sm:w-[90%]">En quelques jours ou plusieurs mois, en intensif ou à  votre rythme, des formations accessibles de partout via notre plateforme de cours et nos formateurs experts.</p>

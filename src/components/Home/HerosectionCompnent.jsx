@@ -22,7 +22,7 @@ export default function HerosectionCompnent(){
                             Découvrer nos formations                            
                             </Link>
                         </div>
-                    </div>
+                        </div>
                     </div>
                     
                 </div>
@@ -30,8 +30,6 @@ export default function HerosectionCompnent(){
                 <div className="Herosection_image flex sm:max-lg:justify-start sm:max-lg:w-full  max-sm:hidden w-7/12  ml-10">
                     <ATAHeroSec />
                 </div>
-
-            
         </div>
         </section>
         </>

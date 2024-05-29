@@ -193,3 +193,46 @@ footer .footer-container {
         flex-direction: column;
     }
 }
+@media (min-width: 1024px) and (max-width: 1179px) {
+    .NavbarLinks{
+        width:30% !important;
+    }
+    .NavbarLinks_menu{
+        margin-right:3px;
+    }
+    .NavBarLinks_button{
+        margin-left:3%
+    }
+}
+@media (min-width: 1024px) and (max-width: 1169px) {
+
+    .hero_main_section{
+        margin:auto;
+    }
+    .Herosection_image {
+        margin-left:10%;
+    }
+}
+@media (min-width: 640px) and (max-width: 900px) {
+    .hero_main_section{
+        display:flex;
+        flex-direction: column;
+        /* background:red; */
+    }
+    .Herosection{
+        /* background:green; */
+        margin:auto !important;
+    }
+    .Herosection_image{
+        /* background:black; */
+        margin-left:0px;
+        padding-left:10%;
+        padding-right:15%;
+
+    }
+}
+@media (min-width: 640px) and (max-width: 1027px) {
+
+}
+
+  
