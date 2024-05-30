@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-<<<<<<< HEAD
 @keyframes marquee-left-right {
     0% {
       transform: translateX(0);
@@ -37,10 +36,6 @@
 
 .Herosection_Text_Title{
     font-family:Montserrat;
-=======
-.Herosection_Text_Title {
-    font-family: Montserrat;
->>>>>>> 3c5e1ee631a4de2b088b6fdfcf90708fc47cea0a
 }
 
 .Header-text {
