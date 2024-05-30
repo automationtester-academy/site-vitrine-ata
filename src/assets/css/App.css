@@ -155,8 +155,7 @@ footer .footer-container {
     align-items: center;
 }
 
-.contact-first-section-container .contact-first-section-title h1 {
-    height: 100px;
+.contact-first-section-container .contact-first-section-title h2 {
     text-shadow:
         -1.5px -1.5px 0 #000,
         1.5px -1.5px 0 #000,
@@ -168,6 +167,7 @@ footer .footer-container {
     footer .footer-container .icon-container {
         width: 90%;
         margin-bottom: 15px;
+        padding: 1.7rem;
     }
 
     .footer-list {
@@ -184,6 +184,10 @@ footer .footer-container {
 
     .financement-button-style {
         width: 100%;
+    }
+
+    .img-child-container {
+        width: 58%;
     }
 }
 
@@ -203,13 +207,16 @@ footer .footer-container {
 }
 
 .financement-first-section {
-    padding: 80px 0 80px 0;
+    padding: 80px 0 40 0;
 }
 
 @media only screen and (max-width: 510px) {
     .icon-partenaires {
         width: 100%;
         display: flex;
+        flex-direction: column;
+    }
+    .footer-partenaires-container {
         flex-direction: column;
     }
 }
@@ -257,20 +264,34 @@ footer .footer-container {
 
     .button-container {
         position: initial;
-        margin-bottom: 20px;
         width: 100%;
     }
 
     .button-container div {
         flex-direction: column;
     }
+
+    .financement-situation-sections {
+        padding: 30px 0 30px 0;
+    }
+
+    .img-child-container {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 460px) {
-    .footer-partenaires-container {
-        flex-direction: column;
+
+    .financement-situation-title {
+        font-size: 1.5rem;
     }
-}@media (min-width: 1024px) and (max-width: 1179px) {
+
+    .img-child-container {
+        width: 68%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1179px) {
     .NavbarLinks{
         width:30% !important;
     }
