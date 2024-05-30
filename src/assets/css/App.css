@@ -1,5 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@keyframes marquee-left-right {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(calc(-250px * 8));
+    }
+    50.1% {
+      transform: translateX(calc(500px));
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .marquee {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .marquee-content {
+    display: flex;
+    width: calc(250px * 16); /* Adjust based on number of logos */
+    animation: marquee-left-right 20s linear infinite;
+  }
+  
+  .marquee-content > * {
+    flex: 0 0 250px; /* Width of each logo */
+  }
+
+  
+
 .Herosection_Text_Title{
     font-family:Montserrat;
 }
@@ -217,21 +251,68 @@ footer .footer-container {
     .hero_main_section{
         display:flex;
         flex-direction: column;
-        /* background:red; */
+        height:100vh;
     }
     .Herosection{
-        /* background:green; */
         margin:auto !important;
     }
     .Herosection_image{
-        /* background:black; */
-        margin-left:0px;
-        padding-left:10%;
-        padding-right:15%;
-
+        visibility: hidden;
     }
 }
 @media (min-width: 640px) and (max-width: 1027px) {
+    .HeroSection_Learningbydoing{
+        margin-bottom:10%
+    }
+    .HeroSection_Learningbydoing_main_parentImg{
+        height:84vh;
+    }
+    .HeroSection_Learningbydoing_main_Img{
+        height:100%;
+        object-fit: contain;
+    }
+    .HeroSection_Learningbydoing_text{
+        margin-bottom:10%;
+        margin-top:0%;
+    }
+    .Herosection_Text_Title_paragraph{
+        margin:auto;
+        margin-bottom:2%;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1148px) {
+    .HeroSection_Learningbydoing{
+        /* background:red; */
+    }
+    .HeroSection_Learningbydoing_main_parentImg{
+        /* background:green; */
+        width:60%;
+        height:130%;
+        
+    }
+    .HeroSection_Learningbydoing_main_Img{
+        height:100% !important;
+        width:100% !important;
+        object-fit: contain;
+    }
+    .HeroSection_Learningbydoing_text{
+        /* background:yellow; */
+    }
+    .HeroSection_Learningbydoing_main{
+        /* background:blue; */
+        margin-left:0px;
+        margin-right:0px;
+        display:flex;
+        justify-content: space-around;
+
+    }
+
+    .Herosection_Text_Title_paragraph{
+        width:90%;
+        margin:auto;
+        margin-bottom:2%;
+    }
+
 
 }
 
