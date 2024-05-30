@@ -299,7 +299,6 @@ footer .footer-container {
         flex-direction: column;
     }
 }
-<<<<<<< HEAD
 @media (min-width: 1024px) and (max-width: 1179px) {
     .NavbarLinks{
         width:30% !important;
@@ -390,11 +389,9 @@ footer .footer-container {
 }
 
   
-=======
 
 @media only screen and (max-width: 460px) {
     .footer-partenaires-container {
         flex-direction: column;
     }
 }
->>>>>>> 3c5e1ee631a4de2b088b6fdfcf90708fc47cea0a
