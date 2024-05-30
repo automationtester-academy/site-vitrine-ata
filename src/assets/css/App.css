@@ -1,48 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@keyframes marquee-left-right {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(calc(-250px * 8));
-    }
-    50.1% {
-      transform: translateX(calc(500px));
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  
-  .marquee {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-  }
-  
-  .marquee-content {
-    display: flex;
-    width: calc(250px * 16); /* Adjust based on number of logos */
-    animation: marquee-left-right 20s linear infinite;
-  }
-  
-  .marquee-content > * {
-    flex: 0 0 250px; /* Width of each logo */
-  }
-
-  
-
 .Herosection_Text_Title{
     font-family:Montserrat;
 }
-.Header-text{
-    background-color:rgb(7 19 35);
+
+.Header-text {
+    background-color: rgb(7 19 35);
 }
-.Header-text:hover{
-    background-color:rgb(42,133,171);
+
+.Header-text:hover {
+    background-color: rgb(42, 133, 171);
 }
+
 /* .Header_Box_border:hover{
     background-color:rgb(42,133,171) !important;
 } */
@@ -59,7 +28,7 @@
     position: absolute;
     top: 0%;
     left: 0%;
-  }
+}
 
 footer {
     background-color: #0C1827;
@@ -129,7 +98,7 @@ footer .footer-container {
     font-size: 20px;
 }
 
-.hero_main_section{
+.hero_main_section {
     width: 87.333333% !important;
 }
 
@@ -152,6 +121,49 @@ footer .footer-container {
     justify-content: center;
 }
 
+.drop-down-style {
+    border-bottom: 2.35px solid #39DDF5;
+}
+
+.drop-down-style img {
+    margin-left: -15px;
+}
+
+.contact-first-section-container {
+    position: relative;
+    
+}
+
+.contact-first-section-container .contact-first-section-img {
+    width: 100%;
+    height: 513px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-first-section-container .contact-first-section-img img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.contact-first-section-container .contact-first-section-title {
+    top: 0;
+    width: 100%;
+    height: 513px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.contact-first-section-container .contact-first-section-title h1 {
+    height: 100px;
+    text-shadow:
+        -1.5px -1.5px 0 #000,
+        1.5px -1.5px 0 #000,
+        -1.5px 1.5px 0 #000,
+        1.5px 1.5px 0 #000;
+}
+
 @media only screen and (max-width: 570px) {
     footer .footer-container .icon-container {
         width: 90%;
@@ -164,11 +176,29 @@ footer .footer-container {
         flex-direction: column;
         align-items: center;
     }
+
+    .financement-button-container {
+        width: 75%;
+        font-size: 1.5rem;
+    }
+
+    .financement-button-style {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 790px) {
     .footer-icons-container {
         margin-top: 15px;
+    }
+
+    .drop-down-style span {
+        font-size: 1rem;
+        text-align: start;
+    }
+
+    .financement-button-style {
+        font-size: 1rem;
     }
 }
 
@@ -191,12 +221,23 @@ footer .footer-container {
         align-items: center;
     }
 
+    .financement-first-section .text-child-container {
+        width: 90%;
+    }
+
+    .drop-down-style span {
+        font-size: 1.3rem;
+        text-align: start;
+    }
+
     .financer-text-background {
         background: none;
+        width: 100%;
     }
 
     .financement-img-container {
         margin: 20px 0 20px 0;
+        width: 100%;
     }
 }
 
@@ -206,13 +247,10 @@ footer .footer-container {
         .hero_main_section {
             width: 100% !important;
         }
-        .Herosection_image{
-            
-        }
     }
 }
 
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 620px) {
     .profils-background {
         display: none;
     }
@@ -227,7 +265,12 @@ footer .footer-container {
         flex-direction: column;
     }
 }
-@media (min-width: 1024px) and (max-width: 1179px) {
+
+@media only screen and (max-width: 460px) {
+    .footer-partenaires-container {
+        flex-direction: column;
+    }
+}@media (min-width: 1024px) and (max-width: 1179px) {
     .NavbarLinks{
         width:30% !important;
     }
