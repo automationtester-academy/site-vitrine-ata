@@ -2,7 +2,7 @@ import { useState } from "react";
 import CartIcon from "../../assets/icons/droDownIcon.png"
 import CartIcon2 from "../../assets/icons/closeDropDownIcon.png"
 
-export default function DemandeDeEmploiFirstDropDown() {
+export default function SalarieThirdDropDown() {
 
     const [isActive, setActive] = useState(false);
 
@@ -15,13 +15,13 @@ export default function DemandeDeEmploiFirstDropDown() {
 
     return (
         <>
-            <div className="container mx-auto flex flex-col items-center justify-center mt-6 ">
+            <div className="container mx-auto flex flex-col items-center justify-center">
                 <button
                     className={`${dropDownStyle}`}
                     onClick={activeDropDown}
                 >
                     {isActive ? <img src={CartIcon2} alt="" /> : <img src={CartIcon} alt="" />}
-                    <span className={`ml-4 text-xl ${textColor}`}>Le Compte Personnel de Formation (CPF)</span>
+                    <span className={`ml-4 text-xl ${textColor}`}>L'OPCO</span>
                 </button>
                 {isActive && (
                     <div className="mt-4 w-11/12 p-4 drop-down-style">
