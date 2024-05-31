@@ -2,23 +2,61 @@
 .carousel-container {
     overflow: hidden;
     position: relative;
-    width: 80%; /* 100% - 10% margin on each side */
+    width: 80%; 
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .logo-scroller {
     display: flex;
+    animation-delay:100s;
     animation: scroll 10s linear infinite;
-    width: calc(200%); /* Ensure the total width accommodates the duplicated logos */
+    width: calc(200%); 
 }
 @keyframes scroll {
     0% {
     transform: translateX(0);
     }
+    25%{
+        transform: translateX(0);
+
+    }
     50% {
     transform: translateX(calc(-100% / 2));
     }
+    75%{
+        transform: translateX(calc(-100% / 2));
+    }
+    }
+
+.Comments-container{
+    overflow-x: clip;
+    position: relative;
+    width: 80%; 
+    margin-left: 10%;
+    margin-right: 10% !important;
+}
+.Comments_scroller{
+    display: flex;
+    animation-delay:100s;
+    animation: scrollComment 10s linear infinite;
+    width: calc(200%); 
+}
+@keyframes scrollComment {
+    0% {
+    transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+
+    }
+    50% {
+    transform: translateX(calc(-100% / 2));
+    }
+    75%{
+        transform: translateX(calc(-100% / 2));
+    }
+
     }
 
 .Herosection_Text_Title{
@@ -33,9 +71,9 @@
     background-color: rgb(42, 133, 171);
 }
 
-/* .Header_Box_border:hover{
+ .Header_Box_border:hover{
     background-color:rgb(42,133,171) !important;
-} */
+} 
 .user-page {
     background-color: #071323;
 }

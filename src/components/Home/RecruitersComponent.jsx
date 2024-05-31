@@ -25,11 +25,11 @@ export default function Recruiters(){
     return(
         <>
         <section className="Recruiters h-[22.25rem] w-full bg-slate-900 border-b-2 ">
-            <div className="Recruiters_Text flex justify-center">
+            <div className="Recruiters_Text flex justify-center mb-10">
                 <p className="text-white text-4xl font-bold mt-16">Ils ont recruté <span className="text-cyan-400">nos alumni</span></p>
             </div>
-            <div className="carousel-container mx-[10%] h-[70%] overflow-hidden rounded-box">
-            <div className="logo-scroller flex gap-8 !w-[250%] h-full">
+            <div className="carousel-container mx-[10%] h-[70%]  rounded-box">
+            <div className="logo-scroller flex gap-24 !w-[250%] h-full">
                 <SNCFLogo/>
                 <SarenzalLogo/>
                 <AxaLogo/>
