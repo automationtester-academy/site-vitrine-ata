@@ -26,6 +26,7 @@ export default function CalendarSection() {
                 </div>
                 <div className='bg-gray-200 w-1/4 p-3'>
                     <div className=''>
+                        
                         <div>
                             <h3 className='font-bold'>Durée de rendez-vous</h3>
                             <div className='rounded flex justify-center border border-[#475A74]'>
