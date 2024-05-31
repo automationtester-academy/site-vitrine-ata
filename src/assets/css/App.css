@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    width: 80%; /* 100% - 10% margin on each side */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logo-scroller {
+    display: flex;
+    animation: scroll 10s linear infinite;
+    width: calc(200%); /* Ensure the total width accommodates the duplicated logos */
+}
+@keyframes scroll {
+    0% {
+    transform: translateX(0);
+    }
+    50% {
+    transform: translateX(calc(-100% / 2));
+    }
+    }
 
 .Herosection_Text_Title{
     font-family:Montserrat;

@@ -20,33 +20,27 @@ export default function Recruiters(){
 
     ];
 
+    
+
     return(
         <>
         <section className="Recruiters h-[22.25rem] w-full bg-slate-900 border-b-2 ">
             <div className="Recruiters_Text flex justify-center">
                 <p className="text-white text-4xl font-bold mt-16">Ils ont recruté <span className="text-cyan-400">nos alumni</span></p>
             </div>
+            <div className="carousel-container mx-[10%] h-[70%] overflow-hidden rounded-box">
+            <div className="logo-scroller flex gap-8 !w-[250%] h-full">
+                <SNCFLogo/>
+                <SarenzalLogo/>
+                <AxaLogo/>
+                <NaroutoLogo/>
+                <AltranLogo/>
+                <AccorLogo/>
+                <RajaLogo/>
+                <DataSolutionLogo/>
 
-            <div className="relative m-auto w-[80%] overflow-hidden flex space-x-42 before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px]  after:content-['']">
-      <div className="animate-infinite-slider flex w-[calc(250px*10)]">
-        {LogosScrolling.map((logo, index) => (
-          <div
-            className="slide flex w-[125px] items-center justify-center"
-            key={index}
-          >
-            {logo}
-          </div>
-        ))}
-        {LogosScrolling.map((logo, index) => (
-          <div
-            className="slide flex w-[125px] items-center justify-center"
-            key={index}
-          >
-            {logo}
-          </div>
-        ))}
-      </div>
-    </div>
+            </div>
+            </div>
 
         </section>
         </>
