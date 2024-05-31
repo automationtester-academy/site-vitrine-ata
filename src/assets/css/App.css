@@ -163,6 +163,31 @@ footer .footer-container {
         1.5px 1.5px 0 #000;
 }
 
+.contact-text-background {
+    background: url('../backgrounds/ContactBackground.png') center center;
+    opacity: 20%;
+    width: 100%;
+    height: 112px;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text-container h2 {
+    text-align: center;
+    width: 44%;
+}
+
 @media only screen and (max-width: 570px) {
     footer .footer-container .icon-container {
         width: 90%;
