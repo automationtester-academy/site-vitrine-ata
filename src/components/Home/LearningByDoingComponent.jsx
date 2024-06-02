@@ -6,10 +6,10 @@ export default function LearningByDoingComponent(){
         <>
         <section className="HeroSection_Learningbydoing border-b-[0.0001vh] border-slate-500 ">
             <div className="HeroSection_Learningbydoing_main flex justify-between  h-[65vh] ml-56 mt-10 mb-20 sm:max-lg:w-full sm:max-lg:mx-0  max-sm:mx-0 max-sm:flex-col  max-sm:h-fit">
-            <div className="HeroSection_Learningbydoing_main_parentImg w-[65vh] sm:max-lg:w-[70%] sm:max-lg:pl-4  max-sm:w-full max-sm:px-10" alt="image of two mates learning together">
-                <img className="HeroSection_Learningbydoing_main_Img w-full h-full sm:max-lg:h-[50%]"src={WorkingTogetherImg} alt="two students are studiying together" />
+            <div className="HeroSection_Learningbydoing_main_parentImg w-[65vh] sm:max-lg:w-[90%]   max-sm:w-full max-sm:px-10" alt="image of two mates learning together">
+                <img className="HeroSection_Learningbydoing_main_Img w-full h-full "src={WorkingTogetherImg} alt="two students are studiying together" />
             </div>
-            <div className="image_container relative mr-16  max-sm:w-full  max-sm:h-full max-sm:static ">
+            <div className="HeroSection_Learningbydoing_image_container relative mr-16  max-sm:w-full  max-sm:h-full max-sm:static ">
                 <HomeHerosectionBackground />
                 <div className="HeroSection_Learningbydoing_text flex flex-col  text-overlay absolute left-0 top-0 sm:max-lg:mt-[5%] sm:max-lg:w-[115%] max-sm:top-[115vh] max-sm:w-full max-sm:static max-sm:h-fit">
                         <h1 className="Herosection_Text_Title w-[30rem] text-white text-center  text-[26px] font-bold mb-[3.5%] mt-[6.5%] leading-tight sm:max-lg:text-2xl sm:max-lg:w-full max-sm:w-full ">Apprendre 

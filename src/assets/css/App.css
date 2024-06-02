@@ -271,6 +271,12 @@ footer .footer-container {
         display: flex;
         flex-direction: column;
     }
+    
+    
+
+    .scrollerlogo_parent_large{
+        width:200% !important;
+    }
 }
 
 @media only screen and (max-width: 922px) {
@@ -362,32 +368,77 @@ footer .footer-container {
         visibility: hidden;
     }
 }
-@media (min-width: 640px) and (max-width: 1027px) {
-    .HeroSection_Learningbydoing{
-        margin-bottom:10%
+@media (min-width: 640px) and (max-width: 1023.5px) {
+    .HeroSection_Learningbydoing_main{
+        height: fit-content !important;
     }
     .HeroSection_Learningbydoing_main_parentImg{
+        margin-left:1%;
         height:84vh;
     }
     .HeroSection_Learningbydoing_main_Img{
-        height:100%;
-        object-fit: contain;
+        object-fit: contain;    
     }
     .HeroSection_Learningbydoing_text{
         margin-bottom:10%;
         margin-top:0%;
+        margin-right:0px !umportant;
     }
     .Herosection_Text_Title_paragraph{
         margin:auto;
         margin-bottom:2%;
     }
+
 }
-@media (min-width: 1024px) and (max-width: 1148px) {
-    .HeroSection_Learningbydoing{
-        /* background:red; */
+
+@media (min-width: 640px) and (max-width: 1148px) {
+
+    .logo-scroller{
+        display: flex;
+        justify-content: between;  
+        gap:3.5%;
     }
+
+}
+@media (min-width: 640px) and (max-width: 1100px) {
+    .ImproveUrSkills{
+        margin-bottom:O%;
+    }
+    .ImproveUrSkills_main{
+        height: 130vh !important;
+    }
+    .ImproveUrSkills_image_container{
+        width:100vw !important;
+    }
+    .ImproveUrSkills_svg{
+        width:100%;
+        height:100%;
+        margin-left:0;
+        object-fit: fill !important;    
+    }
+
+    .ImproveUrSkills_main_parentImg{
+        /* background:blue; */
+        width:130%;
+        height:100%;
+        margin:0;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+
+    }
+    .ImproveUrSkills_main_Img{
+        width:90vw;
+        height:80vh;
+        object-fit: contain;    
+  
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1148px) {
+
     .HeroSection_Learningbydoing_main_parentImg{
-        /* background:green; */
         width:60%;
         height:130%;
         
@@ -397,11 +448,8 @@ footer .footer-container {
         width:100% !important;
         object-fit: contain;
     }
-    .HeroSection_Learningbydoing_text{
-        /* background:yellow; */
-    }
+
     .HeroSection_Learningbydoing_main{
-        /* background:blue; */
         margin-left:0px;
         margin-right:0px;
         display:flex;
@@ -414,7 +462,6 @@ footer .footer-container {
         margin:auto;
         margin-bottom:2%;
     }
-
 
 }
 
