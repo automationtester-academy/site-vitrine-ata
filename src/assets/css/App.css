@@ -457,6 +457,11 @@ footer .footer-container {
         width:100vw;
     }
 }
+@media (min-width: 511px) and (max-width:639.5){
+    .SarenzalLogo_svg{
+        width:55% !important;
+    }
+}
 
 @media (min-width: 640px) and (max-width: 900px){
     .Comment_container{

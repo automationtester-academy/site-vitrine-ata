@@ -25,7 +25,7 @@ export default function OnlineTraning(){
                             </div>
                 </div>
             <div className="ImproveUrSkills_main_parentImg mr-20 mt-10  w-[65vh] sm:max-lg:w-[70%] sm:max-lg:pl-4  max-sm:w-full max-sm:px-10  " alt="image of finance">
-                <img className="ImproveUrSkills_main_Img w-full h-full sm:max-lg:h-[40%] max-sm:!h-auto" src={ImageAccounting} alt="two students are studiying together" />
+                <img className="ImproveUrSkills_main_Img w-full h-full sm:max-lg:h-[40%]  max-sm:object-scale-down" src={ImageAccounting} alt="two students are studiying together" />
             </div>
 
             </div> 
