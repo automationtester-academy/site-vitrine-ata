@@ -7,7 +7,7 @@ export default function FirstSection() {
                     <img src={CardImage} alt="" />
                 </div>
                 <div className="contact-first-section-title flex justify-center">
-                    <h1 className="uppercase text-white text-7xl font-bold"><span className="text-[#39DDF5]">On</span> papote ?</h1>
+                    <h2 className="uppercase text-white text-7xl font-bold"><span className="text-[#39DDF5]">On</span> papote ?</h2>
                 </div>
             </div>
         </>
