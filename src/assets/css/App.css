@@ -400,27 +400,24 @@ footer .footer-container {
     }
 
 }
-@media (min-width: 640px) and (max-width: 1100px) {
-    .ImproveUrSkills{
-        margin-bottom:O%;
-    }
+@media (min-width: 854px) and (max-width: 1100px) {
+
     .ImproveUrSkills_main{
-        height: 130vh !important;
+        height: 100vh !important;
+        margin-bottom: 0%;
     }
     .ImproveUrSkills_image_container{
         width:100vw !important;
+        height:90vh;
+
     }
     .ImproveUrSkills_svg{
-        width:100%;
-        height:100%;
-        margin-left:0;
-        object-fit: fill !important;    
+        visibility:hidden
     }
 
     .ImproveUrSkills_main_parentImg{
-        /* background:blue; */
         width:130%;
-        height:100%;
+        height:90%;
         margin:0;
         display:flex;
         justify-content:center;
@@ -428,11 +425,98 @@ footer .footer-container {
 
     }
     .ImproveUrSkills_main_Img{
-        width:90vw;
-        height:80vh;
-        object-fit: contain;    
-  
+        width:90vw; 
+        height:65vh; 
+        object-fit: contain;
     }
+    .ImproveUrSkills_Text_Title{
+        padding-right:2%;
+        padding-left:2%;
+    }
+
+    .ImproveUrSkills_button{
+        width:100%;
+        margin:0;
+        display:flex;
+        justify-content:center
+    }
+}
+
+@media (min-width: 640px) and (max-width: 853.5px){
+    .ImproveUrSkills{
+        height:100vh !important;
+
+    }
+    .ImproveUrSkills_svg, .ImproveUrSkills_main_parentImg{
+        visibility:hidden;
+    }
+    .ImproveUrSkills_main{
+        height:100%;
+    }
+    .ImproveUrSkills_text{
+        width:100vw;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 900px){
+    .Comment_container{
+        height:100% !important;
+    }
+    .Comments_scroller{
+        width:80vw !important;
+        flex-direction: column;
+        animation: none;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .Comment_content{
+        width: 100vh !important;
+        height:85vh !important;
+    }
+    .Commeny_content_text{
+        width:80vh
+    }
+
+
+}
+@media (min-width: 901px) and (max-width: 1073px){
+    .Comment_container{
+        height:100% !important;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1231px) {
+
+    .ImproveUrSkills_button{
+        width:84%;
+        padding-left:2%;
+        padding-right:2%;
+        margin-left:4% !important;
+        margin:0;
+        display:flex;
+        justify-content:center
+    }
+    .ImproveUrSkills_main{
+        height: 100% !important;
+
+    }
+    .ImproveUrSkills{
+        height: 105vh !important;
+    }
+    .ImproveUrSkills_main_parentImg{
+        width:60%;
+        height:100%;
+        margin-right:0%;
+        margin-top:0%;
+        display:flex;
+        justify-content:center;
+    }
+    .ImproveUrSkills_main_Img{
+        width:85%;
+        object-fit:contain;
+    }
+
 }
 
 

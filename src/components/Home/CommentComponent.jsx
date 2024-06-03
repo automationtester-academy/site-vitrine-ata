@@ -6,7 +6,7 @@ export default function CommentComponent(){
 
     return(
         <>
-        <section className="flex justify-center">
+        <section className="Comment_parent flex justify-center">
             <div className="Comment_container h-[32.25rem] pb-20 w-full bg-slate-900  border-b-2 flex flex-col max-sm:h-fit">
                 <div className="Comment_title flex justify-center  w-full  h-[35%] mb-10 max-sm:!px-[2%]">
                     <p className="text-white w-8/12 text-4xl text-center font-bold mt-16 max-sm:w-full  max-sm:h-fit max-sm:text-3xl max-sm:!mx-0">Pour vous faire votre propre avis,<br /> <span className="text-cyan-400 text-center ms-7">demandez celui des autres.</span></p>
