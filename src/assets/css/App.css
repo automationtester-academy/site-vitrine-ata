@@ -303,6 +303,16 @@ footer .footer-container {
     .img-child-container {
         width: 50%;
     }
+
+    .contact-first-section-container .contact-first-section-title h2 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .contact-first-section-container .contact-first-section-title h2 {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (max-width: 460px) {
@@ -368,6 +378,10 @@ footer .footer-container {
         margin:auto;
         margin-bottom:2%;
     }
+
+    .contact-first-section-container .contact-first-section-title h2 {
+        font-size: 4rem;
+    }
 }
 @media (min-width: 1024px) and (max-width: 1148px) {
     .HeroSection_Learningbydoing{
@@ -403,6 +417,52 @@ footer .footer-container {
     }
 
 
+}
+
+@media (min-width: 610px) and (max-width: 1250px) {
+    .contact-text-container h2 {
+        width: 60%;
+    }
+
+    .calendar-container, .reservation-container {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 609px) {
+    .contact-text-container h2 {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .contact-first-section-container {
+        position: initial;
+    }
+    .contact-first-section-container .contact-first-section-img {
+        display: none;
+    }
+
+    .contact-first-section-container .contact-first-section-title {
+        position: initial;
+        height: auto;
+        padding: 40px 0 40px 0;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .contact-text-background {
+        display: none;
+    }
+
+    .contact-text-container {
+        position: initial;
+        padding: 30px 0 30px 0;
+    }
+
+    .contact-text-container h2 {
+        font-size: 1.5rem;
+    }
 }
 
   

@@ -5,13 +5,13 @@ import '../../assets/css/Calendar.css'
 import ATAWhiteLogo from '../../assets/logos/ATAWhiteLogo'
 
 
-export default function CalendarSection() {
+export default function ReservationSection() {
 
 
     return (
         <>
-            <div className='flex justify-center bg-red-700'>
-                <div className='flex flex-col bg-[#475A74] w-1/4 pt-2'>
+            <div className='flex justify-center'>
+                <div className='calendar-container flex flex-col bg-[#475A74] w-1/4 pt-2'>
                     <div className='flex flex justify-center'>
                         <ATAWhiteLogo />
                     </div>
@@ -24,7 +24,7 @@ export default function CalendarSection() {
                         </LocalizationProvider>
                     </div>
                 </div>
-                <div className='bg-gray-200 w-1/4 p-3'>
+                <div className='reservation-container bg-gray-200 w-1/4 p-3'>
                     <div className=''>
                         
                         <div>
