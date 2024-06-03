@@ -10,7 +10,13 @@ export default function ReservationSection() {
 
     return (
         <>
-            <div className='flex justify-center'>
+            <div className='pt-7 pb-2 flex justify-center'>
+                <div className='w-9/12 pl-10'>
+                    <p className='text-white max-lg:text-center max-md:text-center max-sm:text-center'>Réservez un rendez-vous en ligne avec un de nos Conseillers Formations.</p>
+                </div>
+                
+            </div>
+            <div className='flex justify-center reservation-calendar-section mb-7'>
                 <div className='calendar-container flex flex-col bg-[#475A74] w-1/4 pt-2'>
                     <div className='flex flex justify-center'>
                         <ATAWhiteLogo />
@@ -26,7 +32,7 @@ export default function ReservationSection() {
                 </div>
                 <div className='reservation-container bg-gray-200 w-1/4 p-3'>
                     <div className=''>
-                        
+
                         <div>
                             <h3 className='font-bold'>Durée de rendez-vous</h3>
                             <div className='rounded flex justify-center border border-[#475A74]'>
