@@ -4,6 +4,7 @@ import FooterPartenaires from "../components/footer/FooterPartenaires"
 import Recruiters from '../components/Home/RecruitersComponent'
 import OnlineTraning from '../components/Home/OnlineTraining'
 import CommentComponent from '../components/Home/CommentComponent'
+import ContactForm from "../components/Contact_Form/ContactForm.jsx";
 export default function Home(){
     return(
         <>
@@ -13,7 +14,7 @@ export default function Home(){
             <OnlineTraning/>
             <CommentComponent/>
             <FooterPartenaires />
-
+            <ContactForm />
         </>
     ) 
 }
