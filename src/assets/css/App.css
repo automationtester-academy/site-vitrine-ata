@@ -307,13 +307,13 @@ footer .footer-container {
 }
 
 
-@media (min-width: 640px) {
+/* @media (min-width: 640px) {
     @media not all and (min-width: 1024px) {
         .hero_main_section {
             width: 100% !important;
         }
     }
-}
+} */
 
 @media only screen and (max-width: 620px) {
     .profils-background {
@@ -349,17 +349,97 @@ footer .footer-container {
 @media (min-width: 1024px) and (max-width: 1169px) {
 
     .hero_main_section{
-        margin:auto;
+        margin-top:auto;
+
     }
     .Herosection_image {
         margin-left:10%;
     }
+
+    .HeroSection_Learningbydoing_main{
+        width:100%;
+        height:30vh;
+    }
+    .HeroSection_Learningbydoing_main_parentImg{
+        height:100% !important;
+    }
+    .HeroSection_Learningbydoing_main_Img{
+        padding:16%;
+    }
+    .HeroSection_Learningbydoing_text{
+        height:100%;
+        background:text;
+        
+    }
+    .HeroSection_Learningbydoing_image_container{
+        /* background:pink; */
+        height:120%;
+        width:80%;
+        display:flex;
+        justify-content:center
+    }
+    .backgroungImg{
+        visibility:hidden
+
+    }
+    .ImproveUrSkills{
+        margin-top: 6%;
+    }
+    .ImproveUrSkills_main{
+        height:27vh !important;
+
+    }
+    .ImproveUrSkills_main_parentImg{
+        height:90% !important;
+        width:83% !important;
+    }
+    .ImproveUrSkills_svg{
+        visibility:hidden;
+    }
+    .ImproveUrSkills_text{
+        height:100%;
+    }
+    .ImproveUrSkills_Text_Title_paragraph{
+        font-size:1.125rem;
+        line-height:119%;
+    }
+    .ImproveUrSkills_Text_Title{
+        /* background:green; */
+    }
+
 }
 @media (min-width: 640px) and (max-width: 900px) {
     .hero_main_section{
         display:flex;
         flex-direction: column;
-        height:100vh;
+        height:36vh;
+        margin-left:0% !important;
+        padding-left:2%;
+        padding-right:2%;
+    }
+    .Herosection_underbackground_img{
+        width:96vw;
+        height:30vh;
+    }
+    .ImgdecorationforBackground{
+        width:100%;
+        height:100%;
+        object-fit: contain !important;  
+
+    }
+    .HeroSection_Learningbydoing{
+        height:40vh
+    }
+    .HeroSection_Learningbydoing_main_parentImg{
+        width:80vw;
+        height:35vh !important;
+    }
+    .HeroSection_Learningbydoing_main_Img{
+        object-fit:contain;
+        padding:   9%;
+    }
+    .HeroSection_Learningbydoing_main{
+        height:100vh !important;
     }
     .Herosection{
         margin:auto !important;
@@ -367,8 +447,41 @@ footer .footer-container {
     .Herosection_image{
         visibility: hidden;
     }
+    .Herosection_Text{
+        width:100%;
+    }
+    .ImproveUrSkills{
+        height:36vh !important;
+    }
+    .ImproveUrSkills_main{
+        height:36vh !important;
+    }
+    .Comment_parent{
+        background:red;
+    }
+
+    .Comment_container{
+        height:100% !important;
+    }
+    .Comments_scroller{
+        width:80vw !important;
+        flex-direction: column;
+        animation: none;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .Comment_content{
+        width: 90% !important;
+        height:60% !important;
+    }
+    .Commeny_content_text{
+        width:100%;
+    }
+
+
 }
-@media (min-width: 640px) and (max-width: 1023.5px) {
+/* @media (min-width: 640px) and (max-width: 1023.5px) {
     .HeroSection_Learningbydoing_main{
         height: fit-content !important;
     }
@@ -389,7 +502,7 @@ footer .footer-container {
         margin-bottom:2%;
     }
 
-}
+} */
 
 @media (min-width: 640px) and (max-width: 1148px) {
 
@@ -401,6 +514,8 @@ footer .footer-container {
 
 }
 @media (min-width: 854px) and (max-width: 1100px) {
+
+    salima
 
     .ImproveUrSkills_main{
         height: 100vh !important;
@@ -442,10 +557,9 @@ footer .footer-container {
     }
 }
 
-@media (min-width: 640px) and (max-width: 853.5px){
+@media (min-width: 640px) and (max-width: 900px){
     .ImproveUrSkills{
-        height:100vh !important;
-
+        height:100vh ;
     }
     .ImproveUrSkills_svg, .ImproveUrSkills_main_parentImg{
         visibility:hidden;
@@ -454,7 +568,7 @@ footer .footer-container {
         height:100%;
     }
     .ImproveUrSkills_text{
-        width:100vw;
+        width:99.5vw;
     }
 }
 @media (min-width: 511px) and (max-width:639.5){
@@ -463,7 +577,7 @@ footer .footer-container {
     }
 }
 
-@media (min-width: 640px) and (max-width: 900px){
+/* @media (min-width: 640px) and (max-width: 900px){
     .Comment_container{
         height:100% !important;
     }
@@ -484,7 +598,7 @@ footer .footer-container {
     }
 
 
-}
+} */
 @media (min-width: 901px) and (max-width: 1073px){
     .Comment_container{
         height:100% !important;
@@ -502,13 +616,13 @@ footer .footer-container {
         display:flex;
         justify-content:center
     }
-    .ImproveUrSkills_main{
+    /* .ImproveUrSkills_main{
         height: 100% !important;
 
-    }
-    .ImproveUrSkills{
+    } */
+    /* .ImproveUrSkills{
         height: 105vh !important;
-    }
+    } */
     .ImproveUrSkills_main_parentImg{
         width:60%;
         height:100%;
