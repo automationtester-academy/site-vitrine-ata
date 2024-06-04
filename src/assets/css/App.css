@@ -364,6 +364,16 @@ footer .footer-container {
     .img-child-container {
         width: 50%;
     }
+
+    .contact-first-section-container .contact-first-section-title h2 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .contact-first-section-container .contact-first-section-title h2 {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (max-width: 460px) {
@@ -544,7 +554,10 @@ footer .footer-container {
         margin-bottom:2%;
     }
 
-} */
+    .contact-first-section-container .contact-first-section-title h2 {
+        font-size: 4rem;
+    }
+}
 
 @media (min-width: 640px) and (max-width: 1148px) {
 
@@ -639,8 +652,13 @@ footer .footer-container {
         width:80vh
     }
 
+}
 
-} */
+@media (min-width: 670px) and (max-width: 900px){
+    .calendar-container, .reservation-container {
+        width: 45%;
+    }
+}
 @media (min-width: 901px) and (max-width: 1073px){
     .Comment_container{
         height:100% !important;
@@ -708,6 +726,64 @@ footer .footer-container {
         margin-bottom:2%;
     }
 
+}
+
+@media (min-width: 900px) and (max-width: 1400px) {
+    .calendar-container, .reservation-container {
+        width: 35%;
+    }
+}
+
+@media (min-width: 610px) and (max-width: 1250px) {
+    .contact-text-container h2 {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 609px) {
+    .contact-text-container h2 {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .reservation-calendar-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .calendar-container, .reservation-container {
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .contact-first-section-container {
+        position: initial;
+    }
+    .contact-first-section-container .contact-first-section-img {
+        display: none;
+    }
+
+    .contact-first-section-container .contact-first-section-title {
+        position: initial;
+        height: auto;
+        padding: 40px 0 40px 0;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .contact-text-background {
+        display: none;
+    }
+
+    .contact-text-container {
+        position: initial;
+        padding: 30px 0 30px 0;
+    }
+
+    .contact-text-container h2 {
+        font-size: 1.5rem;
+    }
 }
 
   
