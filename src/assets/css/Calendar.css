@@ -1,0 +1,20 @@
+.calendar-style {
+    color: aliceblue;
+}
+
+.calendar-style .MuiPickersDay-root {
+    color: aliceblue;
+}
+
+.calendar-style .MuiPickersDay-root.Mui-selected {
+    color: #475A74 !important;
+    background-color: aliceblue !important;
+}
+
+.calendar-style .MuiSvgIcon-root {
+    color: aliceblue;
+}
+
+.calendar-style .MuiTypography-root {
+    color: #8e959e;
+}

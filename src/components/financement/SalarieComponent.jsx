@@ -8,7 +8,7 @@ export default function SalarieComponent() {
         <>
             <div className="flex flex-col items-center mb-7">
                 <div>
-                    <h2 className="text-4xl text-white text-center font-bold p-7">
+                    <h2 className="text-4xl financement-situation-title text-white text-center font-bold p-7">
                         Je suis salarié(e)
                     </h2>
                 </div>
