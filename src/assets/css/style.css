@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.textarea
+{
+    height: 109px;
+}
+
+
+.contactUS
+{
+    width: 100%;
+    text-align: center;
+    padding:3rem 0 0 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.contactUS span
+{
+    color: #39DDF5;
+}
+
+
+input
+{
+    margin-bottom: 1rem;
+}
+
+input::placeholder
+{
+    color: red;
+    position: relative;
+}
+
+input::placeholder::after
+{
+    position: absolute;
+    content: "*";
+    background: red;
+    color: red;
+    width: 10rem;
+    height: 100rem;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+.envoyer
+{
+    font-weight: bold;
+    font-size: 1rem;
+    padding: .5rem .8rem;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-container .placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none; /* So the label doesn't interfere with input clicks */
+    color: #999; /* Color of the placeholder text */
+    font-size: 16px;
+    transition: 0.2s ease all;
+}
+
+.input-container .asterisk {
+    color: red; /* Color of the asterisk */
+}
+
+/* Move the label up when input is focused or has value */
+.input-container input:focus + .placeholder,
+.input-container input:not(:placeholder-shown) + .placeholder {
+    top: -20px;
+    left: 10px;
+    font-size: 12px;
+    color: #666; /* Adjust the color if needed */
+}
