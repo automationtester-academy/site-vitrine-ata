@@ -8,6 +8,7 @@ import dayjs from 'dayjs';
 import 'dayjs/locale/fr';
 
 
+
 export default function ReservationSection() {
 
 
@@ -105,6 +106,8 @@ export default function ReservationSection() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div>
                 </div>
 
                 
