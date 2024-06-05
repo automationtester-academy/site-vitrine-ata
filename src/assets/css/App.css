@@ -335,13 +335,7 @@ footer .footer-container {
 }
 
 
-/* @media (min-width: 640px) {
-    @media not all and (min-width: 1024px) {
-        .hero_main_section {
-            width: 100% !important;
-        }
-    }
-} */
+
 
 @media only screen and (max-width: 620px) {
     .profils-background {
@@ -532,32 +526,9 @@ footer .footer-container {
     }
 
 
-}
-/* @media (min-width: 640px) and (max-width: 1023.5px) {
-    .HeroSection_Learningbydoing_main{
-        height: fit-content !important;
-    }
-    .HeroSection_Learningbydoing_main_parentImg{
-        margin-left:1%;
-        height:84vh;
-    }
-    .HeroSection_Learningbydoing_main_Img{
-        object-fit: contain;    
-    }
-    .HeroSection_Learningbydoing_text{
-        margin-bottom:10%;
-        margin-top:0%;
-        margin-right:0px !important;
-    }
-    .Herosection_Text_Title_paragraph{
-        margin:auto;
-        margin-bottom:2%;
-    }
 
-    .contact-first-section-container .contact-first-section-title h2 {
-        font-size: 4rem;
-    }
 }
+
 
 @media (min-width: 640px) and (max-width: 1148px) {
 
@@ -632,57 +603,7 @@ footer .footer-container {
     }
 }
 
-/* @media (min-width: 640px) and (max-width: 900px){
-    .Comment_container{
-        height:100% !important;
-    }
-    .Comments_scroller{
-        width:80vw !important;
-        flex-direction: column;
-        animation: none;
-        justify-content: center;
-        align-items: center;
 
-    }
-    .Comment_content{
-        width: 100vh !important;
-        height:85vh !important;
-    }
-    .Commeny_content_text{
-        width:80vh
-    }
-
-}
-
-@media (min-width: 670px) and (max-width: 900px){
-    .calendar-container, .reservation-container {
-        width: 45%;
-    }
-}
-@media (min-width: 901px) and (max-width: 1073px){
-    .Comment_container{
-        height:100% !important;
-    }
-}
-
-@media (min-width: 1101px) and (max-width: 1231px) {
-
-    .ImproveUrSkills_button{
-        width:84%;
-        padding-left:2%;
-        padding-right:2%;
-        margin-left:4% !important;
-        margin:0;
-        display:flex;
-        justify-content:center
-    }
-    /* .ImproveUrSkills_main{
-        height: 100% !important;
-
-    } */
-    /* .ImproveUrSkills{
-        height: 105vh !important;
-    } */
     .ImproveUrSkills_main_parentImg{
         width:60%;
         height:100%;
@@ -696,7 +617,7 @@ footer .footer-container {
         object-fit:contain;
     }
 
-/* } */
+
 
 
 @media (min-width: 1024px) and (max-width: 1148px) {
