@@ -106,6 +106,8 @@ export default function ReservationSection() {
                         </div>
                     </div>
                 </div>
+
+                
             </>
 
         );
