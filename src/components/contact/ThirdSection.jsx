@@ -8,8 +8,10 @@ import PhoneNumber from "../../components/Contact_Form/Formcomponents/PhoneNumbe
 import Email from "../../components/Contact_Form/Formcomponents/Email.jsx";
 import Message from "../../components/Contact_Form/Formcomponents/Message.jsx";
 import SendMessage from "../../components/Contact_Form/Formcomponents/SendMessage.jsx";
+import PrivacyPolicy from "../../components/Contact_Form/Formcomponents/PrivacyPolicy"
 export default function ThirdSection (){
     const form = useRef();
+
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -36,7 +38,7 @@ export default function ThirdSection (){
             </div>
         </div>
         <Toaster />
-        <div className="min-h-screen .bg-slate-900 text-amber-50 overflow-x-hidden  w-[85vw]  flex !justify-center m-auto">
+        <div className="min-h-screen .bg-slate-900 text-amber-50 overflow-x-hidden h-full w-[98vw]  flex !justify-center m-auto">
             <div className="container px-6 py-10 mx-auto ">
                 <div className="lg:flex lg:items-center lg:-mx-10 justify-center">
                     <div className="lg:w-1/2 lg:mx-10 ">
@@ -51,6 +53,7 @@ export default function ThirdSection (){
                                 <Email />
                             </div>
                                 <Message />
+                                <PrivacyPolicy/>
                                 <SendMessage />
                         </form>
                     </div>
@@ -58,6 +61,7 @@ export default function ThirdSection (){
                 </div>
             </div>
         </div>
+
         </>
     );
 }
