@@ -1,4 +1,5 @@
 export default function SecondSection() {
+
     return (
         <>
             <div className="relative">

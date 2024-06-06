@@ -12,6 +12,7 @@ import SendMessage from "./Formcomponents/SendMessage.jsx";
 
 function ContactForm() {
     const form = useRef();
+    
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -39,7 +40,7 @@ function ContactForm() {
             <div className="container px-6 py-10 mx-auto">
                 <div className="lg:flex lg:items-center lg:-mx-10 justify-between">
                     <div className="lg:w-1/2 lg:mx-10">
-                        <p className="mt-4 text-gray-500 text-white text-sm">
+                        <p className="mt-4 text-white text-sm">
                             Nous sommes ravis de vous entendre ! Veuillez utiliser ce formulaire pour nous envoyer vos questions, commentaires ou demandes de renseignements. Remplissez simplement les champs ci-dessous et nous vous répondrons dans les plus brefs délais.
                         </p>
                         <form className={'relative mb-[10%] mt-6 max-sm:mt-6'} ref={form} onSubmit={sendEmail}>
