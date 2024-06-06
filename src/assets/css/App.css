@@ -258,6 +258,10 @@ footer .footer-container {
     background-color: rgb(208, 209, 211);
 }
 
+.reservetion-times-container {
+    overflow: auto;
+}
+
 @media only screen and (max-width: 570px) {
     footer .footer-container .icon-container {
         width: 90%;
