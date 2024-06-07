@@ -4,6 +4,7 @@ import Home from '../pages/Home'
 import Financement from '../pages/FinancementPage'
 import Contact from '../pages/Contact'
 import NotFound from '../pages/NotFound'
+import Formation from '../pages/Formation'
 
 
 export const router = createBrowserRouter([
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
             {
                 path:'*',
                 element: <NotFound/>
+            },
+            {
+                path:'/Formation',
+                element: <Formation/>
             }
 
         ]
