@@ -19,7 +19,7 @@ export default function ReservationSection() {
     const [selectedDate, setSelectedDate] = useState(null);
 
     const times = [];
-    for (let hour = 7; hour < 21; hour++) {
+    for (let hour = 9; hour < 17; hour++) {
         for (let minutes = 0; minutes < 60; minutes += 30) {
             const time = `${hour.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
             times.push(time);
@@ -46,7 +46,7 @@ export default function ReservationSection() {
 
     //Hi Front-End developper
     //When you want to send the date that the user chooses, use this syntax before!!:
-    //console.log(dateValue + ' ' + selectedTime);
+    // console.log(dateValue + ' ' + selectedTime);
 
     return (
         <>
