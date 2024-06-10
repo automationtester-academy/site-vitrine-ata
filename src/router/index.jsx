@@ -4,7 +4,7 @@ import Home from '../pages/Home'
 import Financement from '../pages/FinancementPage'
 import Contact from '../pages/Contact'
 import NotFound from '../pages/NotFound'
-
+import Ecole from '../pages/Ecole'
 
 export const router = createBrowserRouter([
     {
@@ -23,9 +23,15 @@ export const router = createBrowserRouter([
                 element: <Contact/>
             },
             {
+                path:'/Ecole',
+                element: <Ecole />
+
+            },
+            {
                 path:'*',
                 element: <NotFound/>
             }
+
 
         ]
     },
