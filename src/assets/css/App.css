@@ -636,6 +636,11 @@ footer .footer-container {
         display:flex;
         justify-content:center;
     }
+    .ImproveUrSkills_main_parentImg_ecole
+    {
+        margin-top:2% !important;
+    }
+
     .ImproveUrSkills_main_Img{
         width:85%;
         object-fit:contain;
