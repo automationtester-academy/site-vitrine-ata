@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 export default function HerosectionCompnent(){
     return(
         <>
-        <section className="herosection_parent border-b-[0.0001vh] border-slate-500 flex  max-sm:w-full  sm:max-lg:w-full sm:max-lg:justify-center max-sm:justify-center ">
-        <div className="hero_main_section ml-[9rem] flex lg:flex-row my-5 lg:justify-between sm:max-lg:pl-6 max-sm:mx-0   sm:max-lg:m-0 max-sm:justify-center max-sm:mb-16">
+        <section className="herosection_parent border-b-[0.0001vh] border-slate-500  sm:max-lg:!h-[10%] flex  max-sm:w-full  sm:max-lg:w-full sm:max-lg:justify-center max-sm:justify-center ">
+        <div className="hero_main_section ml-[9rem] flex lg:flex-row my-5 lg:justify-between  max-sm:mx-0   sm:max-lg:m-0 max-sm:justify-center max-sm:mb-16">
             <div className="Herosection  relative w-5/12 sm:max-lg:w-full sm:max-lg:h-full sm:max-lg:mb-36   max-sm:w-full   ">
                 <div className="Herosection_firstcomp w-1/3 sm:max-lg:w-full   max-sm:w-full">
-                    <div className="Herosection_underbackground_img w-[30rem] sm:max-lg:w-full  max-sm:hidden">
+                    <div className="Herosection_underbackground_img w-[30rem]   max-sm:hidden">
                         <HomeCompBackground />
                     </div>
                     <div className="Herosection_Text w-[31rem] 2 mr-10 sm:max-lg:w-full  max-sm:w-full max-sm:!relative">

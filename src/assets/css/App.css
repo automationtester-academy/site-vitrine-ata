@@ -1,4 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    width: 80%; 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+  
+
+.logo-scroller {
+    display: flex;
+    animation-delay:100s;
+    animation: scroll 10s linear infinite;
+    width: calc(200%); 
+}
+@keyframes scroll {
+    0% {
+    transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+
+    }
+    50% {
+    transform: translateX(calc(-100% / 2));
+    }
+    75%{
+        transform: translateX(calc(-100% / 2));
+    }
+    }
+
+.Comments-container{
+    overflow-x: clip;
+    position: relative;
+    width: 80%; 
+    margin-left: 10%;
+    margin-right: 10% !important;
+}
+.Comments_scroller{
+    display: flex;
+    animation-delay:100s;
+    animation: scrollComment 10s linear infinite;
+    width: calc(200%); 
+}
+@keyframes scrollComment {
+    0% {
+    transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+
+    }
+    50% {
+    transform: translateX(calc(-100% / 2));
+    }
+    75%{
+        transform: translateX(calc(-100% / 2));
+    }
+
+    }
 
 .Herosection_Text_Title{
     font-family:Montserrat;
@@ -13,6 +74,9 @@
 }
 
 
+ .Header_Box_border:hover{
+    background-color:rgb(42,133,171) !important;
+} 
 .user-page {
     background-color: #071323;
 }
@@ -100,7 +164,7 @@ footer .footer-container {
     width: 87.333333% !important;
 }
 
-.profils-background {
+.profils-background, .second-contact-background {
     background: url('../backgrounds/FinamcementBackground-v2.png') center center;
     opacity: 20%;
     width: 100%;
@@ -170,7 +234,7 @@ footer .footer-container {
     position: relative;
 }
 
-.contact-text-container {
+.contact-text-container, .second-contact-background-text {
     position: absolute;
     top: 0;
     left: 0;
@@ -184,6 +248,19 @@ footer .footer-container {
 .contact-text-container h2 {
     text-align: center;
     width: 44%;
+}
+
+.reservation-calendar-section {
+    margin-bottom: 4rem;
+}
+
+.reservation-container div .reservation-container-first-section div {
+    border-color: rgb(71, 90, 116);
+    background-color: rgb(208, 209, 211);
+}
+
+.reservetion-times-container {
+    overflow: auto;
 }
 
 @media only screen and (max-width: 570px) {
@@ -230,7 +307,7 @@ footer .footer-container {
 }
 
 .financement-first-section {
-    padding: 80px 0 40 0;
+    padding: 80px 0 40px 0;
 }
 
 @media only screen and (max-width: 510px) {
@@ -239,8 +316,10 @@ footer .footer-container {
         display: flex;
         flex-direction: column;
     }
+
     .footer-partenaires-container {
         flex-direction: column;
+
     }
 }
 
@@ -272,20 +351,14 @@ footer .footer-container {
 }
 
 
-@media (min-width: 640px) {
-    @media not all and (min-width: 1024px) {
-        .hero_main_section {
-            width: 100% !important;
-        }
-    }
-}
+
 
 @media only screen and (max-width: 620px) {
-    .profils-background {
+    .profils-background, .second-contact-background {
         display: none;
     }
 
-    .button-container {
+    .button-container, .second-contact-background-text {
         position: initial;
         width: 100%;
     }
@@ -300,6 +373,25 @@ footer .footer-container {
 
     .img-child-container {
         width: 50%;
+    }
+
+    .contact-first-section-container .contact-first-section-title h2 {
+        font-size: 50px;
+    }
+
+    .second-contact-background-text {
+        padding: 20px 0 20px 0;
+    }
+
+    .second-contact-background-text h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .contact-first-section-container .contact-first-section-title h2 {
+        font-size: 3rem;
     }
 }
 
@@ -328,17 +420,97 @@ footer .footer-container {
 @media (min-width: 1024px) and (max-width: 1169px) {
 
     .hero_main_section{
-        margin:auto;
+        margin-top:auto;
+
     }
     .Herosection_image {
         margin-left:10%;
     }
+
+    .HeroSection_Learningbydoing_main{
+        width:100%;
+        height:30vh;
+    }
+    .HeroSection_Learningbydoing_main_parentImg{
+        height:100% !important;
+    }
+    .HeroSection_Learningbydoing_main_Img{
+        padding:16%;
+    }
+    .HeroSection_Learningbydoing_text{
+        height:100%;
+        background:text;
+        
+    }
+    .HeroSection_Learningbydoing_image_container{
+        /* background:pink; */
+        height:120%;
+        width:80%;
+        display:flex;
+        justify-content:center
+    }
+    .backgroungImg{
+        visibility:hidden
+
+    }
+    .ImproveUrSkills{
+        margin-top: 6%;
+    }
+    .ImproveUrSkills_main{
+        height:27vh !important;
+
+    }
+    .ImproveUrSkills_main_parentImg{
+        height:90% !important;
+        width:83% !important;
+    }
+    .ImproveUrSkills_svg{
+        visibility:hidden;
+    }
+    .ImproveUrSkills_text{
+        height:100%;
+    }
+    .ImproveUrSkills_Text_Title_paragraph{
+        font-size:1.125rem;
+        line-height:119%;
+    }
+    .ImproveUrSkills_Text_Title{
+        /* background:green; */
+    }
+
 }
 @media (min-width: 640px) and (max-width: 900px) {
     .hero_main_section{
         display:flex;
         flex-direction: column;
-        height:100vh;
+        height:36vh;
+        margin-left:0% !important;
+        padding-left:2%;
+        padding-right:2%;
+    }
+    .Herosection_underbackground_img{
+        width:96vw;
+        height:30vh;
+    }
+    .ImgdecorationforBackground{
+        width:100%;
+        height:100%;
+        object-fit: contain !important;  
+
+    }
+    .HeroSection_Learningbydoing{
+        height:40vh
+    }
+    .HeroSection_Learningbydoing_main_parentImg{
+        width:80vw;
+        height:35vh !important;
+    }
+    .HeroSection_Learningbydoing_main_Img{
+        object-fit:contain;
+        padding:   9%;
+    }
+    .HeroSection_Learningbydoing_main{
+        height:100vh !important;
     }
     .Herosection{
         margin:auto !important;
@@ -346,33 +518,136 @@ footer .footer-container {
     .Herosection_image{
         visibility: hidden;
     }
+    .Herosection_Text{
+        width:100%;
+    }
+    .ImproveUrSkills{
+        height:36vh !important;
+    }
+    .ImproveUrSkills_main{
+        height:36vh !important;
+    }
+    .Comment_parent{
+        background:red;
+    }
+
+    .Comment_container{
+        height:100% !important;
+    }
+    .Comments_scroller{
+        width:80vw !important;
+        flex-direction: column;
+        animation: none;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .Comment_content{
+        width: 90% !important;
+        height:60% !important;
+    }
+    .Commeny_content_text{
+        width:100%;
+    }
+
+
+
 }
-@media (min-width: 640px) and (max-width: 1027px) {
-    .HeroSection_Learningbydoing{
-        margin-bottom:10%
+
+
+@media (min-width: 640px) and (max-width: 1148px) {
+
+    .logo-scroller{
+        display: flex;
+        justify-content: between;  
+        gap:3.5%;
     }
-    .HeroSection_Learningbydoing_main_parentImg{
-        height:84vh;
+
+}
+@media (min-width: 854px) and (max-width: 1100px) {
+
+    salima
+
+    .ImproveUrSkills_main{
+        height: 100vh !important;
+        margin-bottom: 0%;
     }
-    .HeroSection_Learningbydoing_main_Img{
-        height:100%;
+    .ImproveUrSkills_image_container{
+        width:100vw !important;
+        height:90vh;
+
+    }
+    .ImproveUrSkills_svg{
+        visibility:hidden
+    }
+
+    .ImproveUrSkills_main_parentImg{
+        width:130%;
+        height:90%;
+        margin:0;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+
+    }
+    .ImproveUrSkills_main_Img{
+        width:90vw; 
+        height:65vh; 
         object-fit: contain;
     }
-    .HeroSection_Learningbydoing_text{
-        margin-bottom:10%;
-        margin-top:0%;
+    .ImproveUrSkills_Text_Title{
+        padding-right:2%;
+        padding-left:2%;
     }
-    .Herosection_Text_Title_paragraph{
-        margin:auto;
-        margin-bottom:2%;
+
+    .ImproveUrSkills_button{
+        width:100%;
+        margin:0;
+        display:flex;
+        justify-content:center
     }
 }
-@media (min-width: 1024px) and (max-width: 1148px) {
-    .HeroSection_Learningbydoing{
-        /* background:red; */
+
+@media (min-width: 640px) and (max-width: 900px){
+    .ImproveUrSkills{
+        height:100vh ;
     }
+    .ImproveUrSkills_svg, .ImproveUrSkills_main_parentImg{
+        visibility:hidden;
+    }
+    .ImproveUrSkills_main{
+        height:100%;
+    }
+    .ImproveUrSkills_text{
+        width:99.5vw;
+    }
+}
+@media (min-width: 511px) and (max-width:639.5){
+    .SarenzalLogo_svg{
+        width:55% !important;
+    }
+}
+
+
+    .ImproveUrSkills_main_parentImg{
+        width:60%;
+        height:100%;
+        margin-right:0%;
+        margin-top:0%;
+        display:flex;
+        justify-content:center;
+    }
+    .ImproveUrSkills_main_Img{
+        width:85%;
+        object-fit:contain;
+    }
+
+
+
+
+@media (min-width: 1024px) and (max-width: 1148px) {
+
     .HeroSection_Learningbydoing_main_parentImg{
-        /* background:green; */
         width:60%;
         height:130%;
         
@@ -382,11 +657,8 @@ footer .footer-container {
         width:100% !important;
         object-fit: contain;
     }
-    .HeroSection_Learningbydoing_text{
-        /* background:yellow; */
-    }
+
     .HeroSection_Learningbydoing_main{
-        /* background:blue; */
         margin-left:0px;
         margin-right:0px;
         display:flex;
@@ -400,7 +672,64 @@ footer .footer-container {
         margin-bottom:2%;
     }
 
+}
 
+@media (min-width: 900px) and (max-width: 1400px) {
+    .calendar-container, .reservation-container {
+        width: 35%;
+    }
+}
+
+@media (min-width: 610px) and (max-width: 1250px) {
+    .contact-text-container h2 {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 609px) {
+    .contact-text-container h2 {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .reservation-calendar-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .calendar-container, .reservation-container {
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .contact-first-section-container {
+        position: initial;
+    }
+    .contact-first-section-container .contact-first-section-img {
+        display: none;
+    }
+
+    .contact-first-section-container .contact-first-section-title {
+        position: initial;
+        height: auto;
+        padding: 40px 0 40px 0;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .contact-text-background {
+        display: none;
+    }
+
+    .contact-text-container {
+        position: initial;
+        padding: 30px 0 30px 0;
+    }
+
+    .contact-text-container h2 {
+        font-size: 1.5rem;
+    }
 }
 
   
