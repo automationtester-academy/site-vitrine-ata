@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Image1 from '../../assets/images/FormationHero.jpg';
-import Image2 from '../../assets/images/FormationHero2.jpg';
+import Image1 from '../../assets/images/formation/FormationHero.jpg';
+import Image2 from '../../assets/images/formation/FormationHero2.jpg';
 
 const images = [Image1, Image2];
 const intervalTime = 3000; 
-const HeroSection = () => {
+
+export default function HeroSection() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const intervalRef = useRef(null);
 
@@ -32,10 +33,13 @@ const HeroSection = () => {
       </div>
     </div>
   );
-};
+}
 
-const HeroImage = ({ image, isVisible }) => (
-  <div className={`hero-image ${isVisible ? 'visible' : ''}`} style={{ backgroundImage: `url(${image})` }}></div>
-);
-
-export default HeroSection;
+function HeroImage({ image, isVisible }) {
+  return (
+    <div
+      className={`hero-image ${isVisible ? 'visible' : ''}`}
+      style={{ backgroundImage: `url(${image})` }}
+    ></div>
+  );
+}

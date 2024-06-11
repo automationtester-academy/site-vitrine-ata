@@ -19,7 +19,7 @@ export default function CategoriesSection() {
     return (
         <>
             <div className="relative">
-                <div className="formation-background w-full h-full p-7"></div>
+                <div className="profils-background w-full h-full p-7"></div>
                 <div className="button-container">
                     <div className="flex justify-evenly items-center flex-wrap w-3/4">
                         <button
@@ -66,15 +66,16 @@ export default function CategoriesSection() {
             <div ref={formationCourteRef}>
                 <FormationCourteSection />
             </div>
+            <div ref={mixLearningRef}>
+                <MixLearningSection />
+            </div>
             <div ref={abonnementRef}>
                 <AbonnementSection />
             </div>
             <div ref={reconversionProRef}>
                 <ReconversionProSection />
             </div>
-            <div ref={mixLearningRef}>
-                <MixLearningSection />
-            </div>
+          
         </>
     );
 }

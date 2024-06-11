@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function AbonnementSection() {
-    const sectionStyle = "min-h-screen p-10 bg-gray-800 text-white flex flex-col items-center justify-center";
+    const sectionStyle = "min-h-screen p-10 bg-slate-900 text-white flex flex-col items-center justify-center";
     return (
         <div id="abonnement-section" className={sectionStyle} aria-labelledby="abonnement-heading">
             <h2 id="abonnement-heading" className="text-3xl mb-4">Abonnement Section</h2>
