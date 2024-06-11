@@ -1,40 +1,41 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Image1 from '../../assets/images/FormationHero.jpg';
 import Image2 from '../../assets/images/FormationHero2.jpg';
 
 const images = [Image1, Image2];
-const intervalTime = 3000; // 3 seconds
-
+const intervalTime = 3000; 
 const HeroSection = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const intervalRef = useRef(null);
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    intervalRef.current = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, intervalTime);
 
-    return () => clearInterval(interval);
+    return () => clearInterval(intervalRef.current);
   }, []);
 
   return (
     <div className="hero-container">
       {images.map((image, index) => (
-        <div
+        <HeroImage
           key={index}
-          className={`hero-image ${index === currentImageIndex ? 'visible' : ''}`}
-          style={{ backgroundImage: `url(${image})` }}
-        >
-          {index === currentImageIndex && (
-            <div className="relative z-10 flex justify-center items-center h-full">
-              <h2 className="uppercase text-white text-7xl font-bold">
-                <span className="text-[#39DDF5]">Nos</span> Formation
-              </h2>
-            </div>
-          )}
-        </div>
+          image={image}
+          isVisible={index === currentImageIndex}
+        />
       ))}
+      <div className="text-container">
+        <h2 className="uppercase text-white text-7xl font-bold">
+          <span className="text-[#39DDF5]">Nos</span> Formation
+        </h2>
+      </div>
     </div>
   );
 };
+
+const HeroImage = ({ image, isVisible }) => (
+  <div className={`hero-image ${isVisible ? 'visible' : ''}`} style={{ backgroundImage: `url(${image})` }}></div>
+);
 
 export default HeroSection;

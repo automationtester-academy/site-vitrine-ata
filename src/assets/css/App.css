@@ -734,63 +734,7 @@ footer .footer-container {
 
 
 
-.formation-hero-container {
-    position: relative;
-}
 
-.formation-hero-img {
-    width: 100%;
-    height: 513px;
-    display: flex;
-    justify-content: center;
-}
-
-.formation-hero-img img {
-    object-fit: cover;
-    width: 100%;
-}
-
-.formation-hero-title {
-    top: 0;
-    width: 100%;
-    height: 513px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-}
-
-.formation-hero-title h2 {
-    text-shadow:
-        -1.5px -1.5px 0 #000,
-        1.5px -1.5px 0 #000,
-        -1.5px 1.5px 0 #000,
-        1.5px 1.5px 0 #000;
-}
-
-@media only screen and (max-width: 1250px) {
-    .formation-hero-container {
-        position: initial;
-    }
-    .formation-hero-img {
-        display: none;
-    }
-    .formation-hero-title {
-        position: initial;
-        height: auto;
-        padding: 40px 0;
-    }
-}
-.formation-background, .second-formation-background {
-    background: url('../backgrounds/FinamcementBackground-v2.png') center center ;
-    opacity: 20%;
-    width: 100%;
-    height: 82px; 
-    background-size: cover;
-    position: relative;
-}
-
-
-/* styles.css */
 .hero-section {
     position: relative;
     height: 100vh;
@@ -826,10 +770,9 @@ footer .footer-container {
 
 .hero-text {
     font-size: 1.25rem;
-    color: #d1d5db; /* Tailwind CSS text-gray-200 */
+    color: #d1d5db; 
 }
 
-/* Responsive adjustments */
 @media (min-width: 768px) {
     .hero-title {
         font-size: 3rem;
@@ -869,3 +812,71 @@ footer .footer-container {
     opacity: 1;
   }
   
+
+  .hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .hero-image.visible {
+    opacity: 1;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .text-7xl {
+    font-size: 4.5rem; 
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  .text-container h2 {
+    text-shadow:
+      -1.5px -1.5px 0 #000,
+      1.5px -1.5px 0 #000,
+      -1.5px 1.5px 0 #000,
+      1.5px 1.5px 0 #000;
+  }
+
+  #bootcamp-section{
+    background: url('../backgrounds//FinamcementBackground.png') center center;
+    background-repeat: no-repeat;
+    width: 60%;
+  }
+  
+  .button-border:hover{
+    background-color:rgb(42,133,171) !important;
+} 
