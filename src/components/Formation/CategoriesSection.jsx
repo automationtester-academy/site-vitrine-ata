@@ -68,13 +68,15 @@ export default function CategoriesSection() {
             </div>
             <div ref={mixLearningRef}>
                 <MixLearningSection />
-            </div>
-            <div ref={abonnementRef}>
-                <AbonnementSection />
-            </div>
+            </div> 
             <div ref={reconversionProRef}>
                 <ReconversionProSection />
             </div>
+        
+            <div ref={abonnementRef}>
+                <AbonnementSection />
+            </div>
+           
           
         </>
     );
