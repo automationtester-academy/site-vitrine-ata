@@ -18,7 +18,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-[513px] overflow-hidden">
       {images.map((image, index) => (
         <HeroImage
           key={index}
