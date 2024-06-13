@@ -22,7 +22,7 @@ export default function Header() {
                 </div>
                 <div className={`NavbarLinks w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isMenuOpen ? '' : 'hidden'} lg:block`}>
                     <div className="NavbarLinks_menu text-sm lg:flex-grow lg:flex lg:justify-center lg:ml-36 mt-3 lg:mt-0">
-                        <Link to="" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 hover:underline mr-4 font-semibold">
+                        <Link to="/ecole" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 hover:underline mr-4 font-semibold">
                             L’école
                         </Link>
                         <Link to="/Formation" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 mr-4 hover:underline font-semibold">

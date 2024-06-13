@@ -159,6 +159,13 @@ footer .footer-container {
     font-size: 20px;
 }
 
+
+.school-text-background div p
+{
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
 .hero_main_section {
     width: 87.333333% !important;
 }
@@ -329,6 +336,12 @@ footer .footer-container {
         align-items: center;
     }
 
+     .edited
+    {        
+        flex-direction: column-reverse !important;
+        margin-bottom: 1rem;
+    }
+
     .financement-first-section .text-child-container {
         width: 90%;
     }
@@ -401,7 +414,8 @@ footer .footer-container {
     }
 
     .img-child-container {
-        width: 68%;
+        width: 70%;
+        margin-bottom: 2rem;
     }
 }
 
@@ -636,6 +650,11 @@ footer .footer-container {
         display:flex;
         justify-content:center;
     }
+    .ImproveUrSkills_main_parentImg_ecole
+    {
+        margin-top:2% !important;
+    }
+
     .ImproveUrSkills_main_Img{
         width:85%;
         object-fit:contain;
@@ -961,3 +980,4 @@ footer .footer-container {
 }
 
 /*************************************/
+  
