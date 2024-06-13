@@ -1,12 +1,12 @@
 
 import SchoolImageChild from "./sixedImage";
-import SchoolTextChild from "./SchoolTextChild";
+import SchoolTextChild from "./seFocaliserSureLemployabilite__Text";
 
 export default function SeFocaliserSurLemployabilite(){
     return(
         <>
          <section className="Recruiters w-full  max-sm:h-max ">
-            <div className="financement-first-section flex justify-evenly pt-10 pb-10">
+            <div className="financement-first-section edited flex justify-evenly pt-10 pb-10">
             <div className="text-child-container w-3/5 flex justify-center items-center">
                     <SchoolTextChild />
                 </div>

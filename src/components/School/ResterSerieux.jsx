@@ -1,5 +1,5 @@
 import SchoolImageChild from "./SeventhImage";
-import SchoolTextChild from "./SchoolTextChild";
+import SchoolTextChild from "./ResterSerieux__Text";
 
 export default function ResterSerieux(){
     return(

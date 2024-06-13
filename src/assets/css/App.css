@@ -336,6 +336,12 @@ footer .footer-container {
         align-items: center;
     }
 
+     .edited
+    {        
+        flex-direction: column-reverse !important;
+        margin-bottom: 1rem;
+    }
+
     .financement-first-section .text-child-container {
         width: 90%;
     }
@@ -408,7 +414,8 @@ footer .footer-container {
     }
 
     .img-child-container {
-        width: 68%;
+        width: 70%;
+        margin-bottom: 2rem;
     }
 }
 
@@ -743,152 +750,4 @@ footer .footer-container {
     }
 }
 
-
-
-
-
-.hero-section {
-    position: relative;
-    height: 100vh;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.hero-overlay {
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-}
-
-.hero-content {
-    display: grid;
-    max-width: 80%;
-    padding: 0 1rem;
-    margin: 0 auto;
-    z-index: 10;
-    position: relative;
-}
-
-.hero-title {
-    font-size: 2.5rem;
-    font-weight: 800;
-    color: white;
-    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-}
-
-.hero-text {
-    font-size: 1.25rem;
-    color: #d1d5db; 
-}
-
-@media (min-width: 768px) {
-    .hero-title {
-        font-size: 3rem;
-    }
-
-    .hero-text {
-        font-size: 1.5rem;
-    }
-}
-
-@media (min-width: 1024px) {
-    .hero-title {
-        font-size: 4rem;
-    }
-
-    .hero-text {
-        font-size: 1.75rem;
-    }
-}
-.hero-container {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-  }
   
-  .hero-image {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
-  
-  .hero-image.visible {
-    opacity: 1;
-  }
-  
-
-  .hero-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
-  
-  .hero-image.visible {
-    opacity: 1;
-  }
-  
-  .text-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .uppercase {
-    text-transform: uppercase;
-  }
-  
-  .text-white {
-    color: white;
-  }
-  
-  .text-7xl {
-    font-size: 4.5rem; 
-  }
-  
-  .font-bold {
-    font-weight: bold;
-  }
-  .text-container h2 {
-    text-shadow:
-      -1.5px -1.5px 0 #000,
-      1.5px -1.5px 0 #000,
-      -1.5px 1.5px 0 #000,
-      1.5px 1.5px 0 #000;
-  }
-
-  #bootcamp-section{
-    background: url('../backgrounds//FinamcementBackground.png') center center;
-    background-repeat: no-repeat;
-    width: 60%;
-  }
-  
-  .button-border:hover{
-    background-color:rgb(42,133,171) !important;
-} 
