@@ -159,6 +159,13 @@ footer .footer-container {
     font-size: 20px;
 }
 
+
+.school-text-background div p
+{
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
 .hero_main_section {
     width: 87.333333% !important;
 }

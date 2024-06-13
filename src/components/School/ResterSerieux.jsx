@@ -1,9 +1,11 @@
-import SchoolImageChild from "./SecondImage";
-import SchoolTextChild from "./AccompagneText";
+import SchoolImageChild from "./SeventhImage";
+import SchoolTextChild from "./SchoolTextChild";
 
-export default function LearningByDoingSecondSection() {
-    return (
+export default function ResterSerieux(){
+    return(
         <>
+         <section className="Recruiters w-full max-sm:h-max ">
+            
             <div className="financement-first-section flex justify-evenly pt-10 pb-10">
                 <div className="img-child-container w-2/5 flex justify-end">
                     <SchoolImageChild />
@@ -12,7 +14,7 @@ export default function LearningByDoingSecondSection() {
                     <SchoolTextChild />
                 </div>
             </div>
+            </section>
         </>
-    );
+    )
 }
-
