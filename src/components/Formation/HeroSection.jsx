@@ -3,7 +3,7 @@ import Image1 from '../../assets/images/formation/FormationHero.jpg';
 import Image2 from '../../assets/images/formation/FormationHero2.jpg';
 
 const images = [Image1, Image2];
-const intervalTime = 3000; 
+const intervalTime = 3000;
 
 export default function HeroSection() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -18,7 +18,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className="hero-container">
+    <div className="relative w-full h-screen overflow-hidden">
       {images.map((image, index) => (
         <HeroImage
           key={index}
@@ -26,8 +26,8 @@ export default function HeroSection() {
           isVisible={index === currentImageIndex}
         />
       ))}
-      <div className="text-container">
-        <h2 className="uppercase text-white text-7xl font-bold">
+      <div className=" text-container absolute inset-0 flex items-center justify-center">
+        <h2 className="uppercase text-white text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-center p-4   rounded-md">
           <span className="text-[#39DDF5]">Nos</span> Formation
         </h2>
       </div>
@@ -38,7 +38,7 @@ export default function HeroSection() {
 function HeroImage({ image, isVisible }) {
   return (
     <div
-      className={`hero-image ${isVisible ? 'visible' : ''}`}
+      className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
       style={{ backgroundImage: `url(${image})` }}
     ></div>
   );
