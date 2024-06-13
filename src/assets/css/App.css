@@ -887,6 +887,8 @@ footer .footer-container {
       1.5px 1.5px 0 #000;
   }
 
+
+
   #bootcamp-section{
     background: url('../backgrounds//FinamcementBackground.png') center center;
     background-repeat: no-repeat;
@@ -935,11 +937,8 @@ footer .footer-container {
         text-align: center;
     }
 }
-/***********************************************/
 
 
-/**/
-/* custom.css */
 @media only screen and (max-width: 620px) {
     .profils-background, .second-contact-background {
         display: none;
@@ -976,5 +975,4 @@ footer .footer-container {
     }
 }
 
-/*************************************/
   
