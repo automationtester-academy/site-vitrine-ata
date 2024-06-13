@@ -202,6 +202,7 @@ p.mt-0\.5.text-lg.font-medium.text-gray-900 {
 }
 
 
+
 @media (max-width:1406px)
 {
 
@@ -214,9 +215,7 @@ p.mt-0\.5.text-lg.font-medium.text-gray-900 {
     {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
-
 }
-
 
 @media (max-width:640px)
 {
