@@ -874,9 +874,90 @@ footer .footer-container {
   #bootcamp-section{
     background: url('../backgrounds//FinamcementBackground.png') center center;
     background-repeat: no-repeat;
-    width: 60%;
+    width: 75%;
   }
   
   .button-border:hover{
     background-color:rgb(42,133,171) !important;
 } 
+
+
+
+/*  Responsive Bootcam section */
+@media only screen and (max-width: 620px) {
+    .profils-background, .second-contact-background {
+        display: none;
+    }
+
+    .button-container, .second-contact-background-text {
+        position: initial;
+        width: 100%;
+    }
+
+    .button-container div {
+        flex-direction: column;
+    }
+
+    .financement-situation-sections {
+        padding: 30px 0 30px 0;
+    }
+
+    .img-child-container {
+        width: 50%;
+    }
+
+    .contact-first-section-container .contact-first-section-title h2 {
+        font-size: 50px;
+    }
+
+    .second-contact-background-text {
+        padding: 20px 0 20px 0;
+    }
+
+    .second-contact-background-text h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+/***********************************************/
+
+
+/**/
+/* custom.css */
+@media only screen and (max-width: 620px) {
+    .profils-background, .second-contact-background {
+        display: none;
+    }
+
+    .button-container, .second-contact-background-text {
+        position: initial;
+        width: 100%;
+    }
+
+    .button-container div {
+        flex-direction: column;
+    }
+
+    .financement-situation-sections {
+        padding: 30px 0 30px 0;
+    }
+
+    .img-child-container {
+        width: 50%;
+    }
+
+    .contact-first-section-container .contact-first-section-title h2 {
+        font-size: 50px;
+    }
+
+    .second-contact-background-text {
+        padding: 20px 0 20px 0;
+    }
+
+    .second-contact-background-text h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+/*************************************/
