@@ -1,14 +1,16 @@
 import React from 'react';
 import BootcampPic from '../../assets/images/formation/BootcampPic.png';
 
-export default function BootcampSection() {
+const BootcampSection = () => {
+    const sectionStyle = "pt-10 pb-10  bg-slate-900 text-white flex items-center justify-center";
+    const containerStyle = "flex  md:flex-row justify-between max-w-4xl w-full";
+    const textContainerStyle = "flex flex-col items-center text-center md:mr-8"; 
+
     return (
-        <section className="pt-10 pb-10 bg-slate-900 text-white flex items-center justify-center">
-            <div className="flex md:flex-row justify-between max-w-4xl w-full">
-                <div className="flex flex-col items-center text-center md:mr-8" id="bootcamp-section">
-                    <h1 className="Bootcamp_Text_Title w-[30rem] text-cyan-400 text-[26px] font-bold mb-[2.7%] mt-[6.5%] leading-tight sm:max-lg:text-2xl sm:max-lg:w-full max-sm:w-full">
-                        Bootcamp
-                    </h1>
+        <div className={sectionStyle} aria-labelledby="bootcamp-heading">
+            <div className={containerStyle}>
+                <div className={textContainerStyle} id="bootcamp-section">
+                    <h1 className="Bootcamp_Text_Title w-[30rem] text-cyan-400 text-[26px] font-bold mb-[2.7%] mt-[6.5%] leading-tight sm:max-lg:text-2xl sm:max-lg:w-full max-sm:w-full">Bootcamp</h1>
                     <p className="text-lg text-center mb-4">
                         Notre bootcamp est un programme de formation <br /> intensif et dynamique en petit groupe qui dure <br /> quelques semaines
                         et allie théorie et pratique pour acquérir des compétences en automatisation de tests logiciels.
@@ -20,10 +22,13 @@ export default function BootcampSection() {
                         </div>
                     </div>
                 </div>
-                <div className="w-4/2">
+                <div className=" w-4/2">
                     <img src={BootcampPic} width="310" height="297" alt="Bootcamp" />
                 </div>
-            </div>
-        </section>
+                
+            </div> 
+        </div>
     );
-}
+};
+
+export default BootcampSection;

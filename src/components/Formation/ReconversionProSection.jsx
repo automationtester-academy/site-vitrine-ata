@@ -6,6 +6,9 @@ export default function ReconversionProSection() {
     return (
         <section className="pt-10 pb-10 bg-slate-800 text-white flex items-center justify-center">
             <div className="flex md:flex-row justify-between max-w-4xl w-full">
+            <div className="w-4/2">
+                    <img src={Reconversion} width="310" height="297" alt="Reconversion Pro" />
+                </div>
                 <div className="flex flex-col items-center text-center md:mr-8" id="bootcamp-section">
                     <h1 className="Bootcamp_Text_Title w-[30rem] text-cyan-400 text-[26px] font-bold mb-[2.7%] mt-[6.5%] leading-tight sm:max-lg:text-2xl sm:max-lg:w-full max-sm:w-full">
                     Reconversion Professionnelle
@@ -19,9 +22,7 @@ export default function ReconversionProSection() {
                         </div>
                     </div>
                 </div>
-                <div className="w-4/2">
-                    <img src={Reconversion} width="310" height="297" alt="Reconversion Pro" />
-                </div>
+                
             </div>
         </section>
     );
