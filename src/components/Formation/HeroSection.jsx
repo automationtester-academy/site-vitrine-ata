@@ -28,7 +28,7 @@ export default function HeroSection() {
       ))}
       <div className=" text-container absolute inset-0 flex items-center justify-center">
         <h2 className="uppercase text-white text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-center p-4   rounded-md">
-          <span className="text-[#39DDF5]">Nos</span> Formation
+          <span className="text-[#39DDF5]">Nos</span> Formations
         </h2>
       </div>
     </div>
