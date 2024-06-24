@@ -58,7 +58,7 @@ export default function ReservationSection() {
             </div>
             <div className='flex justify-center reservation-calendar-section mb-10'>
                 <div className='calendar-container flex flex-col bg-[#475A74] w-1/4 pt-2'>
-                    <div className='flex flex justify-center'>
+                    <div className='flex  justify-center'>
                         <ATAWhiteLogo />
                     </div>
                     <div className='flex justify-center pt-4 pb-2'>
