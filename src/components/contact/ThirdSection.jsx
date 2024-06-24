@@ -24,8 +24,10 @@ export default function ThirdSection() {
 
         emailjs.sendForm('service_j6ah8nq', 'template_dcvddqj', form.current, 'zS56IQ0vpT9z2884L')
             .then(
-                () => {
+                (result) => {
                     toast.success("Le message a été envoyé avec succès");
+                    e.target.reset();
+
                 },
                 (error) => {
                     toast.error(error.text);
