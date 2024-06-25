@@ -6,6 +6,7 @@ import Contact from '../pages/Contact'
 import NotFound from '../pages/NotFound'
 import Formation from '../pages/Formation'
 import Ecole from '../pages/Ecole'
+import MixLearning from '../pages/MixLearning'
 
 
 
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
             {
                 path:'/Formation',
                 element: <Formation/>
+            },
+            {
+                path:'/mixlearning',
+                element: <MixLearning/>
             }
 
 

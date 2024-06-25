@@ -12,7 +12,7 @@ export default function CommentComponent(){
                     <p className="text-white w-8/12 text-4xl text-center font-bold mt-16 max-sm:w-full  max-sm:h-fit max-sm:text-3xl max-sm:!mx-0">Pour vous faire votre propre avis,<br /> <span className="text-cyan-400 text-center ms-7">demandez celui des autres.</span></p>
                 </div>
                 <div className='Comments-container  pb-5 max-sm:!w-full max-sm:!mx-0'>
-                <div className="Comments_scroller flex  gap-10 justify-center !w-[200%]  max-sm:!w-[400%] max-sm:!mx-[2%]">
+                <div className="Comments_scroller flex  gap-10 justify-center !w-[200%] max-sm:!w-[400%] max-sm:!mx-[2%]">
                     <CommentOfSaraYaakoubi/>
                     <CommentOfYassineAllami/>
                     <CommentOfAnasBoukhari/>

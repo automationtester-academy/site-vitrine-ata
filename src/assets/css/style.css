@@ -185,21 +185,21 @@ p.mt-0\.5.text-lg.font-medium.text-gray-900 {
     width: 31rem;
 }
 
-.financement-img-container.mt-4 img {
-    width: 100%;
+
+.financement-img-container.mt-3 img {
+    width: 60%;
 }
+
 
 .school-img-container
 {
-    width: 30rem;
+    width: 24rem;
 }
-
 
 .school-img-container img
 {
     width: 100%;
 }
-
 
 
 @media (max-width:1406px)
@@ -214,7 +214,9 @@ p.mt-0\.5.text-lg.font-medium.text-gray-900 {
     {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+
 }
+
 
 @media (max-width:640px)
 {
