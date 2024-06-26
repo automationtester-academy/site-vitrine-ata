@@ -26,11 +26,11 @@ export default function HeroSectionFc() {
           isVisible={index === currentImageIndex}
         />
       ))}
-      <div className="text-container absolute inset-0 flex items-center justify-center">
-        <h2 className="uppercase text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center p-4 rounded-md">
-          <span className="text-[#39DDF5]">Formation</span> courte
-        </h2>
-      </div>
+     <div className="text-container absolute inset-0 flex items-center justify-center">
+  <h2 className="uppercase text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center p-4 rounded-md">
+    <span className="text-[#39DDF5]">Formation</span> courte
+  </h2>
+</div>
     </div>
   );
 }
