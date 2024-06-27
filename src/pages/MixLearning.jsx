@@ -3,6 +3,7 @@ import MixLearningIntroduction from "../components/MixLearning-Formation/MixLear
 import ComponentCadre from "../components/MixLearning-Formation/ComponentCadre"
 import DevenirTesteur from "../components/MixLearning-Formation/DevenirTesteur";
 import InfoPratiqueComp from "../components/MixLearning-Formation/InfoPratiqueComp";
+import CadreReglementaire from "../components/MixLearning-Formation/CadreReglementaire";
 
 export default function MixLearning(){
     return (
@@ -12,7 +13,7 @@ export default function MixLearning(){
         <ComponentCadre/>
         <DevenirTesteur/>
         <InfoPratiqueComp/>        
-
+        <CadreReglementaire/>
         </>
     )
 }
