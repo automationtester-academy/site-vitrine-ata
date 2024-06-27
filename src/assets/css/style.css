@@ -202,6 +202,7 @@ p.mt-0\.5.text-lg.font-medium.text-gray-900 {
 }
 
 
+
 @media (max-width:1406px)
 {
 
@@ -214,9 +215,7 @@ p.mt-0\.5.text-lg.font-medium.text-gray-900 {
     {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
-
 }
-
 
 @media (max-width:640px)
 {
@@ -246,12 +245,140 @@ p.mt-0\.5.text-lg.font-medium.text-gray-900 {
     }
     
 }
-
-
 .pedagogie
 {
     background-color: #0C1827;
 }
 
 
+.IconTitle
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: #39DDF5;
+    font-size: 1rem;
+}
 
+.IconTitle span{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+
+
+.rightcontent_title
+{
+    margin-bottom: 2rem;
+    
+}
+
+
+.right_container
+{
+    background-color: #0C1827;
+}
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+.listTitle
+{
+    line-height: 2.4;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+
+.infopratice
+{
+    width: 70%;
+    margin: auto;
+}
+
+
+.left_container .rightcontent_title {
+    margin-bottom: 2rem;
+}
+
+
+.list-title span{
+    font-weight: 700;
+    color: #1299C0;
+    font-size: 1.3rem;
+}
+
+
+.list-title p
+{
+    font-size: 1.2rem;   
+}
+
+.rightcontent {
+    width: 90%;
+}
+
+
+.titleInfoPratice h2
+{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.titleInfoPratice h2 span
+{
+    color:#1299C0;
+}
+
+
+.listTitleRegle
+{
+    line-height: 2;
+}
+
+.textbottomContent span
+{
+    color: #1ba7bc;
+    font-weight: 600;
+    
+}
+
+.DivisBackgroundImage   
+{
+    background-image: url(../backgrounds/DivisTopImageBackground.png);
+    width: 100%;
+    height: 90px;
+    background-color:#071323;    
+}
+
+.divisTopContent
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}   
+
+.divisTopContent h2
+{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.divisTopContent h2 span
+{
+    color:#1ba7bc;
+}
+
+
+.content a
+{
+    text-decoration: underline;
+}

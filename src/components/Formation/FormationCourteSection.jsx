@@ -1,5 +1,6 @@
 import React from 'react';
 import F_courte from '../../assets/images/formation/F_courte.png';
+import { Link } from 'react-router-dom';
 
 export default function FormationCourteSection() {
     const sectionStyle = "pt-10 pb-10 bg-slate-800 text-white flex items-center justify-center";
@@ -20,9 +21,9 @@ export default function FormationCourteSection() {
                         Nos formations professionnelles courtes sont souvent <br className="hidden md:inline" /> des formations intensives, d’une durée de quelques <br className="hidden md:inline" /> jours. Elles ont pour objectif de vous former <br className="hidden md:inline" /> rapidement sur un sujet précis et d’acquérir des <br className="hidden md:inline" /> compétences spécifiques sur les tests UI, API,<br className="hidden md:inline" /> performances …
                     </p>
                     <div className="relative inline-block p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
-                        <div className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-800 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
+                        <Link to='/formation-courte' className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-800 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                             En savoir plus
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </div>
