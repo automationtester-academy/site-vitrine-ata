@@ -1,6 +1,8 @@
 import HeroSection from "../components/MixLearning-Formation/HeroSection";
 import MixLearningIntroduction from "../components/MixLearning-Formation/MixLearningIntroduction";
 import ComponentCadre from "../components/MixLearning-Formation/ComponentCadre"
+import DevenirTesteur from "../components/MixLearning-Formation/DevenirTesteur";
+import InfoPratiqueComp from "../components/MixLearning-Formation/InfoPratiqueComp";
 
 export default function MixLearning(){
     return (
@@ -8,7 +10,8 @@ export default function MixLearning(){
         <HeroSection/>
         <MixLearningIntroduction/>
         <ComponentCadre/>
-        
+        <DevenirTesteur/>
+        <InfoPratiqueComp/>        
 
         </>
     )

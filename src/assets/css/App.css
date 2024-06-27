@@ -6,6 +6,9 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+.ObjectifsPedagogique::-webkit-scrollbar{
+    display: none;
+}
 
   
 
@@ -970,5 +973,4 @@ footer .footer-container {
     }
 }
 
-/*************************************/
   
