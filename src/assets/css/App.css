@@ -1,68 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .carousel-container {
     overflow: hidden;
     position: relative;
-    width: 80%; 
+    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-  
+
 
 .logo-scroller {
     display: flex;
-    animation-delay:100s;
+    animation-delay: 100s;
     animation: scroll 10s linear infinite;
-    width: calc(200%); 
+    width: calc(200%);
 }
+
 @keyframes scroll {
     0% {
-    transform: translateX(0);
+        transform: translateX(0);
     }
-    25%{
+
+    25% {
         transform: translateX(0);
 
     }
+
     50% {
-    transform: translateX(calc(-100% / 2));
-    }
-    75%{
         transform: translateX(calc(-100% / 2));
     }
-    }
 
-.Comments-container{
+    75% {
+        transform: translateX(calc(-100% / 2));
+    }
+}
+
+.Comments-container {
     overflow-x: clip;
     position: relative;
-    width: 80%; 
+    width: 80%;
     margin-left: 10%;
     margin-right: 10% !important;
 }
-.Comments_scroller{
+
+.Comments_scroller {
     display: flex;
-    animation-delay:100s;
+    animation-delay: 100s;
     animation: scrollComment 10s linear infinite;
-    width: calc(200%); 
+    width: calc(200%);
 }
+
 @keyframes scrollComment {
     0% {
-    transform: translateX(0);
+        transform: translateX(0);
     }
-    25%{
+
+    25% {
         transform: translateX(0);
 
     }
+
     50% {
-    transform: translateX(calc(-100% / 2));
-    }
-    75%{
         transform: translateX(calc(-100% / 2));
     }
 
+    75% {
+        transform: translateX(calc(-100% / 2));
     }
 
-.Herosection_Text_Title{
-    font-family:Montserrat;
+}
+
+.Herosection_Text_Title {
+    font-family: Montserrat;
 }
 
 .Header-text {
@@ -73,9 +83,10 @@
     background-color: rgb(42, 133, 171);
 }
 
- .Header_Box_border:hover{
-    background-color:rgb(42,133,171) !important;
-} 
+.Header_Box_border:hover {
+    background-color: rgb(42, 133, 171) !important;
+}
+
 .user-page {
     background-color: #071323;
 }
@@ -160,8 +171,7 @@ footer .footer-container {
 }
 
 
-.school-text-background div p
-{
+.school-text-background div p {
     font-family: 'Montserrat';
     font-size: 18px;
 }
@@ -170,7 +180,8 @@ footer .footer-container {
     width: 87.333333% !important;
 }
 
-.profils-background, .second-contact-background {
+.profils-background,
+.second-contact-background {
     background: url('../backgrounds/FinamcementBackground-v2.png') center center;
     opacity: 20%;
     width: 100%;
@@ -197,21 +208,11 @@ footer .footer-container {
     margin-left: -15px;
 }
 
-.contact-first-section-container {
-    position: relative;
-    
-}
-
 .contact-first-section-container .contact-first-section-img {
     width: 100%;
     height: 513px;
     display: flex;
     justify-content: center;
-}
-
-.contact-first-section-container .contact-first-section-img img {
-    object-fit: cover;
-    width: 100%;
 }
 
 .contact-first-section-container .contact-first-section-title {
@@ -231,6 +232,30 @@ footer .footer-container {
         1.5px 1.5px 0 #000;
 }
 
+.reconversion-first-section-container .reconversion-first-section-img {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.reconversion-first-section-container .reconversion-first-section-title {
+    top: 0;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.reconversion-first-section-container .reconversion-first-section-title h2 {
+    text-shadow:
+        -1.5px -1.5px 0 #000,
+        1.5px -1.5px 0 #000,
+        -1.5px 1.5px 0 #000,
+        1.5px 1.5px 0 #000;
+}
+
 .contact-text-background {
     background: url('../backgrounds/ContactBackground.png') center center;
     opacity: 20%;
@@ -240,7 +265,8 @@ footer .footer-container {
     position: relative;
 }
 
-.contact-text-container, .second-contact-background-text {
+.contact-text-container,
+.second-contact-background-text {
     position: absolute;
     top: 0;
     left: 0;
@@ -267,6 +293,43 @@ footer .footer-container {
 
 .reservetion-times-container {
     overflow: auto;
+}
+
+.informations-section-parent-container{
+    border-top: 3px solid #39DDF5;
+}
+
+.informations-section-parent-container .teaching-method-right-section .background-gradiant-div {
+    width: 93%;
+    height: 781px;
+    background: linear-gradient(to bottom, #1197BE, #39DDF5);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.informations-section-parent-container .teaching-method-right-section .background-gradiant-div  .content-div,
+.informations-section-parent-container .teaching-method-left-section .background-gradiant-div-1 .content-div, 
+.informations-section-parent-container .teaching-method-left-section .background-gradiant-div-2 .content-div {
+    width: 100%;
+    height: 100%;
+    background-color: #071323;
+    border-radius: 20px;
+}
+
+.informations-section-parent-container .teaching-method-left-section .background-gradiant-div-1 {
+    width: 93%;
+    height: 331px;
+    background: linear-gradient(to bottom, #1197BE, #39DDF5);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.informations-section-parent-container .teaching-method-left-section .background-gradiant-div-2 {
+    width: 93%;
+    height: 400px;
+    background: linear-gradient(to bottom, #1197BE, #39DDF5);
+    border-radius: 20px;
+    padding: 2px;   
 }
 
 @media only screen and (max-width: 570px) {
@@ -327,6 +390,10 @@ footer .footer-container {
         flex-direction: column;
 
     }
+
+    /* .reconversion-first-section-container .reconversion-first-section-title h2 {
+        font-size: 30px;
+    } */
 }
 
 @media only screen and (max-width: 922px) {
@@ -336,8 +403,7 @@ footer .footer-container {
         align-items: center;
     }
 
-     .edited
-    {        
+    .edited {
         flex-direction: column-reverse !important;
         margin-bottom: 1rem;
     }
@@ -366,11 +432,14 @@ footer .footer-container {
 
 
 @media only screen and (max-width: 620px) {
-    .profils-background, .second-contact-background {
+
+    .profils-background,
+    .second-contact-background {
         display: none;
     }
 
-    .button-container, .second-contact-background-text {
+    .button-container,
+    .second-contact-background-text {
         position: initial;
         width: 100%;
     }
@@ -405,6 +474,14 @@ footer .footer-container {
     .contact-first-section-container .contact-first-section-title h2 {
         font-size: 3rem;
     }
+    .reconversion-second-section .reconversion-second-section-title, .reconversion-second-section-first-text .font-bold {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .reconversion-second-section .reconversion-second-section-text {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 460px) {
@@ -420,147 +497,178 @@ footer .footer-container {
 }
 
 @media (min-width: 1024px) and (max-width: 1179px) {
-    .NavbarLinks{
-        width:30% !important;
+    .NavbarLinks {
+        width: 30% !important;
     }
-    .NavbarLinks_menu{
-        margin-right:3px;
+
+    .NavbarLinks_menu {
+        margin-right: 3px;
     }
-    .NavBarLinks_button{
-        margin-left:3%
+
+    .NavBarLinks_button {
+        margin-left: 3%
     }
 }
+
 @media (min-width: 1024px) and (max-width: 1169px) {
 
-    .hero_main_section{
-        margin-top:auto;
+    .hero_main_section {
+        margin-top: auto;
 
     }
+
     .Herosection_image {
-        margin-left:10%;
+        margin-left: 10%;
     }
 
-    .HeroSection_Learningbydoing_main{
-        width:100%;
-        height:30vh;
+    .HeroSection_Learningbydoing_main {
+        width: 100%;
+        height: 30vh;
     }
-    .HeroSection_Learningbydoing_main_parentImg{
-        height:100% !important;
+
+    .HeroSection_Learningbydoing_main_parentImg {
+        height: 100% !important;
     }
-    .HeroSection_Learningbydoing_main_Img{
-        padding:16%;
+
+    .HeroSection_Learningbydoing_main_Img {
+        padding: 16%;
     }
-    .HeroSection_Learningbydoing_text{
-        height:100%;
-        background:text;
-        
+
+    .HeroSection_Learningbydoing_text {
+        height: 100%;
+        background: text;
+
     }
-    .HeroSection_Learningbydoing_image_container{
+
+    .HeroSection_Learningbydoing_image_container {
         /* background:pink; */
-        height:120%;
-        width:80%;
-        display:flex;
-        justify-content:center
+        height: 120%;
+        width: 80%;
+        display: flex;
+        justify-content: center
     }
-    .backgroungImg{
-        visibility:hidden
 
+    .backgroungImg {
+        visibility: hidden
     }
-    .ImproveUrSkills{
+
+    .ImproveUrSkills {
         margin-top: 6%;
     }
-    .ImproveUrSkills_main{
-        height:27vh !important;
+
+    .ImproveUrSkills_main {
+        height: 27vh !important;
 
     }
-    .ImproveUrSkills_main_parentImg{
-        height:90% !important;
-        width:83% !important;
+
+    .ImproveUrSkills_main_parentImg {
+        height: 90% !important;
+        width: 83% !important;
     }
-    .ImproveUrSkills_svg{
-        visibility:hidden;
+
+    .ImproveUrSkills_svg {
+        visibility: hidden;
     }
-    .ImproveUrSkills_text{
-        height:100%;
+
+    .ImproveUrSkills_text {
+        height: 100%;
     }
-    .ImproveUrSkills_Text_Title_paragraph{
-        font-size:1.125rem;
-        line-height:119%;
+
+    .ImproveUrSkills_Text_Title_paragraph {
+        font-size: 1.125rem;
+        line-height: 119%;
     }
-    .ImproveUrSkills_Text_Title{
+
+    .ImproveUrSkills_Text_Title {
         /* background:green; */
     }
 
 }
+
 @media (min-width: 640px) and (max-width: 900px) {
-    .hero_main_section{
-        display:flex;
+    .hero_main_section {
+        display: flex;
         flex-direction: column;
-        height:36vh;
-        margin-left:0% !important;
-        padding-left:2%;
-        padding-right:2%;
+        height: 36vh;
+        margin-left: 0% !important;
+        padding-left: 2%;
+        padding-right: 2%;
     }
-    .Herosection_underbackground_img{
-        width:96vw;
-        height:30vh;
+
+    .Herosection_underbackground_img {
+        width: 96vw;
+        height: 30vh;
     }
-    .ImgdecorationforBackground{
-        width:100%;
-        height:100%;
-        object-fit: contain !important;  
+
+    .ImgdecorationforBackground {
+        width: 100%;
+        height: 100%;
+        object-fit: contain !important;
 
     }
-    .HeroSection_Learningbydoing{
-        height:40vh
+
+    .HeroSection_Learningbydoing {
+        height: 40vh
     }
-    .HeroSection_Learningbydoing_main_parentImg{
-        width:80vw;
-        height:35vh !important;
+
+    .HeroSection_Learningbydoing_main_parentImg {
+        width: 80vw;
+        height: 35vh !important;
     }
-    .HeroSection_Learningbydoing_main_Img{
-        object-fit:contain;
-        padding:   9%;
+
+    .HeroSection_Learningbydoing_main_Img {
+        object-fit: contain;
+        padding: 9%;
     }
-    .HeroSection_Learningbydoing_main{
-        height:100vh !important;
+
+    .HeroSection_Learningbydoing_main {
+        height: 100vh !important;
     }
-    .Herosection{
-        margin:auto !important;
+
+    .Herosection {
+        margin: auto !important;
     }
-    .Herosection_image{
+
+    .Herosection_image {
         visibility: hidden;
     }
-    .Herosection_Text{
-        width:100%;
-    }
-    .ImproveUrSkills{
-        height:36vh !important;
-    }
-    .ImproveUrSkills_main{
-        height:36vh !important;
-    }
-    .Comment_parent{
-        background:red;
+
+    .Herosection_Text {
+        width: 100%;
     }
 
-    .Comment_container{
-        height:100% !important;
+    .ImproveUrSkills {
+        height: 36vh !important;
     }
-    .Comments_scroller{
-        width:80vw !important;
+
+    .ImproveUrSkills_main {
+        height: 36vh !important;
+    }
+
+    .Comment_parent {
+        background: red;
+    }
+
+    .Comment_container {
+        height: 100% !important;
+    }
+
+    .Comments_scroller {
+        width: 80vw !important;
         flex-direction: column;
         animation: none;
         justify-content: center;
         align-items: center;
 
     }
-    .Comment_content{
+
+    .Comment_content {
         width: 90% !important;
-        height:60% !important;
+        height: 60% !important;
     }
-    .Commeny_content_text{
-        width:100%;
+
+    .Commeny_content_text {
+        width: 100%;
     }
 
 
@@ -570,130 +678,158 @@ footer .footer-container {
 
 @media (min-width: 640px) and (max-width: 1148px) {
 
-    .logo-scroller{
+    .logo-scroller {
         display: flex;
-        justify-content: between;  
-        gap:3.5%;
+        justify-content: between;
+        gap: 3.5%;
     }
 
 }
+
 @media (min-width: 854px) and (max-width: 1100px) {
 
-    salima
-
-    .ImproveUrSkills_main{
+    salima .ImproveUrSkills_main {
         height: 100vh !important;
         margin-bottom: 0%;
     }
-    .ImproveUrSkills_image_container{
-        width:100vw !important;
-        height:90vh;
+
+    .ImproveUrSkills_image_container {
+        width: 100vw !important;
+        height: 90vh;
 
     }
-    .ImproveUrSkills_svg{
-        visibility:hidden
+
+    .ImproveUrSkills_svg {
+        visibility: hidden
     }
 
-    .ImproveUrSkills_main_parentImg{
-        width:130%;
-        height:90%;
-        margin:0;
-        display:flex;
-        justify-content:center;
+    .ImproveUrSkills_main_parentImg {
+        width: 130%;
+        height: 90%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
         align-items: center;
 
     }
-    .ImproveUrSkills_main_Img{
-        width:90vw; 
-        height:65vh; 
+
+    .ImproveUrSkills_main_Img {
+        width: 90vw;
+        height: 65vh;
         object-fit: contain;
     }
-    .ImproveUrSkills_Text_Title{
-        padding-right:2%;
-        padding-left:2%;
+
+    .ImproveUrSkills_Text_Title {
+        padding-right: 2%;
+        padding-left: 2%;
     }
 
-    .ImproveUrSkills_button{
-        width:100%;
-        margin:0;
-        display:flex;
-        justify-content:center
+    .ImproveUrSkills_button {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center
+    }
+
+    .reconversion-second-section-buttons .bg-gradient-to-r {
+        width: 75%;
     }
 }
 
-@media (min-width: 640px) and (max-width: 900px){
-    .ImproveUrSkills{
-        height:100vh ;
+@media (min-width: 640px) and (max-width: 900px) {
+    .ImproveUrSkills {
+        height: 100vh;
     }
-    .ImproveUrSkills_svg, .ImproveUrSkills_main_parentImg{
-        visibility:hidden;
+
+    .ImproveUrSkills_svg,
+    .ImproveUrSkills_main_parentImg {
+        visibility: hidden;
     }
-    .ImproveUrSkills_main{
-        height:100%;
+
+    .ImproveUrSkills_main {
+        height: 100%;
     }
-    .ImproveUrSkills_text{
-        width:99.5vw;
+
+    .ImproveUrSkills_text {
+        width: 99.5vw;
+    }
+
+    .reconversion-first-section-container .reconversion-first-section-title h2 {
+        font-size: 35px;
+    }
+
+    .reconversion-second-section .reconversion-second-section-title, .reconversion-second-section-first-text .font-bold {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .reconversion-second-section .reconversion-second-section-text {
+        font-size: 20px;
     }
 }
-@media (min-width: 511px) and (max-width:639.5){
-    .SarenzalLogo_svg{
-        width:55% !important;
+
+@media (min-width: 511px) and (max-width:639.5) {
+    .SarenzalLogo_svg {
+        width: 55% !important;
     }
 }
 
 
-    .ImproveUrSkills_main_parentImg{
-        width:60%;
-        height:100%;
-        margin-right:0%;
-        margin-top:0%;
-        display:flex;
-        justify-content:center;
-    }
-    .ImproveUrSkills_main_parentImg_ecole
-    {
-        margin-top:2% !important;
-    }
+.ImproveUrSkills_main_parentImg {
+    width: 60%;
+    height: 100%;
+    margin-right: 0%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+}
 
-    .ImproveUrSkills_main_Img{
-        width:85%;
-        object-fit:contain;
-    }
+.ImproveUrSkills_main_parentImg_ecole {
+    margin-top: 2% !important;
+}
+
+.ImproveUrSkills_main_Img {
+    width: 85%;
+    object-fit: contain;
+}
 
 
 
 
 @media (min-width: 1024px) and (max-width: 1148px) {
 
-    .HeroSection_Learningbydoing_main_parentImg{
-        width:60%;
-        height:130%;
-        
+    .HeroSection_Learningbydoing_main_parentImg {
+        width: 60%;
+        height: 130%;
+
     }
-    .HeroSection_Learningbydoing_main_Img{
-        height:100% !important;
-        width:100% !important;
+
+    .HeroSection_Learningbydoing_main_Img {
+        height: 100% !important;
+        width: 100% !important;
         object-fit: contain;
     }
 
-    .HeroSection_Learningbydoing_main{
-        margin-left:0px;
-        margin-right:0px;
-        display:flex;
+    .HeroSection_Learningbydoing_main {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
         justify-content: space-around;
 
     }
 
-    .Herosection_Text_Title_paragraph{
-        width:90%;
-        margin:auto;
-        margin-bottom:2%;
+    .Herosection_Text_Title_paragraph {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2%;
     }
 
 }
 
 @media (min-width: 900px) and (max-width: 1400px) {
-    .calendar-container, .reservation-container {
+
+    .calendar-container,
+    .reservation-container {
         width: 35%;
     }
 }
@@ -715,16 +851,32 @@ footer .footer-container {
         flex-direction: column;
         align-items: center;
     }
-    .calendar-container, .reservation-container {
+
+    .calendar-container,
+    .reservation-container {
         width: 340px;
+    }
+
+    .reconversion-first-section-container .reconversion-first-section-title h2 {
+        font-size: 30px;
     }
 }
 
 @media only screen and (max-width: 1250px) {
     .contact-first-section-container {
         position: initial;
+        height: 150px;
     }
-    .contact-first-section-container .contact-first-section-img {
+
+    .reconversion-first-section-container {
+        position: initial;
+        height: 125px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-first-section-container .contact-first-section-img,
+    .reconversion-first-section-container .reconversion-first-section-img {
         display: none;
     }
 
@@ -732,6 +884,20 @@ footer .footer-container {
         position: initial;
         height: auto;
         padding: 40px 0 40px 0;
+        text-align: center;
+        width: 90%;
+    }
+
+    .reconversion-first-section-container .reconversion-first-section-title{
+        position: initial;
+        height: auto;
+        padding: 40px 0 5px 0;
+        text-align: center;
+        width: 90%;
+    }
+
+    .contact-first-section-container .contact-first-section-title h2 {
+        text-align: center;
     }
 }
 
@@ -781,12 +947,12 @@ footer .footer-container {
     font-size: 2.5rem;
     font-weight: 800;
     color: white;
-    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-text {
     font-size: 1.25rem;
-    color: #d1d5db; 
+    color: #d1d5db;
 }
 
 @media (min-width: 768px) {
@@ -809,20 +975,20 @@ footer .footer-container {
     }
 }
 
-  
-  
-  
- 
-  
 
-  .hero-container {
+
+
+
+
+
+.hero-container {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
-  }
-  
-  .hero-image {
+}
+
+.hero-image {
     position: absolute;
     top: 0;
     left: 0;
@@ -832,13 +998,13 @@ footer .footer-container {
     background-position: center;
     opacity: 0;
     transition: opacity 1s ease-in-out;
-  }
-  
-  .hero-image.visible {
+}
+
+.hero-image.visible {
     opacity: 1;
-  }
-  
-  .text-container {
+}
+
+.text-container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -848,52 +1014,55 @@ footer .footer-container {
     justify-content: center;
     align-items: center;
     height: 100%;
-  }
-  
-  .uppercase {
+}
+
+.uppercase {
     text-transform: uppercase;
-  }
-  
-  .text-white {
+}
+
+.text-white {
     color: white;
-  }
-  
-  .text-7xl {
-    font-size: 4.5rem; 
-  }
-  
-  .font-bold {
+}
+
+.text-7xl {
+    font-size: 4.5rem;
+}
+
+.font-bold {
     font-weight: bold;
-  }
-  .text-container h2 {
+}
+
+.text-container h2 {
     text-shadow:
-      -1.5px -1.5px 0 #000,
-      1.5px -1.5px 0 #000,
-      -1.5px 1.5px 0 #000,
-      1.5px 1.5px 0 #000;
-  }
+        -1.5px -1.5px 0 #000,
+        1.5px -1.5px 0 #000,
+        -1.5px 1.5px 0 #000,
+        1.5px 1.5px 0 #000;
+}
 
+#bootcamp-section {
 
-
-  #bootcamp-section{
     background: url('../backgrounds//FinamcementBackground.png') center center;
     background-repeat: no-repeat;
     width: 75%;
-  }
-  
-  .button-border:hover{
-    background-color:rgb(42,133,171) !important;
-} 
+}
+
+.button-border:hover {
+    background-color: rgb(42, 133, 171) !important;
+}
 
 
 
 /*  Responsive Bootcam section */
 @media only screen and (max-width: 620px) {
-    .profils-background, .second-contact-background {
+
+    .profils-background,
+    .second-contact-background {
         display: none;
     }
 
-    .button-container, .second-contact-background-text {
+    .button-container,
+    .second-contact-background-text {
         position: initial;
         width: 100%;
     }
@@ -923,14 +1092,18 @@ footer .footer-container {
         text-align: center;
     }
 }
+
 
 
 @media only screen and (max-width: 620px) {
-    .profils-background, .second-contact-background {
+
+    .profils-background,
+    .second-contact-background {
         display: none;
     }
 
-    .button-container, .second-contact-background-text {
+    .button-container,
+    .second-contact-background-text {
         position: initial;
         width: 100%;
     }
@@ -959,6 +1132,26 @@ footer .footer-container {
         font-size: 1.5rem;
         text-align: center;
     }
+
+    .reconversion-second-section-buttons .bg-gradient-to-r {
+        width: 100%;
+    }
+
+    .reconversion-second-section-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reconversion-second-section-buttons .button-parent-container {
+        width: 90% !important;
+        margin-bottom: 10px;
+    }
 }
 
-  
+
+@media (min-width: 620px) and (max-width: 854px) {
+    .reconversion-second-section-buttons .bg-gradient-to-r {
+        width: 90%;
+    }
+}
+

@@ -5,8 +5,13 @@ import Financement from '../pages/FinancementPage'
 import Contact from '../pages/Contact'
 import NotFound from '../pages/NotFound'
 import Formation from '../pages/Formation'
+
 import Ecole from '../pages/Ecole';
 import FormationCourte from '../pages/FormationCourte';
+
+import ReconversionPro from '../pages/ReconversionPro'
+
+
 
 
 export const router = createBrowserRouter([
@@ -22,7 +27,7 @@ export const router = createBrowserRouter([
                 element: <Financement/>
             },
             {
-                path:'/Contact',
+                path:'/contact',
                 element: <Contact/>
             },
             {
@@ -41,7 +46,11 @@ export const router = createBrowserRouter([
                 path:'*',
                 element: <NotFound/>
             },
-            
+
+            {
+                path:'/reconversion',
+                element: <ReconversionPro />
+            }
 
 
         ]

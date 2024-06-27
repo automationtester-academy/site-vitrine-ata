@@ -24,6 +24,7 @@ function ContactForm() {
             .then(
                 () => {
                     toast.success( "Le message a été envoyé avec succès");
+                    e.target.reset();
                 },
                 (error) => {
                     toast.error( error.text);
@@ -49,7 +50,7 @@ function ContactForm() {
                                 <LastName />
                             </div>
                             <div className="-mx-2 md:items-center md:flex ">
-                                <PhoneNumber />
+                                <PhoneNumber/>
                                 <Email />
                             </div>
                                 <Message />
