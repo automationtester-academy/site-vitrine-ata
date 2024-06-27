@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function NotreObjectifSection() {
     return (
         <>
@@ -21,7 +23,7 @@ export default function NotreObjectifSection() {
                 </div>
                 <div className="mb-5 ">
                     <p className="text-2xl text-white text-center reconversion-second-section-text">
-                        Un programme de reconversion complet, des perspectives et des stratégies qui transformeront votre approche de l'automatisation des tests.
+                        Un programme de reconversion complet, des perspectives et des stratégies qui <br /> transformeront votre approche de l'automatisation des tests.
                     </p>
                 </div>
                 <div className="mb-7 ">
@@ -30,18 +32,22 @@ export default function NotreObjectifSection() {
                     </p>
                 </div>
                 <div className="flex justify-between w-full reconversion-second-section-buttons">
-                    <div className="flex justify-end" style={{width: '45%'}}>
-                        <div className="p-0.5  hover:bg-cyan-600 bg-gradient-to-r w-3/6 from-[#3390B2] to-[#87E5EC] rounded-md">
-                            <button className="rounded-md h-full font-bold bg-[#071323] w-full text-white text-xl p-2 hover:bg-cyan-600">
-                                S’inscrire
-                            </button>
+                    <div className="flex justify-end button-parent-container" style={{ width: '45%' }}>
+                        <div className="p-0.5 flex hover:bg-cyan-600 bg-gradient-to-r w-3/6 from-[#3390B2] to-[#87E5EC] rounded-md">
+                            <Link to={'/'} className="rounded-md flex justify-center h-full font-bold bg-[#071323] w-full text-xl p-2 hover:bg-cyan-600">
+                                <span className="text-white">
+                                    S’inscrire
+                                </span>
+                            </Link>
                         </div>
                     </div>
-                    <div className="flex justify-start" style={{width: '45%'}}>
+                    <div className="flex justify-start button-parent-container" style={{ width: '45%' }}>
                         <div className=" p-0.5 hover:bg-cyan-600 w-3/6 bg-gradient-to-r from-[#3390B2] to-[#87E5EC] rounded-md">
-                            <button className="rounded-md w-full font-bold bg-[#071323] text-white text-xl p-2 hover:bg-cyan-600">
-                                Nous Contacter
-                            </button>
+                            <Link to={'/contact'} className="rounded-md w-full flex justify-center font-bold bg-[#071323] text-xl p-2 hover:bg-cyan-600">
+                                <span className="text-white">
+                                    Nous Contacter
+                                </span>
+                            </Link>
                         </div>
                     </div>
                 </div>

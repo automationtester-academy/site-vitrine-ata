@@ -295,6 +295,43 @@ footer .footer-container {
     overflow: auto;
 }
 
+.informations-section-parent-container{
+    border-top: 3px solid #39DDF5;
+}
+
+.informations-section-parent-container .teaching-method-right-section .background-gradiant-div {
+    width: 93%;
+    height: 781px;
+    background: linear-gradient(to bottom, #1197BE, #39DDF5);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.informations-section-parent-container .teaching-method-right-section .background-gradiant-div  .content-div,
+.informations-section-parent-container .teaching-method-left-section .background-gradiant-div-1 .content-div, 
+.informations-section-parent-container .teaching-method-left-section .background-gradiant-div-2 .content-div {
+    width: 100%;
+    height: 100%;
+    background-color: #071323;
+    border-radius: 20px;
+}
+
+.informations-section-parent-container .teaching-method-left-section .background-gradiant-div-1 {
+    width: 93%;
+    height: 331px;
+    background: linear-gradient(to bottom, #1197BE, #39DDF5);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.informations-section-parent-container .teaching-method-left-section .background-gradiant-div-2 {
+    width: 93%;
+    height: 400px;
+    background: linear-gradient(to bottom, #1197BE, #39DDF5);
+    border-radius: 20px;
+    padding: 2px;   
+}
+
 @media only screen and (max-width: 570px) {
     footer .footer-container .icon-container {
         width: 90%;
@@ -1107,7 +1144,7 @@ footer .footer-container {
         align-items: center;
     }
 
-    .reconversion-second-section-buttons .flex {
+    .reconversion-second-section-buttons .button-parent-container {
         width: 90% !important;
         margin-bottom: 10px;
     }

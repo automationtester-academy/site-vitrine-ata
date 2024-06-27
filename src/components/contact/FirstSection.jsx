@@ -4,7 +4,7 @@ import cardImage2 from "../../assets/images/contactImg-2.png"
 
 export default function FirstSection() {
     const images = [CardImage, cardImage2];
-    const intervalTime = 3000;
+    const intervalTime = 4000;
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const intervalRef = useRef(null);
 
@@ -35,11 +35,10 @@ export default function FirstSection() {
 }
 
 function HeroImage({ image, isVisible }) {
-    console.log('Image:', image);
     return (
         <>
             <div
-                className={`contact-first-section-img absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+                className={`contact-first-section-img absolute inset-0 bg-cover bg-center transition-opacity duration-[3000ms] ${isVisible ? 'opacity-100' : 'opacity-0'}`}
                 style={{ backgroundImage: `url(${image})`}}
             ></div>
         </>
