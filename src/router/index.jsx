@@ -33,9 +33,6 @@ export const router = createBrowserRouter([
                 path:'/Ecole',
                 element: <Ecole />
 
-            },{
-                path:'/Formation',
-                element: <Formation/>
             },
             {
                 path:'/formation-courte',
@@ -45,11 +42,15 @@ export const router = createBrowserRouter([
                 path:'*',
                 element: <NotFound/>
             },
+
+            {
+                path:'/Formation',
+                element: <Formation/>
+            },
             {
                 path:'/mixlearning',
                 element: <MixLearning/>
-            },
-            {
+            },{
                 path:'/reconversion',
                 element: <ReconversionPro />
             }
