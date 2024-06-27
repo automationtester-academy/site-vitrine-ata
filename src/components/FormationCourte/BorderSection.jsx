@@ -17,7 +17,7 @@ export default function BorderSection() {
                         >
                             Back 
                         </button>
-                        <button
+                        <button 
                          className="text-white font-bold py-2 px-4 rounded hover:bg-cyan-600"                            aria-label="Section Abonnement"
                         >
                             Performances
@@ -28,7 +28,7 @@ export default function BorderSection() {
                              CI/CD
                         </button>
                         <button
-                       className="text-white font-bold py-2 px-4 rounded hover:bg-cyan-600"                            aria-label="Section Mix-learning"
+                        className="text-white font-bold py-2 px-4 rounded hover:bg-cyan-600"                            aria-label="Section Mix-learning"
                         >
                        Mobile    
                       </button>
