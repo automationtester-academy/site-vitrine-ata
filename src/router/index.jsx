@@ -5,10 +5,9 @@ import Financement from '../pages/FinancementPage'
 import Contact from '../pages/Contact'
 import NotFound from '../pages/NotFound'
 import Formation from '../pages/Formation'
-
-import Ecole from '../pages/Ecole';
+import Ecole from '../pages/Ecole'
+import MixLearning from '../pages/MixLearning'
 import FormationCourte from '../pages/FormationCourte';
-
 import ReconversionPro from '../pages/ReconversionPro'
 
 
@@ -34,9 +33,6 @@ export const router = createBrowserRouter([
                 path:'/Ecole',
                 element: <Ecole />
 
-            },{
-                path:'/Formation',
-                element: <Formation/>
             },
             {
                 path:'/formation-courte',
@@ -48,6 +44,13 @@ export const router = createBrowserRouter([
             },
 
             {
+                path:'/Formation',
+                element: <Formation/>
+            },
+            {
+                path:'/mixlearning',
+                element: <MixLearning/>
+            },{
                 path:'/reconversion',
                 element: <ReconversionPro />
             }
