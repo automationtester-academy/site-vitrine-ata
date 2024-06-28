@@ -11,7 +11,7 @@ export default function NotreObjectifSection() {
                 </div>
                 <div className="mb-5 reconversion-second-section-first-text">
                     <div>
-                        <h4 className="text-3xl font-bold text-center text-[#39DDF5]">
+                        <h4 className="text-3xl font-medium text-center text-[#39DDF5]">
                             Notre Objectif :
                         </h4>
                     </div>

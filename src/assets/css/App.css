@@ -397,6 +397,11 @@ footer .footer-container {
     /* .reconversion-first-section-container .reconversion-first-section-title h2 {
         font-size: 30px;
     } */
+
+    .reservations-date-reconversion-container .reservations-date-reconversion {
+        width: 90% !important;
+
+    }
 }
 
 @media only screen and (max-width: 922px) {
@@ -496,6 +501,11 @@ footer .footer-container {
     .img-child-container {
         width: 70%;
         margin-bottom: 2rem;
+    }
+
+    .reservations-date-reconversion-container .reservations-date-reconversion {
+        width: 100% !important;
+
     }
 }
 
@@ -902,6 +912,11 @@ footer .footer-container {
     .contact-first-section-container .contact-first-section-title h2 {
         text-align: center;
     }
+
+    .reservations-date-reconversion {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -1159,10 +1174,69 @@ footer .footer-container {
 }
 
 
+
+/*************************************/
+
 @media (min-width: 620px) and (max-width: 854px) {
     .reconversion-second-section-buttons .bg-gradient-to-r {
         width: 90%;
     }
 }
 
-  
+@media only screen and (max-width: 1516px) {
+    .reservations-date-reconversion {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1111px){
+    .informations-section-parent-container .teaching-method-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-right-section {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section,
+    .informations-section-parent-container .teaching-method-container .teaching-method-right-section {
+        width: 80% !important;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1{
+        margin-bottom: 40px;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1,
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-2 {
+        height: auto;
+    }
+
+    .informations-section-parent-container {
+        margin-top: 0% !important;
+    }
+}
+
+@media only screen and (max-width: 693px){
+    .reservations-date-reconversion-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .reservations-date-reconversion-container .reservations-date-reconversion {
+        width: 70%;
+
+    }
+
+    .reservations-date-reconversion-container .relative {
+        padding: 20px 0 20px 0 !important;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section,
+    .informations-section-parent-container .teaching-method-container .teaching-method-right-section {
+        width: 100% !important;
+    }
+}
