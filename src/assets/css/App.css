@@ -483,12 +483,20 @@ footer .footer-container {
         font-size: 3rem;
     }
     .reconversion-second-section .reconversion-second-section-title, .reconversion-second-section-first-text .font-bold {
-        font-size: 23px;
-        text-align: center;
+        font-size: 23px !important;
+        text-align: center !important;
     }
 
-    .reconversion-second-section .reconversion-second-section-text {
-        font-size: 20px;
+    .reconversion-second-section .reconversion-second-section-text, .reconversion-second-section-text {
+        font-size: 20px !important;
+    }
+
+    .reconversion-second-section-Right-title, .reconversion-second-section-firstLeft-title, .reconversion-second-section-secondLeft-title {
+        font-size: 26px !important;
+    }
+
+    .reconversion-second-section-Right-title-2 {
+        font-size: 19px !important;
     }
 }
 
@@ -771,13 +779,21 @@ footer .footer-container {
         font-size: 35px;
     }
 
-    .reconversion-second-section .reconversion-second-section-title, .reconversion-second-section-first-text .font-bold {
+    .reconversion-first-section-container .reconversion-first-section-title {
+        height: 50% !important;
+    }
+
+    .reconversion-first-section-container {
+        height: auto !important;
+    }
+
+    .reconversion-second-section .reconversion-second-section-title, .reconversion-second-section-first-text .font-bold, .reconversion-second-section-title {
         font-size: 25px;
         text-align: center;
     }
 
-    .reconversion-second-section .reconversion-second-section-text {
-        font-size: 20px;
+    .reconversion-second-section .reconversion-second-section-text, .reconversion-second-section-text {
+        font-size: 20px !important;
     }
 }
 
@@ -872,6 +888,10 @@ footer .footer-container {
 
     .reconversion-first-section-container .reconversion-first-section-title h2 {
         font-size: 30px;
+    }
+
+    .reconversion-first-section-container {
+        height: auto !important;
     }
 }
 
@@ -1238,5 +1258,20 @@ footer .footer-container {
     .informations-section-parent-container .teaching-method-container .teaching-method-left-section,
     .informations-section-parent-container .teaching-method-container .teaching-method-right-section {
         width: 100% !important;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1,
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-2,
+    .informations-section-parent-container .teaching-method-right-section .background-gradiant-div {
+        width: 100% !important;
+    }
+
+    .telecharger-le-programme-button {
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+
+    .reconversion-sinscrire-button {
+        width: 60% !important;
     }
 }
