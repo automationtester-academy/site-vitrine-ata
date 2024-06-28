@@ -20,10 +20,10 @@ export default function LeftSectionSecondPart() {
                 <div className="flex flex-col">
                     <div className="flex flex-col items-center mb-7">
                         <div className="mb-5">
-                            <h4 className="text-3xl text-center font-bold text-[#39DDF5]">Nos prochaines rentrées </h4>
+                            <h4 className="text-3xl text-center font-bold text-[#39DDF5] reconversion-second-section-secondLeft-title">Nos prochaines rentrées </h4>
                         </div>
                         <div className="">
-                            <p className="text-white text-center text-2xl">
+                            <p className="text-white text-center text-2xl reconversion-second-section-text">
                                 Sortez les calendriers, voici les dates de rentrée !
                             </p>
                         </div>
@@ -54,7 +54,7 @@ export default function LeftSectionSecondPart() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[40%]">
+                        <div className="w-[40%] reconversion-sinscrire-button">
                             <div className="p-0.5 flex hover:bg-cyan-600 bg-gradient-to-r  from-[#3390B2] to-[#87E5EC] rounded-md">
                                 <Link to={'/'} className="rounded-md flex justify-center h-full bg-[#071323] w-full text-xl p-2 hover:bg-cyan-600">
                                     <span className="text-white">
