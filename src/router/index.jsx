@@ -45,6 +45,10 @@ export const router = createBrowserRouter([
                 element: <FormationCourte/>
             },
             {
+                path:'/Formation-courte',
+                element: <FormationCourte/>
+            },
+            {
                 path:'/mixlearning',
                 element: <MixLearning/>
             },

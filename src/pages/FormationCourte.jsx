@@ -6,7 +6,7 @@ import Infopratice from "../components/Formation-Courte/InfoPratice.jsx";
 import CardreReglementaire from "../components/Formation-Courte/CardreReglementaire.jsx";
 import DevisEnLigne from "../components/Formation-Courte/DivisOnline.jsx";
 import DivisForm from "../components/Formation-Courte/DivisContact/divisForm.jsx";
-
+import FooterPartenaires from "../components/footer/FooterPartenaires.jsx";
 
 
 export default function FormationCourte(){
@@ -18,9 +18,10 @@ export default function FormationCourte(){
       <BorderSection/>
       <FormationsSection/>
       <Infopratice />
-        <CardreReglementaire />
-    <DevisEnLigne />
-    <DivisForm />
+      <CardreReglementaire />
+      <DevisEnLigne />
+      <DivisForm />
+      <FooterPartenaires />
       </>
   )
 
