@@ -382,3 +382,56 @@ ul {
 {
     text-decoration: underline;
 }
+
+
+.containerDivis {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+}
+.right_container
+{
+    width: 50% !important;
+}
+
+@media (max-width:1355px)
+{
+    .containerInfoPratice
+    {
+        flex-wrap: wrap;
+    }
+
+    .right_container
+    {
+        width: 100% !important;
+    }
+
+    .infopratice
+    {
+        width: 90%;
+    }
+
+    .divisForm
+    {
+        display: block;
+        width: 90% !important;
+    }
+
+    .textcontainer
+    {
+        width: 80% !important;
+    }
+}
+
+
+
+@media (max-width: 390px)
+{
+    .IconTitle
+    {
+        gap: 2;
+        flex-direction: column;
+    }
+}
