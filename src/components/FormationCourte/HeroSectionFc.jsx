@@ -18,7 +18,7 @@ export default function HeroSectionFc() {
   }, []);
 
   return (
-    <div className="relative w-full h-[300px] overflow-hidden">
+    <div className="relative w-full h-[300px] sm:h-[300px] md:h-[300px] lg:h-[300px] xl:h-[300px]  overflow-hidden">
       {images.map((image, index) => (
         <HeroImage
           key={index}
