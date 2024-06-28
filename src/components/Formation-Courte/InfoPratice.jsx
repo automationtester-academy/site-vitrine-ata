@@ -14,7 +14,7 @@ export default function InfoPratice()
                         <div className="left_container">
                             <LeftSideContent />
                         </div>
-                        <div className="right_container pt-6 pl-6 rounded w-[50%] m-auto" >
+                        <div className="right_container pt-6 pl-6 rounded m-auto" >
                             <RightSideContent />
                         </div>
                     </div>
