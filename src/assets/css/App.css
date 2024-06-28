@@ -897,8 +897,8 @@ footer .footer-container {
 
 @media only screen and (max-width: 1250px) {
     .contact-first-section-container {
-        position: initial;
-        height: 150px;
+        position: initial !important;
+        height: 150px !important;
     }
 
     .reconversion-first-section-container {
@@ -918,7 +918,7 @@ footer .footer-container {
         height: auto;
         padding: 40px 0 40px 0;
         text-align: center;
-        width: 90%;
+        width: 100%;
     }
 
     .reconversion-first-section-container .reconversion-first-section-title{
