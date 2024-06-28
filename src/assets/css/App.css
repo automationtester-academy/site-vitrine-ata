@@ -7,6 +7,9 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+.ObjectifsPedagogique::-webkit-scrollbar{
+    display: none;
+}
 
 
 
@@ -83,10 +86,10 @@
     background-color: rgb(42, 133, 171);
 }
 
-.Header_Box_border:hover {
-    background-color: rgb(42, 133, 171) !important;
-}
 
+ .Header_Box_border:hover{
+    background-color:rgb(42,133,171) !important;
+} 
 .user-page {
     background-color: #071323;
 }
@@ -931,6 +934,13 @@ footer .footer-container {
     }
 }
 
+  
+
+@media only screen and (max-width: 460px) {
+    .footer-partenaires-container {
+        flex-direction: column;
+    }
+}
 
 .hero-section {
     position: relative;
@@ -1056,6 +1066,7 @@ footer .footer-container {
 }
 
 #bootcamp-section {
+
     background: url('../backgrounds//FinamcementBackground.png') center center;
     background-repeat: no-repeat;
     width: 75%;
@@ -1107,11 +1118,8 @@ footer .footer-container {
     }
 }
 
-/***********************************************/
 
 
-/**/
-/* custom.css */
 @media only screen and (max-width: 620px) {
 
     .profils-background,
