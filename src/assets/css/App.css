@@ -692,8 +692,6 @@ footer .footer-container {
         width: 100%;
     }
 
-
-
 }
 
 
@@ -882,7 +880,7 @@ footer .footer-container {
 
     .calendar-container,
     .reservation-container {
-        width: 340px;
+        width: 340px !important;
     }
 
     .reconversion-first-section-container .reconversion-first-section-title h2 {
