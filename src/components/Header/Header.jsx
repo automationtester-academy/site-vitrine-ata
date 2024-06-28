@@ -28,7 +28,7 @@ export default function Header() {
                         <Link to="/Formation" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 mr-4 hover:underline font-semibold">
                             Formations
                         </Link>
-                        <Link to="/Financement" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 hover:underline font-semibold">
+                        <Link to="/financement" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 hover:underline font-semibold">
                             Financements
                         </Link>
                     </div>
