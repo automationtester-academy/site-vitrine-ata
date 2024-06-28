@@ -20,7 +20,7 @@ export default function LeftSectionSecondPart() {
                 <div className="flex flex-col">
                     <div className="flex flex-col items-center mb-7">
                         <div className="mb-5">
-                            <h4 className="text-3xl font-bold text-[#39DDF5]">Nos prochaines rentrées </h4>
+                            <h4 className="text-3xl text-center font-bold text-[#39DDF5]">Nos prochaines rentrées </h4>
                         </div>
                         <div className="">
                             <p className="text-white text-center text-2xl">
@@ -30,8 +30,8 @@ export default function LeftSectionSecondPart() {
                     </div>
                     <div className="flex flex-col items-center">
                         <div className="mb-11 w-full px-8">
-                            <div className="flex justify-around mb-7">
-                                <div className="py-2 px-6 w-[35%] relative overflow-hidden flex justify-center items-center rounded bg-white">
+                            <div className="flex justify-around reservations-date-reconversion-container mb-7">
+                                <div className="py-2 reservations-date-reconversion px-6 w-[35%] relative overflow-hidden flex justify-center items-center rounded bg-white">
                                     {/* <span className="text-[#39DDF5] font-bold">19 / 02 / 2024</span> */}
                                     {spanContent.map((text, index) => (
                                         <ContentText
@@ -41,15 +41,15 @@ export default function LeftSectionSecondPart() {
                                         />
                                     ))}
                                 </div>
-                                <div className="py-2 px-6 w-[35%] flex justify-center rounded bg-gradient-to-r from-[#1197BE] to-[#39DDF5]">
+                                <div className="py-2 reservations-date-reconversion px-6 w-[35%] flex justify-center rounded bg-gradient-to-r from-[#1197BE] to-[#39DDF5]">
                                     <span className="text-white font-bold">22 / 04 / 2024</span>
                                 </div>
                             </div>
-                            <div className="flex justify-around">
-                                <div className="py-2 px-6 w-[35%] flex justify-center rounded bg-gradient-to-r from-[#1197BE] to-[#39DDF5]">
+                            <div className="flex justify-around reservations-date-reconversion-container">
+                                <div className="py-2 reservations-date-reconversion px-6 w-[35%] flex justify-center rounded bg-gradient-to-r from-[#1197BE] to-[#39DDF5]">
                                     <span className="text-white font-bold">09 / 09 / 2024</span>
                                 </div>
-                                <div className="py-2 px-6 w-[35%] flex justify-center rounded bg-gradient-to-r from-[#1197BE] to-[#39DDF5]">
+                                <div className="py-2 reservations-date-reconversion px-6 w-[35%] flex justify-center rounded bg-gradient-to-r from-[#1197BE] to-[#39DDF5]">
                                     <span className="text-white font-bold">25 / 11 / 2024</span>
                                 </div>
                             </div>

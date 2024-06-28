@@ -5,8 +5,8 @@ import RightSection from "./RightSection";
 export default function TeachingMethod() {
     return (
         <>
-            <div className="w-full flex">
-                <div className="teaching-method-left-section flex flex-col justify-between w-3/6 py-12">
+            <div className="w-full flex teaching-method-container">
+                <div className="teaching-method-left-section flex flex-col justify-between items-center w-3/6 py-12">
                     <div className="background-gradiant-div-1">
                         <LeftSectionFirstPart />
                     </div>
