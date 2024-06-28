@@ -34,7 +34,7 @@ export default function Header() {
                     </div>
                     <div className="NavBarLinks_button flex-shrink-0 my-2.5 lg:my-0">
                         <div className="relative inline-block p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
-                            <Link to="/Contact" className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
+                            <Link to="/contact" className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                                 Nous Contacter
                             </Link>
                         </div>
