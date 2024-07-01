@@ -33,7 +33,7 @@ export default function NotreObjectifSection() {
                 </div>
                 <div className="flex justify-between w-full reconversion-second-section-buttons">
                     <div className="flex justify-end button-parent-container" style={{ width: '45%' }}>
-                        <div className="p-0.5 flex hover:bg-cyan-600 bg-gradient-to-r w-3/6 from-[#3390B2] to-[#87E5EC] rounded-md">
+                        <div className="p-0.5 flex bg-gradient-to-r w-3/6 from-[#3390B2] to-[#87E5EC] hover:bg-none hover:bg-cyan-600 rounded-md">
                             <Link to={'/'} className="rounded-md flex justify-center h-full font-bold bg-[#071323] w-full text-xl p-2 hover:bg-cyan-600">
                                 <span className="text-white">
                                     S’inscrire
@@ -42,7 +42,7 @@ export default function NotreObjectifSection() {
                         </div>
                     </div>
                     <div className="flex justify-start button-parent-container" style={{ width: '45%' }}>
-                        <div className=" p-0.5 hover:bg-cyan-600 w-3/6 bg-gradient-to-r from-[#3390B2] to-[#87E5EC] rounded-md">
+                        <div className=" p-0.5 hover:bg-cyan-600 w-3/6 bg-gradient-to-r from-[#3390B2] hover:bg-none to-[#87E5EC] rounded-md">
                             <Link to={'/contact'} className="rounded-md w-full flex justify-center font-bold bg-[#071323] text-xl p-2 hover:bg-cyan-600">
                                 <span className="text-white">
                                     Nous Contacter

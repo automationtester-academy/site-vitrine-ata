@@ -24,7 +24,7 @@ export default function LeftSectionFirstPart() {
                             </h5>
                         </div>
                         <div className="telecharger-le-programme-button">
-                            <div className="p-0.5 flex hover:bg-cyan-600 bg-gradient-to-r  from-[#3390B2] to-[#87E5EC] rounded-md">
+                            <div className="p-0.5 flex hover:bg-none hover:bg-cyan-600 bg-gradient-to-r  from-[#3390B2] to-[#87E5EC] rounded-md">
                                 <Link to={'/'} className="rounded-md flex justify-center h-full bg-[#071323] w-full text-xl p-2 hover:bg-cyan-600">
                                     <span className="text-white text-center">
                                         Télécharger le programme

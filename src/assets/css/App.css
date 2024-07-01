@@ -402,14 +402,18 @@ footer .footer-container {
         width: 90% !important;
 
     }
+
+    .img-child-container {
+        width: 90% !important;
+    }
 }
 
 @media only screen and (max-width: 922px) {
-    .financement-first-section {
+    /* .financement-first-section {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
     .edited {
         flex-direction: column-reverse !important;
@@ -436,7 +440,23 @@ footer .footer-container {
     }
 }
 
+@media only screen and (max-width: 1160px) {
+    .financement-first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .img-child-container {
+        width: 70% !important;
+    }
+
+    .financement-img-container {
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+    }
+}
 
 
 @media only screen and (max-width: 620px) {
@@ -462,6 +482,10 @@ footer .footer-container {
 
     .img-child-container {
         width: 50%;
+    }
+
+    .financement-img-container {
+        padding-top: 2rem;
     }
 
     .contact-first-section-container .contact-first-section-title h2 {
@@ -508,7 +532,6 @@ footer .footer-container {
 
     .img-child-container {
         width: 70%;
-        margin-bottom: 2rem;
     }
 
     .reservations-date-reconversion-container .reservations-date-reconversion {
