@@ -11,8 +11,6 @@ import FormationCourte from '../pages/FormationCourte';
 import ReconversionPro from '../pages/ReconversionPro'
 
 
-
-
 export const router = createBrowserRouter([
     {
         element: <Layout/>,
@@ -35,22 +33,26 @@ export const router = createBrowserRouter([
 
             },
             {
-                path:'/formation-courte',
-                element: <FormationCourte/>
-            },
-            {
                 path:'*',
                 element: <NotFound/>
             },
-
             {
                 path:'/Formation',
                 element: <Formation/>
             },
             {
+                path:'/FormationCourte',
+                element: <FormationCourte/>
+            },
+            {
+                path:'/Formation-courte',
+                element: <FormationCourte/>
+            },
+            {
                 path:'/mixlearning',
                 element: <MixLearning/>
-            },{
+            },
+            {
                 path:'/reconversion',
                 element: <ReconversionPro />
             }
