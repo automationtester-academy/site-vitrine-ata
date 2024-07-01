@@ -335,6 +335,26 @@ footer .footer-container {
     padding: 2px;   
 }
 
+.cadre-reglementaire-container {
+    height: 717px;
+    display: flex;
+    justify-content: center;
+}
+
+.cadre-reglementaire-container .background-gradiant-div {
+    width: 97%;
+    background: linear-gradient(to bottom, #1197BE, #39DDF5);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.cadre-reglementaire-container .background-gradiant-div .background-color-div {
+    width: 100%;
+    height: 100%;
+    background-color: #071323;
+    border-radius: 20px;
+}
+
 @media only screen and (max-width: 570px) {
     footer .footer-container .icon-container {
         width: 90%;
@@ -402,14 +422,18 @@ footer .footer-container {
         width: 90% !important;
 
     }
+
+    .img-child-container {
+        width: 90% !important;
+    }
 }
 
 @media only screen and (max-width: 922px) {
-    .financement-first-section {
+    /* .financement-first-section {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
     .edited {
         flex-direction: column-reverse !important;
@@ -436,7 +460,23 @@ footer .footer-container {
     }
 }
 
+@media only screen and (max-width: 1160px) {
+    .financement-first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .img-child-container {
+        width: 70% !important;
+    }
+
+    .financement-img-container {
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+    }
+}
 
 
 @media only screen and (max-width: 620px) {
@@ -462,6 +502,10 @@ footer .footer-container {
 
     .img-child-container {
         width: 50%;
+    }
+
+    .financement-img-container {
+        padding-top: 2rem;
     }
 
     .contact-first-section-container .contact-first-section-title h2 {
@@ -508,7 +552,6 @@ footer .footer-container {
 
     .img-child-container {
         width: 70%;
-        margin-bottom: 2rem;
     }
 
     .reservations-date-reconversion-container .reservations-date-reconversion {
@@ -692,8 +735,6 @@ footer .footer-container {
         width: 100%;
     }
 
-
-
 }
 
 
@@ -857,9 +898,8 @@ footer .footer-container {
 
 @media (min-width: 900px) and (max-width: 1400px) {
 
-    .calendar-container,
-    .reservation-container {
-        width: 35%;
+    .calendar-container, .reservation-container {
+        width: 35% !important;
     }
 }
 
@@ -883,7 +923,7 @@ footer .footer-container {
 
     .calendar-container,
     .reservation-container {
-        width: 340px;
+        width: 340px !important;
     }
 
     .reconversion-first-section-container .reconversion-first-section-title h2 {
@@ -897,8 +937,8 @@ footer .footer-container {
 
 @media only screen and (max-width: 1250px) {
     .contact-first-section-container {
-        position: initial;
-        height: 150px;
+        position: initial !important;
+        height: 150px !important;
     }
 
     .reconversion-first-section-container {
@@ -918,7 +958,7 @@ footer .footer-container {
         height: auto;
         padding: 40px 0 40px 0;
         text-align: center;
-        width: 90%;
+        width: 100%;
     }
 
     .reconversion-first-section-container .reconversion-first-section-title{
@@ -1248,11 +1288,14 @@ footer .footer-container {
 
     .reservations-date-reconversion-container .reservations-date-reconversion {
         width: 70%;
-
     }
 
     .reservations-date-reconversion-container .relative {
         padding: 20px 0 20px 0 !important;
+    }
+
+    .informations-section-parent-container {
+        width: 90% !important;
     }
 
     .informations-section-parent-container .teaching-method-container .teaching-method-left-section,
