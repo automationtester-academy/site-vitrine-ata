@@ -15,7 +15,7 @@ export default function RightSideContent()
                         <span>Durée</span>
                     </div>
                     <ul className="list-disc">
-                        <li className="listTitle ">2 jours (14)</li>
+                        <li className="listTitle ">Vous êtes maitre de votre temps, apprenez à votre rythme</li>
                     </ul>
                 </div>
                 <div className="rightcontent_title">
@@ -23,7 +23,7 @@ export default function RightSideContent()
                         <img src={Metiers} alt="" />
                         <span>DÉBOUCHÉS</span>
                     </div>
-                    <div className="list-title">
+                    <div className="list-title text-lg">
                         Métiers:
                     </div>
                     <ul className="list-disc">
@@ -40,7 +40,7 @@ export default function RightSideContent()
                         <span>LIEU</span>
                     </div>
                     <ul className="list-disc">
-                        <li className="listTitle ">Formation à distance ou dans les locaux de entreprise</li>
+                        <li className="listTitle ">Formation en ligne</li>
                     </ul>
                 </div>
             </div>

@@ -293,6 +293,7 @@ ul {
     line-height: 2.4;
     font-weight: 400;
     font-size: 1.3rem;
+    margin-left: 2rem;
 }
 
 
@@ -423,6 +424,25 @@ ul {
     {
         width: 80% !important;
     }
+
+    .container.px-6.py-10.mx-auto.flex.items-center.justify-center {
+        overflow-x: hidden;
+    }
+
+    .divisForm
+    {
+        flex-direction: column;
+    }
+
+    .divisForm div{
+        width: 100%;
+    }
+
+    .listTitle {
+        line-height: 1.4;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -432,6 +452,10 @@ ul {
     .IconTitle
     {
         gap: 2;
-        flex-direction: column;
+    }
+
+    .IconTitle span
+    {
+        font-size: 1.1rem;
     }
 }

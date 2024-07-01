@@ -23,15 +23,17 @@ export default function LeftSideContent()
                     </div>
                     <ul className="list-disc">
                         <li className="listTitle">Des connaissances de base en test logiciel</li>
+                        <li className="listTitle">beaucoup beaucoup beaucoup (ce n’est pas une erreur de copier-coller) de motivation</li>
                     </ul>
                 </div>
+                
                 <div className="rightcontent_title">
                     <div className="IconTitle">
                         <img src={financement} alt="" />
                         <span>FINANCEMENT</span>
                     </div>
                     <div className="list-title">
-                        Prix: <span>1790 euros</span>
+                        Prix: <span>2500 euros.</span>
                         <p>Toutes nos formations sont éligibles aux dispositifs de financement.</p>
                         <br/>
                         <p>Vous pouvez ainsi bénéficier d'une formation prise en charge jusqu'à 100% selon votre situation.</p>
