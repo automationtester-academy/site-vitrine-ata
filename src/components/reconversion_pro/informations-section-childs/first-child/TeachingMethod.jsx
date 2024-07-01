@@ -14,7 +14,7 @@ export default function TeachingMethod() {
                         <LeftSectionSecondPart />
                     </div>
                 </div>
-                <div className="teaching-method-right-section w-3/6 py-12 flex justify-end">
+                <div className="teaching-method-right-section w-3/6 py-12 flex justify-center">
                     <div className="background-gradiant-div">
                         <RightSection />
                     </div>

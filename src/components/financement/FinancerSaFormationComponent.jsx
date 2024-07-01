@@ -7,7 +7,7 @@ export default function FinancerSaFormationComponent() {
                 <div className="text-child-container w-3/5 flex justify-center items-center">
                     <FinancerSaFormationTextChild />
                 </div>
-                <div className="img-child-container w-2/5 flex justify-start">
+                <div className="img-child-container w-2/5 flex justify-start items-center">
                     <FinancerSaFormationImageChild />
                 </div>
             </div>
