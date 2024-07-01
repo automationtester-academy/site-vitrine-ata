@@ -1,5 +1,5 @@
-import CadreReglementaireLeftSection from "./Cadr﻿eReglementaireLeftSection";
-import CadreReglementaireRightSection from "./Cadr﻿eReglementaireRightSection";
+// import CadreReglementaireLeftSection from "./CadreReglementaireLeftSection";
+// import CadreReglementaireRightSection from "./CadreReglementaireRightSection";
 
 export default function CadreReglementaire(){
     return (
@@ -11,12 +11,12 @@ export default function CadreReglementaire(){
                             <h4 className="text-white font-bold text-3xl">Cadre <span className="text-[#39DDF5]">règlementaire</span></h4>
                         </div>
                         <div className="bg-red-700 flex p-5">
-                            <div className="cadre-reglementaire-left-section w-2/4">
+                            {/* <div className="cadre-reglementaire-left-section w-2/4">
                                 <CadreReglementaireLeftSection />
                             </div>
                             <div className="cadre-reglementaire-right-section w-2/4">
                                 <CadreReglementaireRightSection />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
