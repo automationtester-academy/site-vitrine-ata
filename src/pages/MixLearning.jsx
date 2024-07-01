@@ -4,7 +4,7 @@ import ComponentCadre from "../components/MixLearning-Formation/ComponentCadre"
 import DevenirTesteur from "../components/MixLearning-Formation/DevenirTesteur";
 import InfoPratiqueComp from "../components/MixLearning-Formation/InfoPratiqueComp";
 import CadreReglementaire from "../components/MixLearning-Formation/CadreReglementaire";
-
+import InfoPratice from "../components/MixLearning-Formation/InfoPratice"
 export default function MixLearning(){
     return (
         <>
@@ -12,7 +12,8 @@ export default function MixLearning(){
         <MixLearningIntroduction/>
         <ComponentCadre/>
         <DevenirTesteur/>
-        <InfoPratiqueComp/>        
+        <InfoPratiqueComp/>      
+        <InfoPratice />
         <CadreReglementaire/>
         </>
     )
