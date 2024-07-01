@@ -96,3 +96,342 @@ input::placeholder::after
     font-size: 12px;
     color: #666; /* Adjust the color if needed */
 }
+
+.imageIcon
+{
+    position: absolute;
+    top: -1.9rem;
+    background-color: #071323;
+    margin: auto;
+}
+
+
+
+.School-img-container {
+    width: 5rem;
+    height: 4rem;
+    background: #071323;
+    margin: auto;
+}
+.School-img-container img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.School-img-container.exeption_img.mt-4 {
+    width: 7rem;
+}
+
+.card_title
+{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+
+.testimonials
+{
+    width: 70%;
+    margin: auto;
+}   
+
+
+.text-content
+{
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+
+.Testimonial_image
+{
+    width: 6rem;
+    height: 6rem;
+    border: #227AA4 3px solid;
+}
+
+
+p.mt-0\.5.text-lg.font-medium.text-gray-900 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #227AA4;
+}
+
+
+
+.testimonials_image_profile {
+    width: 12rem;
+}
+
+
+.testimonials_image_profile.testimonials_image_profile_custom {
+    width: 7rem;
+}
+
+
+
+.testimonials_image_profile img{
+    width: 100%;
+    border: #1ba7bc solid 3px;
+    border-radius: 50%;
+}
+
+
+
+.financement-img-container .mt-4 {
+    margin-top: 1rem;
+    width: 31rem;
+}
+
+
+.financement-img-container.mt-3 img {
+    width: 60%;
+}
+
+
+.school-img-container
+{
+    width: 24rem;
+}
+
+.school-img-container img
+{
+    width: 100%;
+}
+
+
+
+@media (max-width:1406px)
+{
+
+    .testimonials
+    {
+        flex-wrap: wrap;
+    }
+
+    .testimonialsContainer
+    {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media (max-width:640px)
+{
+
+    .testimonials
+    {
+        width: 80%;
+    }
+
+    .flex.items-center.gap-4.max-md\:flex-wrap
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .small_image
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .small_image_container
+    {
+        width: 7rem;
+    }
+    
+}
+.pedagogie
+{
+    background-color: #0C1827;
+}
+
+
+.IconTitle
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: #39DDF5;
+    font-size: 1rem;
+}
+
+.IconTitle span{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+
+
+.rightcontent_title
+{
+    margin-bottom: 2rem;
+    
+}
+
+
+.right_container
+{
+    background-color: #0C1827;
+}
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+.listTitle
+{
+    line-height: 2.4;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+
+.infopratice
+{
+    width: 70%;
+    margin: auto;
+}
+
+
+.left_container .rightcontent_title {
+    margin-bottom: 2rem;
+}
+
+
+.list-title span{
+    font-weight: 700;
+    color: #1299C0;
+    font-size: 1.3rem;
+}
+
+
+.list-title p
+{
+    font-size: 1.2rem;   
+}
+
+.rightcontent {
+    width: 90%;
+}
+
+
+.titleInfoPratice h2
+{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.titleInfoPratice h2 span
+{
+    color:#1299C0;
+}
+
+
+.listTitleRegle
+{
+    line-height: 2;
+}
+
+.textbottomContent span
+{
+    color: #1ba7bc;
+    font-weight: 600;
+    
+}
+
+.DivisBackgroundImage   
+{
+    background-image: url(../backgrounds/DivisTopImageBackground.png);
+    width: 100%;
+    height: 90px;
+    background-color:#071323;    
+}
+
+.divisTopContent
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}   
+
+.divisTopContent h2
+{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.divisTopContent h2 span
+{
+    color:#1ba7bc;
+}
+
+
+.content a
+{
+    text-decoration: underline;
+}
+
+
+.containerDivis {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+}
+.right_container
+{
+    width: 50% !important;
+}
+
+@media (max-width:1355px)
+{
+    .containerInfoPratice
+    {
+        flex-wrap: wrap;
+    }
+
+    .right_container
+    {
+        width: 100% !important;
+    }
+
+    .infopratice
+    {
+        width: 90%;
+    }
+
+    .divisForm
+    {
+        display: block;
+        width: 90% !important;
+    }
+
+    .textcontainer
+    {
+        width: 80% !important;
+    }
+}
+
+
+
+@media (max-width: 390px)
+{
+    .IconTitle
+    {
+        gap: 2;
+        flex-direction: column;
+    }
+}

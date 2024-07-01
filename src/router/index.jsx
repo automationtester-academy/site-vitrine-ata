@@ -4,6 +4,13 @@ import Home from '../pages/Home'
 import Financement from '../pages/FinancementPage'
 import Contact from '../pages/Contact'
 import NotFound from '../pages/NotFound'
+import Formation from '../pages/Formation'
+import Ecole from '../pages/Ecole'
+import MixLearning from '../pages/MixLearning'
+import FormationCourte from '../pages/FormationCourte';
+import ReconversionPro from '../pages/ReconversionPro'
+
+
 
 
 export const router = createBrowserRouter([
@@ -15,17 +22,39 @@ export const router = createBrowserRouter([
                 element: <Home/>
             },    
             {
-                path:'/Financement',
+                path:'/financement',
                 element: <Financement/>
             },
             {
-                path:'/Contact',
+                path:'/contact',
                 element: <Contact/>
+            },
+            {
+                path:'/Ecole',
+                element: <Ecole />
+
+            },
+            {
+                path:'/formation-courte',
+                element: <FormationCourte/>
             },
             {
                 path:'*',
                 element: <NotFound/>
+            },
+
+            {
+                path:'/Formation',
+                element: <Formation/>
+            },
+            {
+                path:'/mixlearning',
+                element: <MixLearning/>
+            },{
+                path:'/reconversion',
+                element: <ReconversionPro />
             }
+
 
         ]
     },

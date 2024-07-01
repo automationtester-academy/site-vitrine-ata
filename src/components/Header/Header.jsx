@@ -22,19 +22,19 @@ export default function Header() {
                 </div>
                 <div className={`NavbarLinks w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isMenuOpen ? '' : 'hidden'} lg:block`}>
                     <div className="NavbarLinks_menu text-sm lg:flex-grow lg:flex lg:justify-center lg:ml-36 mt-3 lg:mt-0">
-                        <Link to="" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 hover:underline mr-4 font-semibold">
+                        <Link to="/ecole" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 hover:underline mr-4 font-semibold">
                             L’école
                         </Link>
-                        <Link to="" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 mr-4 hover:underline font-semibold">
+                        <Link to="/Formation" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 mr-4 hover:underline font-semibold">
                             Formations
                         </Link>
-                        <Link to="/Financement" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 hover:underline font-semibold">
+                        <Link to="/financement" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 hover:underline font-semibold">
                             Financements
                         </Link>
                     </div>
                     <div className="NavBarLinks_button flex-shrink-0 my-2.5 lg:my-0">
                         <div className="relative inline-block p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
-                            <Link to="/Contact" className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
+                            <Link to="/contact" className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                                 Nous Contacter
                             </Link>
                         </div>
