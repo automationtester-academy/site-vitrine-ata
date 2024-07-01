@@ -335,6 +335,26 @@ footer .footer-container {
     padding: 2px;   
 }
 
+.cadre-reglementaire-container {
+    height: 717px;
+    display: flex;
+    justify-content: center;
+}
+
+.cadre-reglementaire-container .background-gradiant-div {
+    width: 97%;
+    background: linear-gradient(to bottom, #1197BE, #39DDF5);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.cadre-reglementaire-container .background-gradiant-div .background-color-div {
+    width: 100%;
+    height: 100%;
+    background-color: #071323;
+    border-radius: 20px;
+}
+
 @media only screen and (max-width: 570px) {
     footer .footer-container .icon-container {
         width: 90%;
@@ -1273,6 +1293,10 @@ footer .footer-container {
 
     .reservations-date-reconversion-container .relative {
         padding: 20px 0 20px 0 !important;
+    }
+
+    .informations-section-parent-container {
+        width: 90% !important;
     }
 
     .informations-section-parent-container .teaching-method-container .teaching-method-left-section,
