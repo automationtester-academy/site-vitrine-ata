@@ -2,7 +2,7 @@ import WritingImg from "../../../../assets/images/formation_court/writing.png"
 export default function CadreReglementaireLeftSection() {
     return (
         <div className="w-full">
-            <div className="flex mb-6">
+            <div className="flex mb-6 container-title">
                 <img src={WritingImg} width="54" height="56" alt="Writing Img" className="mr-3 h-14" />
                 <h4 className="uppercase text-2xl font-medium text-[#39DDF5]">
                     MODALITÉS D’ÉVALUATION DANS<br /> LE CADRE DE LA CERTIFICATION

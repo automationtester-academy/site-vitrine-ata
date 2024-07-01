@@ -1258,6 +1258,7 @@ footer .footer-container {
     .informations-section-parent-container .teaching-method-container .teaching-method-right-section {
         justify-content: center;
         padding: 0;
+        margin-bottom: 50px;
     }
 
     .informations-section-parent-container .teaching-method-container .teaching-method-left-section,
@@ -1277,6 +1278,7 @@ footer .footer-container {
     .informations-section-parent-container {
         margin-top: 0% !important;
     }
+
 }
 
 @media only screen and (max-width: 693px){
@@ -1316,5 +1318,28 @@ footer .footer-container {
 
     .reconversion-sinscrire-button {
         width: 60% !important;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-right-section{
+        margin-bottom: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+    .cadre-reglementaire-main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-left-section {
+        width: 70% !important;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-left-section .container-title {
+        justify-content: center;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-left-section p, .cadre-reglementaire-main-content .cadre-reglementaire-left-section, h4 {
+        text-align: center;
     }
 }
