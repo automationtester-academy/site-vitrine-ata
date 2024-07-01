@@ -11,7 +11,7 @@ export default function LeftSideContent()
                         <img src={preqeouis} alt="" />
                         <span>MODALITÉS D’ÉVALUATION</span>
                     </div>
-                    <ul>
+                    <ul className="list-disc">
                         <li className="listTitle">Cas pratique / workshop</li>
                     </ul>
                 </div>
@@ -20,7 +20,7 @@ export default function LeftSideContent()
                         <img src={Calendry} alt="" />
                         <span>DÉLAI D’ACCÈS À LA FORMATION</span>
                     </div>
-                    <ul>
+                    <ul className="list-disc">
                         <li className="listTitleRegle ">Financement via entreprise : 2 semaines</li>
                         <li className="listTitleRegle ">Paiement personnel : 2 semaines avant la session visée</li>
                         <li className="listTitleRegle ">OPCO : 2 semaines avant la session visée</li>

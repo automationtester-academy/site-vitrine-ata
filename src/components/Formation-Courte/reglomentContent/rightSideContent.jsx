@@ -10,12 +10,12 @@ export default function LeftSideContent()
                         <img src={statistics} alt="" />
                         <span>TAUX D'OBTENTION 2022/2023</span>
                     </div>
-                    <ul>
+                    <ul className="list-disc">
                         <li className="listTitle">100% taux d'achèvement</li>
                     </ul>
                     <div>
                         <div className="textbottomContent">
-                            <p>TAUX DE SATISFACTION GLOBAL ANNUEL <span><ul><li>95%</li></ul></span></p>
+                            <p>TAUX DE SATISFACTION GLOBAL ANNUEL <span><ul className="list-disc"><li>95%</li></ul></span></p>
                         </div>
                     </div>
                 </div>
