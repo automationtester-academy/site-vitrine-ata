@@ -336,7 +336,7 @@ footer .footer-container {
 }
 
 .cadre-reglementaire-container {
-    height: 717px;
+    height: auto;
     display: flex;
     justify-content: center;
 }
