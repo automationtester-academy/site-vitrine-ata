@@ -8,9 +8,9 @@ export default function InfoPratice()
 {
     return (
         <>
-            <div className="conatainer text-white infopratice w-[74%] max-sm:w-[90%] max-sm:mt-6">
-                <div className="conatainer_holder  m-auto justify-center p-3 border-[0.1999rem] border-sky-500 mt-[-3rem] ml-[1rem] max-sm:ml[0] rounded-2xl">
-                    <div className="titleInfoPratice text-center">
+            <div className="conatainer text-white infopratice w-[73%] max-sm:w-[88%] max-sm:mt-6">
+                <div className="conatainer_holder  m-auto justify-center p-3 border-[0.1999rem] border-sky-500 mt-[-0.2rem] rounded-2xl">
+                    <div className="titleInfoPratice text-center">  
                         <h2>Info <span>pratiques</span></h2>
                     </div>
                     <div className="containerInfoPratice flex p-6 rounded items-center">
