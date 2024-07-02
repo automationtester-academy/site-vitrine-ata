@@ -1339,7 +1339,15 @@ footer .footer-container {
         justify-content: center;
     }
 
-    .cadre-reglementaire-main-content .cadre-reglementaire-left-section p, .cadre-reglementaire-main-content .cadre-reglementaire-left-section, h4 {
+    .cadre-reglementaire-main-content .cadre-reglementaire-left-section p, .cadre-reglementaire-main-content .cadre-reglementaire-left-section h4 {
         text-align: center;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-right-section {
+        width: 70% !important;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-right-section, h4 {
+        
     }
 }
