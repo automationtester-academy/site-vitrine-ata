@@ -336,7 +336,7 @@ footer .footer-container {
 }
 
 .cadre-reglementaire-container {
-    height: 717px;
+    height: auto;
     display: flex;
     justify-content: center;
 }
@@ -1242,11 +1242,11 @@ footer .footer-container {
 
 @media only screen and (max-width: 1516px) {
     .reservations-date-reconversion {
-        width: 45%;
+        width: 49% !important;
     }
 }
 
-@media only screen and (max-width: 1111px){
+@media only screen and (max-width: 1140px){
     .informations-section-parent-container .teaching-method-container {
         flex-direction: column;
         align-items: center;
@@ -1255,6 +1255,7 @@ footer .footer-container {
     .informations-section-parent-container .teaching-method-container .teaching-method-right-section {
         justify-content: center;
         padding: 0;
+        margin-bottom: 50px;
     }
 
     .informations-section-parent-container .teaching-method-container .teaching-method-left-section,
@@ -1273,6 +1274,22 @@ footer .footer-container {
 
     .informations-section-parent-container {
         margin-top: 0% !important;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1 .content-div .date-reconversion-container{
+        margin-bottom: 2rem !important;
+    }
+}
+
+@media (min-width: 1111px) and (max-width: 1222px){
+    /* .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1 .content-div .date-reconversion-container {
+        margin-bottom: 0.5rem;
+    } */
+}
+
+@media only screen and (min-width: 1222px){
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1 .content-div .date-reconversion-container{
+        margin-bottom: 2rem !important;
     }
 }
 
@@ -1306,6 +1323,10 @@ footer .footer-container {
         width: 100% !important;
     }
 
+    /* .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1 .content-div .date-reconversion-container {
+        margin-bottom: 2rem !important;
+    } */
+
     .telecharger-le-programme-button {
         padding-left: 0.7rem;
         padding-right: 0.7rem;
@@ -1313,5 +1334,52 @@ footer .footer-container {
 
     .reconversion-sinscrire-button {
         width: 60% !important;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-right-section{
+        margin-bottom: 30px !important;
+    }
+
+    .cadre-reglementaire-container .background-gradiant-div {
+        width: 100% !important;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-p {
+        font-size: 1rem !important;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-titles {
+        font-size: 1.1rem !important;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+    .cadre-reglementaire-main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-left-section, .cadre-reglementaire-main-content .cadre-reglementaire-right-section {
+        width: 95% !important;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-left-section .container-title .self-center {
+        text-align: center;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-p {
+        font-size: 1.2rem;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-titles {
+        font-size: 1.4rem;
+    }
+
+    .cadre-reglementaire-container .background-gradiant-div .background-color-div .container-title {
+        font-size: 1.7rem;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-right-section {
+        padding-left: 0% !important;
     }
 }

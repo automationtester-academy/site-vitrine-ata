@@ -29,7 +29,7 @@ export default function LeftSectionSecondPart() {
                         </div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div className="mb-11 w-full px-8">
+                        <div className="mb-11 w-full date-reconversion-container px-8">
                             <div className="flex justify-around reservations-date-reconversion-container mb-7">
                                 <div className="py-2 reservations-date-reconversion px-6 w-[35%] relative overflow-hidden flex justify-center items-center rounded bg-white">
                                     {/* <span className="text-[#39DDF5] font-bold">19 / 02 / 2024</span> */}
