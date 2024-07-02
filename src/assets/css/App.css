@@ -1249,7 +1249,7 @@ footer .footer-container {
     }
 }
 
-@media only screen and (max-width: 1111px){
+@media only screen and (max-width: 1140px){
     .informations-section-parent-container .teaching-method-container {
         flex-direction: column;
         align-items: center;
