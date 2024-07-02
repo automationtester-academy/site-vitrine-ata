@@ -11,7 +11,7 @@ export default function InformationsSection(){
                 {/* <InfoPratique /> */}
                 <CadreReglementaire />
             </div>
-        </div>
+        </div>  
         </>
     )
 }
