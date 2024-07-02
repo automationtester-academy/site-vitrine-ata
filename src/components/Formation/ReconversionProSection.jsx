@@ -1,5 +1,6 @@
 import React from 'react';
 import Reconversion from '../../assets/images/formation/Reconversion.png';
+import { Link } from 'react-router-dom';
 
 export default function ReconversionProSection() {
     return (
@@ -16,9 +17,9 @@ export default function ReconversionProSection() {
                         Envie de changer de métier et démarrer une nouvelle <br className="hidden md:inline" /> carrière professionnelle, ATA propose un parcours <br className="hidden md:inline" /> complet pour commencer de zéro et être <br className="hidden md:inline" /> opérationnelle pour intégrer un nouveau projet dans <br className="hidden md:inline" /> le domaine de l’automatisation des tests logiciels.<br />
                     </p>
                     <div className="relative inline-block p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
-                        <div className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-800 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
+                        <Link to={'/reconversion'} className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-800 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                             En savoir plus
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </div>

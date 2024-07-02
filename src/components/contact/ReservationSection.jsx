@@ -19,7 +19,7 @@ export default function ReservationSection() {
     const [selectedDate, setSelectedDate] = useState(null);
 
     const times = [];
-    for (let hour = 7; hour < 21; hour++) {
+    for (let hour = 9; hour < 17; hour++) {
         for (let minutes = 0; minutes < 60; minutes += 30) {
             const time = `${hour.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
             times.push(time);
@@ -46,7 +46,7 @@ export default function ReservationSection() {
 
     //Hi Front-End developper
     //When you want to send the date that the user chooses, use this syntax before!!:
-    //console.log(dateValue + ' ' + selectedTime);
+    // console.log(dateValue + ' ' + selectedTime);
 
     return (
         <>
@@ -58,7 +58,7 @@ export default function ReservationSection() {
             </div>
             <div className='flex justify-center reservation-calendar-section mb-10'>
                 <div className='calendar-container flex flex-col bg-[#475A74] w-1/4 pt-2'>
-                    <div className='flex flex justify-center'>
+                    <div className='flex  justify-center'>
                         <ATAWhiteLogo />
                     </div>
                     <div className='flex justify-center pt-4 pb-2'>

@@ -3,3 +3,7 @@ body {
     font-style: normal;
 }
 
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar */
+}
+
