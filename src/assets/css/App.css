@@ -1249,7 +1249,7 @@ footer .footer-container {
     }
 }
 
-@media only screen and (max-width: 1134px){
+@media only screen and (max-width: 1140px){
     .informations-section-parent-container .teaching-method-container {
         flex-direction: column;
         align-items: center;
@@ -1282,7 +1282,6 @@ footer .footer-container {
     .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1 .content-div .date-reconversion-container{
         margin-bottom: 2rem !important;
     }
-
 }
 
 @media (min-width: 1111px) and (max-width: 1222px){
