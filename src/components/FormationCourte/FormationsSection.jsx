@@ -21,6 +21,8 @@ function FormationsSection() {
     fetchData();
   }, []);
 
+
+  
   return (
     <div>
       <section className="Recruiters w-full max-sm:h-max">
