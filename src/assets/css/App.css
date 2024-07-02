@@ -1249,7 +1249,7 @@ footer .footer-container {
     }
 }
 
-@media only screen and (max-width: 1111px){
+@media only screen and (max-width: 1134px){
     .informations-section-parent-container .teaching-method-container {
         flex-direction: column;
         align-items: center;
@@ -1385,13 +1385,5 @@ footer .footer-container {
 
     .cadre-reglementaire-main-content .cadre-reglementaire-right-section {
         padding-left: 0% !important;
-    }
-
-    .cadre-reglementaire-main-content .cadre-reglementaire-right-section {
-        width: 70% !important;
-    }
-
-    .cadre-reglementaire-main-content .cadre-reglementaire-right-section, h4 {
-        
     }
 }
