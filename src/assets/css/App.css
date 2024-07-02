@@ -335,6 +335,26 @@ footer .footer-container {
     padding: 2px;   
 }
 
+.cadre-reglementaire-container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cadre-reglementaire-container .background-gradiant-div {
+    width: 97%;
+    background: linear-gradient(to bottom, #1197BE, #39DDF5);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.cadre-reglementaire-container .background-gradiant-div .background-color-div {
+    width: 100%;
+    height: 100%;
+    background-color: #071323;
+    border-radius: 20px;
+}
+
 @media only screen and (max-width: 570px) {
     footer .footer-container .icon-container {
         width: 90%;
@@ -397,14 +417,23 @@ footer .footer-container {
     /* .reconversion-first-section-container .reconversion-first-section-title h2 {
         font-size: 30px;
     } */
+
+    .reservations-date-reconversion-container .reservations-date-reconversion {
+        width: 90% !important;
+
+    }
+
+    .img-child-container {
+        width: 90% !important;
+    }
 }
 
 @media only screen and (max-width: 922px) {
-    .financement-first-section {
+    /* .financement-first-section {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
     .edited {
         flex-direction: column-reverse !important;
@@ -431,7 +460,23 @@ footer .footer-container {
     }
 }
 
+@media only screen and (max-width: 1160px) {
+    .financement-first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .img-child-container {
+        width: 70% !important;
+    }
+
+    .financement-img-container {
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+    }
+}
 
 
 @media only screen and (max-width: 620px) {
@@ -459,6 +504,10 @@ footer .footer-container {
         width: 50%;
     }
 
+    .financement-img-container {
+        padding-top: 2rem;
+    }
+
     .contact-first-section-container .contact-first-section-title h2 {
         font-size: 50px;
     }
@@ -478,12 +527,20 @@ footer .footer-container {
         font-size: 3rem;
     }
     .reconversion-second-section .reconversion-second-section-title, .reconversion-second-section-first-text .font-bold {
-        font-size: 23px;
-        text-align: center;
+        font-size: 23px !important;
+        text-align: center !important;
     }
 
-    .reconversion-second-section .reconversion-second-section-text {
-        font-size: 20px;
+    .reconversion-second-section .reconversion-second-section-text, .reconversion-second-section-text {
+        font-size: 20px !important;
+    }
+
+    .reconversion-second-section-Right-title, .reconversion-second-section-firstLeft-title, .reconversion-second-section-secondLeft-title {
+        font-size: 26px !important;
+    }
+
+    .reconversion-second-section-Right-title-2 {
+        font-size: 19px !important;
     }
 }
 
@@ -495,7 +552,11 @@ footer .footer-container {
 
     .img-child-container {
         width: 70%;
-        margin-bottom: 2rem;
+    }
+
+    .reservations-date-reconversion-container .reservations-date-reconversion {
+        width: 100% !important;
+
     }
 }
 
@@ -674,8 +735,6 @@ footer .footer-container {
         width: 100%;
     }
 
-
-
 }
 
 
@@ -761,13 +820,21 @@ footer .footer-container {
         font-size: 35px;
     }
 
-    .reconversion-second-section .reconversion-second-section-title, .reconversion-second-section-first-text .font-bold {
+    .reconversion-first-section-container .reconversion-first-section-title {
+        height: 50% !important;
+    }
+
+    .reconversion-first-section-container {
+        height: auto !important;
+    }
+
+    .reconversion-second-section .reconversion-second-section-title, .reconversion-second-section-first-text .font-bold, .reconversion-second-section-title {
         font-size: 25px;
         text-align: center;
     }
 
-    .reconversion-second-section .reconversion-second-section-text {
-        font-size: 20px;
+    .reconversion-second-section .reconversion-second-section-text, .reconversion-second-section-text {
+        font-size: 20px !important;
     }
 }
 
@@ -831,9 +898,8 @@ footer .footer-container {
 
 @media (min-width: 900px) and (max-width: 1400px) {
 
-    .calendar-container,
-    .reservation-container {
-        width: 35%;
+    .calendar-container, .reservation-container {
+        width: 35% !important;
     }
 }
 
@@ -857,18 +923,22 @@ footer .footer-container {
 
     .calendar-container,
     .reservation-container {
-        width: 340px;
+        width: 340px !important;
     }
 
     .reconversion-first-section-container .reconversion-first-section-title h2 {
         font-size: 30px;
     }
+
+    .reconversion-first-section-container {
+        height: auto !important;
+    }
 }
 
 @media only screen and (max-width: 1250px) {
     .contact-first-section-container {
-        position: initial;
-        height: 150px;
+        position: initial !important;
+        height: 150px !important;
     }
 
     .reconversion-first-section-container {
@@ -888,7 +958,7 @@ footer .footer-container {
         height: auto;
         padding: 40px 0 40px 0;
         text-align: center;
-        width: 90%;
+        width: 100%;
     }
 
     .reconversion-first-section-container .reconversion-first-section-title{
@@ -901,6 +971,11 @@ footer .footer-container {
 
     .contact-first-section-container .contact-first-section-title h2 {
         text-align: center;
+    }
+
+    .reservations-date-reconversion {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -988,9 +1063,6 @@ footer .footer-container {
 
 
 
-
-
-
 .hero-container {
     position: relative;
     width: 100%;
@@ -1015,9 +1087,9 @@ footer .footer-container {
 }
 
 .text-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
     transform: translate(-50%, -50%);
     z-index: 10;
     display: flex;
@@ -1159,10 +1231,155 @@ footer .footer-container {
 }
 
 
+
+/*************************************/
+
 @media (min-width: 620px) and (max-width: 854px) {
     .reconversion-second-section-buttons .bg-gradient-to-r {
         width: 90%;
     }
 }
 
-  
+@media only screen and (max-width: 1516px) {
+    .reservations-date-reconversion {
+        width: 49% !important;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+    .informations-section-parent-container .teaching-method-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-right-section {
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section,
+    .informations-section-parent-container .teaching-method-container .teaching-method-right-section {
+        width: 80% !important;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1{
+        margin-bottom: 40px;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1,
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-2 {
+        height: auto;
+    }
+
+    .informations-section-parent-container {
+        margin-top: 0% !important;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1 .content-div .date-reconversion-container{
+        margin-bottom: 2rem !important;
+    }
+}
+
+@media (min-width: 1111px) and (max-width: 1222px){
+    /* .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1 .content-div .date-reconversion-container {
+        margin-bottom: 0.5rem;
+    } */
+}
+
+@media only screen and (min-width: 1222px){
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1 .content-div .date-reconversion-container{
+        margin-bottom: 2rem !important;
+    }
+}
+
+@media only screen and (max-width: 693px){
+    .reservations-date-reconversion-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .reservations-date-reconversion-container .reservations-date-reconversion {
+        width: 70%;
+    }
+
+    .reservations-date-reconversion-container .relative {
+        padding: 20px 0 20px 0 !important;
+    }
+
+    .informations-section-parent-container {
+        width: 90% !important;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section,
+    .informations-section-parent-container .teaching-method-container .teaching-method-right-section {
+        width: 100% !important;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1,
+    .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-2,
+    .informations-section-parent-container .teaching-method-right-section .background-gradiant-div {
+        width: 100% !important;
+    }
+
+    /* .informations-section-parent-container .teaching-method-container .teaching-method-left-section .background-gradiant-div-1 .content-div .date-reconversion-container {
+        margin-bottom: 2rem !important;
+    } */
+
+    .telecharger-le-programme-button {
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+
+    .reconversion-sinscrire-button {
+        width: 60% !important;
+    }
+
+    .informations-section-parent-container .teaching-method-container .teaching-method-right-section{
+        margin-bottom: 30px !important;
+    }
+
+    .cadre-reglementaire-container .background-gradiant-div {
+        width: 100% !important;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-p {
+        font-size: 1rem !important;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-titles {
+        font-size: 1.1rem !important;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+    .cadre-reglementaire-main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-left-section, .cadre-reglementaire-main-content .cadre-reglementaire-right-section {
+        width: 95% !important;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-left-section .container-title .self-center {
+        text-align: center;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-p {
+        font-size: 1.2rem;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-titles {
+        font-size: 1.4rem;
+    }
+
+    .cadre-reglementaire-container .background-gradiant-div .background-color-div .container-title {
+        font-size: 1.7rem;
+    }
+
+    .cadre-reglementaire-main-content .cadre-reglementaire-right-section {
+        padding-left: 0% !important;
+    }
+}

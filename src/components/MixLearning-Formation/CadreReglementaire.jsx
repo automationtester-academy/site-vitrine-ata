@@ -11,6 +11,7 @@ export default function CadreReglementaire(){
                     <div className="flex flex-row w-[100%] justify-between py-[3%] max-sm:flex-col max-sm:gap-5 max-sm:">
                         <ModaliteEvaluation/>
                         <Statistics/>
+                        
                     </div>
                            
             </div>

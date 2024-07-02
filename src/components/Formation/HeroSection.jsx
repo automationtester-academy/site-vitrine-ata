@@ -26,6 +26,7 @@ export default function HeroSection() {
           isVisible={index === currentImageIndex}
         />
       ))}
+
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-container">
           <h2 className="uppercase text-white flex gap-3 text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-center p-4 rounded-md">

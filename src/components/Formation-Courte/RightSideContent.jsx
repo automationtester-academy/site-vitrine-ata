@@ -14,19 +14,19 @@ export default function RightSideContent()
                         <img src={ClockImg} alt="" />
                         <span>Durée</span>
                     </div>
-                    <ul>
+                    <ul className="list-disc">
                         <li className="listTitle ">2 jours (14)</li>
                     </ul>
                 </div>
                 <div className="rightcontent_title">
                     <div className="IconTitle">
-                        <img src={ClockImg} alt="" />
+                        <img src={Metiers} alt="" />
                         <span>DÉBOUCHÉS</span>
                     </div>
                     <div className="list-title">
                         Métiers:
                     </div>
-                    <ul>
+                    <ul className="list-disc">
                         <li className="listTitle ">Ingénieur qualité</li>
                         <li className="listTitle ">Software engineer in test</li>
                         <li className="listTitle ">Quality engineer</li>
@@ -39,8 +39,8 @@ export default function RightSideContent()
                         <img src={Lieu} alt="" />
                         <span>LIEU</span>
                     </div>
-                    <ul>
-                        <li className="listTitle ">Formation à distance ou dans les locaux de entreprise)</li>
+                    <ul className="list-disc">
+                        <li className="listTitle ">Formation à distance ou dans les locaux de entreprise</li>
                     </ul>
                 </div>
             </div>

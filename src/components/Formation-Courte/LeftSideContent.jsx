@@ -12,7 +12,7 @@ export default function LeftSideContent()
                         <img src={certification} alt="" />
                         <span>CERTIFICATION</span>
                     </div>
-                    <ul>
+                    <ul className="list-disc">
                         <li className="listTitle">Une attestation vous sera délivré en fin de formation</li>
                     </ul>
                 </div>
@@ -21,16 +21,7 @@ export default function LeftSideContent()
                         <img src={preqeouis} alt="" />
                         <span>PRÉREQUIS</span>
                     </div>
-                    <ul>
-                        <li className="listTitle">Des connaissances de base en test logiciel</li>
-                    </ul>
-                </div>
-                <div className="rightcontent_title">
-                    <div className="IconTitle">
-                        <img src={preqeouis} alt="" />
-                        <span>PRÉREQUIS</span>
-                    </div>
-                    <ul>
+                    <ul className="list-disc">
                         <li className="listTitle">Des connaissances de base en test logiciel</li>
                     </ul>
                 </div>
