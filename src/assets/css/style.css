@@ -399,19 +399,16 @@ ul {
 
 @media (max-width:1355px)
 {
-    .containerInfoPratice
-    {
-        flex-wrap: wrap;
-    }
+    
 
     .right_container
     {
-        width: 100% !important;
+        width: 48% !important;
     }
 
     .infopratice
     {
-        width: 90%;
+        width: 75%;
     }
 
     .divisForm
@@ -429,10 +426,7 @@ ul {
         overflow-x: hidden;
     }
 
-    .divisForm
-    {
-        flex-direction: column;
-    }
+    
 
     .divisForm div{
         width: 100%;
@@ -445,6 +439,42 @@ ul {
     }
 }
 
+
+
+@media (max-width:1290px)
+{
+    .IconTitle
+    {
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+@media (max-width:1000px)
+{
+    .containerInfoPratice
+    {
+        flex-direction: column;
+    }
+    .right_container
+    {
+        width: 100% !important;
+    }
+
+    .divisForm
+    {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:548px)
+{
+    .infopratice
+    {
+        width: 90%;
+    }
+}
 
 
 @media (max-width: 390px)
