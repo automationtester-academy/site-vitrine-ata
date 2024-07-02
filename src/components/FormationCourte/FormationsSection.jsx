@@ -32,7 +32,11 @@ function FormationsSection() {
                   <div className="w-[100%] border-2 border-cyan-400 pt-6 pr-8 pb-8 pl-8 rounded-3xl">
                     <div className="flex flex-row items-center border-b border-cyan-400 pb-2 mb-4 ">
                       <div className="w-1/6">
-                        <img src={TimeIcon} alt="Time Icon" />
+                        <img 
+                          src={`http://127.0.0.1:8000/storage/${formation.image}`} 
+                          alt="image_formation" 
+                          className="w-full h-full object-cover"
+                        />
                       </div>
                       <div className="w-5/6">
                         <h1 className="text-cyan-400 text-lg font-semibold">
@@ -64,7 +68,7 @@ function FormationsSection() {
                       </div>
                     </div>
 
-                    <div className="NavBarLinks_button flex-shrink-0 my-2.5 lg:my-0 mx-auto text-center">
+                    <div className=" flex-shrink-0 my-2.5 lg:my-0 mx-auto text-center">
                       <div className="relative inline-block p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
                         <div className="Header-text block px-5 text-sm py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                           Télécharger le programme
@@ -72,7 +76,7 @@ function FormationsSection() {
                       </div>
                     </div>
 
-                  </div>
+                  </div> 
                 </div>
               </div>
             ))}
