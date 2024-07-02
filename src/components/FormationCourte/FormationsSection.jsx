@@ -30,10 +30,11 @@ function FormationsSection() {
               <div key={formation.id} className="">
                 <div className="relative">
                   <div className="w-[100%] border-2 border-cyan-400 pt-6 pr-8 pb-8 pl-8 rounded-3xl">
-                    <div className="flex flex-row items-center border-b border-cyan-400 pb-2 mb-4 ">
-                      <div className="w-1/6">
+                    <div className="flex flex-row items-center border-b border-cyan-400 pb-2 mb-4">
+                      <div className="w-1/6 mr-4"> 
+                      
                         <img 
-                          src={`http://127.0.0.1:8000/storage/${formation.image}`} 
+                          src={`http://127.0.0.1:8000/${formation.image}`} 
                           alt="image_formation" 
                           className="w-full h-full object-cover"
                         />
