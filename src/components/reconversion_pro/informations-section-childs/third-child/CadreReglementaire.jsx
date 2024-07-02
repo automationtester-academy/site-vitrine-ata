@@ -8,7 +8,7 @@ export default function CadreReglementaire() {
                 <div className="background-gradiant-div">
                     <div className="background-color-div">
                         <div className="w-full py-8 flex justify-center">
-                            <h4 className="text-white font-bold text-3xl">Cadre <span className="text-[#39DDF5]">règlementaire</span></h4>
+                            <h4 className="text-white font-bold text-3xl text-center container-title">Cadre <span className="text-[#39DDF5]">règlementaire</span></h4>
                         </div>
                         <div className="flex p-5 cadre-reglementaire-main-content mb-5">
                             <div className="cadre-reglementaire-left-section w-3/5">
