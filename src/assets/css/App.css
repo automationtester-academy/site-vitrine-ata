@@ -49,8 +49,8 @@
 
 .Comments_scroller {
     display: flex;
-    animation-delay: 100s;
-    animation: scrollComment 10s linear infinite;
+    animation-delay: 0.01s;
+    animation: scrollComment 40s linear infinite;
     width: calc(200%);
 }
 
@@ -73,7 +73,9 @@
     }
 
 }
-
+.Comments_scroller:hover {
+    animation-play-state: paused;
+}
 .Herosection_Text_Title {
     font-family: Montserrat;
 }
@@ -709,9 +711,7 @@ footer .footer-container {
         height: 36vh !important;
     }
 
-    .Comment_parent {
-        background: red;
-    }
+
 
     .Comment_container {
         height: 100% !important;
@@ -799,22 +799,7 @@ footer .footer-container {
 }
 
 @media (min-width: 640px) and (max-width: 900px) {
-    .ImproveUrSkills {
-        height: 100vh;
-    }
-
-    .ImproveUrSkills_svg,
-    .ImproveUrSkills_main_parentImg {
-        visibility: hidden;
-    }
-
-    .ImproveUrSkills_main {
-        height: 100%;
-    }
-
-    .ImproveUrSkills_text {
-        width: 99.5vw;
-    }
+  
 
     .reconversion-first-section-container .reconversion-first-section-title h2 {
         font-size: 35px;
