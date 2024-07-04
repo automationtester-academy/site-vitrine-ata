@@ -22,12 +22,12 @@ function FormationsSection() {
   }, []);
 
 
-  
+
   return (
     <div>
       <section className="Recruiters w-full max-sm:h-max">
         <div className='column_holder mt-[4rem] w-[100%] m-auto mb-10'>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-[80%] max-sm:w-[90%] m-auto'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-[70%] max-sm:w-[90%] m-auto'>
             {formations.map((formation) => (
               <div key={formation.id} className="">
                 <div className="relative">
@@ -36,7 +36,7 @@ function FormationsSection() {
                       <div className="w-1/6 mr-4"> 
                       
                         <img 
-                          src={`http://127.0.0.1:8000/${formation.image}`} 
+                          src={`http://127.0.0.1:8000/api/${formation.image}`} 
                           alt="image_formation" 
                           className="w-full h-full object-cover"
                         />
