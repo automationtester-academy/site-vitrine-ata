@@ -1,6 +1,6 @@
-import CommentOfSaraYaakoubi from '../Home/User-Comments/CommentOfSaraYaakoubi.jsx'
-import CommentOfYassineAllami from "../Home/User-Comments/CommentOfYassineAllami.jsx"
-import CommentOfAnasBoukhari from "../Home/User-Comments/CommentOfAnasBoukhari.jsx"
+import CommentOfSaraYaakoubi from '../Home/User-Comments/CommentOfChaimaaSassni.jsx'
+import CommentOfYassineAllami from "../Home/User-Comments/CommentOfMougonFredy.jsx"
+import CommentOfAnasBoukhari from "../Home/User-Comments/CommentOfKemalCherifi.jsx"
 import '../../assets/css/style.css'
 import FirstImage from './testimonialsImages/FirstImage.jsx';
 import SecondImage from './testimonialsImages/SecondImage.jsx';
