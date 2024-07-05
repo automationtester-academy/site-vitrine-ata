@@ -21,24 +21,21 @@ function FormationsSection() {
     fetchData();
   }, []);
 
-
-  
   return (
     <div>
       <section className="Recruiters w-full max-sm:h-max">
         <div className='column_holder mt-[4rem] w-[100%] m-auto mb-10'>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-[80%] max-sm:w-[90%] m-auto'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-[75%] max-sm:w-[90%] m-auto'>
             {formations.map((formation) => (
               <div key={formation.id} className="">
                 <div className="relative">
                   <div className="w-[100%] border-2 border-cyan-400 pt-6 pr-8 pb-8 pl-8 rounded-3xl">
                     <div className="flex flex-row items-center border-b border-cyan-400 pb-2 mb-4">
                       <div className="w-1/6 mr-4"> 
-                      
                         <img 
-                          src={`http://127.0.0.1:8000/${formation.image}`} 
+                          src={`http://127.0.0.1:8000/storage/${formation.image}`} 
                           alt="image_formation" 
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-cover fixed-size"
                         />
                       </div>
                       <div className="w-5/6">
@@ -72,8 +69,8 @@ function FormationsSection() {
                     </div>
 
                     <div className=" flex-shrink-0 my-2.5 lg:my-0 mx-auto text-center">
-                      <div className="relative inline-block p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
-                        <div className="Header-text block px-5 text-sm py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
+                      <div className="relative inline-block p-[1.2px] pl-[1px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
+                        <div className="Header-text block px-5 text-xs py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                           Télécharger le programme
                         </div>
                       </div>
