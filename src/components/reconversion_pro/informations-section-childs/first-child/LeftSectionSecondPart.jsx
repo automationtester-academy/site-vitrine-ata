@@ -36,7 +36,7 @@ export default function LeftSectionSecondPart() {
         setMondays(getTheNextThreeMonday());
     }, [])
 
-    const spanContent = [mondays[4], 'Completed'];
+    const spanContent = [mondays[0], 'Completed'];
     return (
         <>
             <div className="content-div py-8">
