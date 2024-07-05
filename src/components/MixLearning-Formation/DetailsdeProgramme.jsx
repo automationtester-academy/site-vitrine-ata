@@ -15,7 +15,7 @@ export default function DetailsdeProgramme(){
 
                     <div className="NavBarLinks_button flex flex-shrink-0   lg:my-0   max-lg:justify-center max-lg:items-center max-lg:w-[80%] max-sm:w-[80%]">
                         <div className="relative inline-block w-[100%] p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md max-lg:w-[80%] max-xl:w-[100%] ">
-                            <Link to="/Contact" className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
+                            <Link to="/contact" className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold" onClick={() => window.scrollTo(0, 0)}>
                                 Télécharger le programme                        
                             </Link>
                         </div>
@@ -35,7 +35,7 @@ export default function DetailsdeProgramme(){
 
                     <div className="NavBarLinks_button flex flex-shrink-0   lg:my-0  max-lg:justify-center max-lg:items-center max-lg:w-[40%] max-sm:w-[80%]">
                         <div className="relative inline-block w-[100%] p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md max-lg:w-[80%] max-xl:w-[100%] ">
-                            <Link to="/Contact" className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
+                            <Link to="/contact" className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold" onClick={() => window.scrollTo(0, 0)}>
                                 S’inscrire                            
                             </Link>
                         </div>
