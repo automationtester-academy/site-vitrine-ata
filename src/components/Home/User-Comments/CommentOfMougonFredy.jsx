@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Fredy from '../../../assets/images/Profils/Fredy.svg'
 export default function CommentOfMougonFredy(){
     return(
@@ -10,7 +11,7 @@ export default function CommentOfMougonFredy(){
             </p>
             <div className="Comments_profil_image flex flex-row mt-[4%]">
                 <img src={Fredy} alt="Fredy profil picture"/>
-                <p className="text-black text-xl font-bold  flex self-center px-6">Fredy<span className="text-cyan-400 ms-1"> Mougon</span></p>
+                <Link to='https://www.linkedin.com/in/frédy-mougon?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD8epoUBHLzu9eH642V4yIAtBGEqtlq5NmU&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BJ%2BSKad2YQrqdhcDeTJRNmQ%3D%3D' className="text-black text-xl font-bold  flex self-center px-6" target="_blank">Fredy<span className="text-cyan-400 ms-1"> Mougon</span></Link>
             </div> 
         </div>
         
