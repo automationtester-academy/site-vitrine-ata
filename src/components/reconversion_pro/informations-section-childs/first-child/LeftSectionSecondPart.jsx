@@ -1,11 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import { addDays, format, getDay } from 'date-fns';
 
 export default function LeftSectionSecondPart() {
-    const spanContent = ['19 / 02 / 2024', 'Completed'];
+    
     const intervalTime = 3000;
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
     const intervalRef = useRef(null);
+    const [mondays, setMondays] = useState([]);
 
     useEffect(() => {
         intervalRef.current = setInterval(() => {
@@ -14,6 +16,27 @@ export default function LeftSectionSecondPart() {
 
         return () => clearInterval(intervalRef.current);
     }, []);
+
+    const getTheNextThreeMonday = () => {
+        const today = new Date();
+        const dayOfWeek = getDay(today);
+        const daysUntilNextMonday = (8 - dayOfWeek) % 7 || 7;
+    
+        const mondays = [];
+    
+        for (let i = 0; i < 4; i++) {
+            const nextMonday = addDays(today, daysUntilNextMonday + i * 7);
+            mondays.push(format(nextMonday, 'dd / MM / yyyy'));
+        }
+    
+        return mondays;
+    }
+
+    useEffect(() => {
+        setMondays(getTheNextThreeMonday());
+    }, [])
+
+    const spanContent = [mondays[0], 'Completed'];
     return (
         <>
             <div className="content-div py-8">
@@ -42,15 +65,15 @@ export default function LeftSectionSecondPart() {
                                     ))}
                                 </div>
                                 <div className="py-2 reservations-date-reconversion px-6 w-[35%] flex justify-center rounded bg-gradient-to-r from-[#1197BE] to-[#39DDF5]">
-                                    <span className="text-white font-bold">22 / 04 / 2024</span>
+                                    <span className="text-white font-bold">{mondays[1]}</span>
                                 </div>
                             </div>
                             <div className="flex justify-around reservations-date-reconversion-container">
                                 <div className="py-2 reservations-date-reconversion px-6 w-[35%] flex justify-center rounded bg-gradient-to-r from-[#1197BE] to-[#39DDF5]">
-                                    <span className="text-white font-bold">09 / 09 / 2024</span>
+                                    <span className="text-white font-bold">{mondays[2]}</span>
                                 </div>
                                 <div className="py-2 reservations-date-reconversion px-6 w-[35%] flex justify-center rounded bg-gradient-to-r from-[#1197BE] to-[#39DDF5]">
-                                    <span className="text-white font-bold">25 / 11 / 2024</span>
+                                    <span className="text-white font-bold">{mondays[3]}</span>
                                 </div>
                             </div>
                         </div>
