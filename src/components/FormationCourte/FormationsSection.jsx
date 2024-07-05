@@ -11,7 +11,7 @@ function FormationsSection() {
     const fetchData = async () => {
       try {
         const response = await axios.get('http://127.0.0.1:8000/api/formations'); 
-        const filteredFormations = response.data.filter(formation => formation.status === 1 );
+        const filteredFormations = response.data.filter(formation => formation.status === 1);
         setFormations(filteredFormations); 
       } catch (error) {
         console.error('Error fetching formations:', error);
@@ -24,8 +24,8 @@ function FormationsSection() {
   return (
     <div>
       <section className="Recruiters w-full max-sm:h-max">
-        <div className='column_holder mt-[4rem] w-[100%] m-auto mb-10'>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-[75%] max-sm:w-[90%] m-auto'>
+        <div className="column_holder mt-[4rem] w-[100%] m-auto mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-[75%] max-sm:w-[90%] lg-custom-width m-auto">
             {formations.map((formation) => (
               <div key={formation.id} className="">
                 <div className="relative">
@@ -45,30 +45,30 @@ function FormationsSection() {
                       </div>
                     </div>
 
-                    <div className='card_content'>
+                    <div className="card_content">
                       <div className="flex flex-row items-center pb-6">
                         <img src={TimeIcon} alt="Time Icon" className="mr-4" />
-                        <h1 className='text-cyan-400'>
-                          {formation.duration} <span className='text-white'>jours</span>
+                        <h1 className="text-cyan-400">
+                          {formation.duration} <span className="text-white">jours</span>
                         </h1>
                       </div>
 
                       <div className="flex flex-row items-center pb-6">
                         <img src={prixIcon} alt="Prix Icon" className="mr-4" />
-                        <h1 className='text-cyan-400'>
+                        <h1 className="text-cyan-400">
                           {formation.price}€ <span className="text-white">HT / personne</span>
                         </h1>
                       </div>
 
                       <div className="flex flex-row items-center pb-6">
                         <img src={GroupIcon} alt="Group Icon" className="mr-4" />
-                        <h1 className='text-white'>
+                        <h1 className="text-white">
                           Tarif groupé sur devis
                         </h1>
                       </div>
                     </div>
 
-                    <div className=" flex-shrink-0 my-2.5 lg:my-0 mx-auto text-center">
+                    <div className="flex-shrink-0 my-2.5 lg:my-0 mx-auto text-center">
                       <div className="relative inline-block p-[1.2px] pl-[1px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
                         <div className="Header-text block px-5 text-xs py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                           Télécharger le programme
