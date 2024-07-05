@@ -29,7 +29,7 @@ export default function FormationCourteSection() {
                                 En savoir plus
                             </div>
                         </Link> */}
-                        <Link to='/formation-courte' className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-800 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
+                        <Link to='/formation-courte' className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-800 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold" onClick={() => window.scrollTo(0, 0)}>
                             En savoir plus
                         </Link>
                     </div>
