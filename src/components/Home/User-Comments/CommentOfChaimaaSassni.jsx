@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Chaimaa from "../../../assets/images/Profils/Chaimaa.svg"
 
 export default function CommentOfChaimaaSassni() {
@@ -12,9 +13,9 @@ export default function CommentOfChaimaaSassni() {
                 </p>
                 <div className="Comments_profil_image flex flex-row mt-[4%]">
                     <img src={Chaimaa} alt="girl profil picture"/>
-                    <p className="text-black text-xl font-bold flex self-center px-6">
+                    <Link to='https://www.linkedin.com/in/chaimaa-sasni-bba17316b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAChszf4B5EsBSZoCEnLFjh6yq_CyVNRCsIY&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BO4zWs%2Fx%2FRlmPd04xfffxUw%3D%3D' target="_blank" className="text-black text-xl font-bold flex self-center px-6">
                     Chaimaa<span className="text-cyan-400 ms-1"> Sassni</span>
-                    </p>
+                    </Link>
                 </div> 
             </div>
         </>
