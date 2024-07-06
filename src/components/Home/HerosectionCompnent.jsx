@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 export default function HerosectionCompnent() {
     return (
         <>
-            <section className="herosection_parent border-b-[0.0001vh] border-slate-500 sm:max-lg:h-[10%] flex max-sm:w-full sm:max-lg:w-full sm:max-lg:justify-center max-sm:justify-center">
-                <div className="hero_main_section ml-[9rem] flex lg:flex-row my-5 lg:justify-between max-sm:mx-0 sm:max-lg:m-0 max-sm:justify-center max-sm:mb-16">
+            <section className="herosection_parent border-b-[0.0001vh] border-slate-500 lg:max-xl:w-[100%]  sm:max-lg:h-[10%] flex max-sm:w-full sm:max-lg:w-full sm:max-lg:justify-center max-sm:justify-center">
+                <div className="hero_main_section ml-[9rem]  lg:max-xl:!w-[100%] lg:max-xl:mx-[0%] flex lg:flex-row my-5 lg:justify-between max-sm:mx-0 sm:max-lg:m-0 max-sm:justify-center max-sm:mb-16">
                     <div className="Herosection relative w-5/12 sm:max-lg:w-full sm:max-lg:h-full sm:max-lg:mb-36 max-sm:w-full">
                         <div className="Herosection_firstcomp w-1/3 sm:max-lg:w-full max-sm:w-full">
-                            <div className="Herosection_underbackground_img w-[30rem] max-sm:hidden">
+                            <div className="Herosection_underbackground_img w-[30rem]  sm:max-lg:w-[100%] max-sm:hidden">
                                 <HomeCompBackground />
                             </div>
                             <div className="Herosection_Text w-[31rem] mr-10 sm:max-lg:w-full max-sm:w-full max-sm:relative">
@@ -27,7 +27,7 @@ export default function HerosectionCompnent() {
                                 </p>
                                 <div className="flex-shrink-0 mt-6">
                                     <div className="Header_Box_border relative inline-block p-[2px] pl-[1.75px] bg-gradient-to-r from-cyan-600 to-teal-200 rounded-md max-sm:w-full">
-                                        <Link to="" className="Header-text w-full block px-6 text-md py-1.5 text-white rounded-md hover:text-white font-semibold">
+                                        <Link to="/Formation" className="Header-text w-full block px-6 text-md py-1.5 text-white rounded-md hover:text-white font-semibold" onClick={() => window.scrollTo(0, 0)}>
                                             Découvrer nos formations
                                         </Link>
                                     </div>
