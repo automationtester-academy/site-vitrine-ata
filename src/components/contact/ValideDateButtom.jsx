@@ -79,7 +79,7 @@ export default function ValideDateButtom({ date, time, setReserveDate, setReserv
                 setLoading(false);
                 setResponseOk(null);
                 // console.log(error.response.status); // 422
-                setResponseError(error.response.data.message); // error message
+                setResponseError(error.response.data.message);
                 setReserveDate(null);
                 setReserveTime(null);
                 setError(true);
