@@ -24,7 +24,7 @@ export default function NotFound() {
                             <div className=' flex flex-row w-[100%] justify-evenly items-center pt-[6%] max-lg:flex-col max-xl:w-[90%] '>
                             <div className="NavBarLinks_button flex flex-shrink-0  my-2.5 lg:my-0  max-lg:justify-center max-lg:items-center max-lg:w-[90%] max-xl:w-[50%] max-sm:w-[80%]">
                                 <div className="relative inline-block  p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md max-lg:w-[80%] ">
-                                    <Link to="/Formation" className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
+                                    <Link to="/formation" className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                                             Explorer nos cours                            
                                     </Link>
                                 </div>

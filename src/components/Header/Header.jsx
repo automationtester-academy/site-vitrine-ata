@@ -52,14 +52,14 @@ export default function Header() {
               L’école
             </Link>
             <Link
-              to="/Formation"
+              to="/formation"
               className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 mr-4 hover:underline font-semibold max-xl:text-md"
               onClick={closeMenu}
             >
               Formations
             </Link>
             <Link
-              to="/Financement"
+              to="/financement"
               className="block mt-4 text-lg lg:inline-block lg:mt-0 text-white hover:text-cyan-600 hover:underline font-semibold max-xl:text-md"
               onClick={closeMenu}
             >
