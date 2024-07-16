@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { addDays, format, getDay } from 'date-fns';
+import { addDays, addMonths, format, getDay } from 'date-fns';
 
 export default function LeftSectionSecondPart() {
     
@@ -17,23 +17,26 @@ export default function LeftSectionSecondPart() {
         return () => clearInterval(intervalRef.current);
     }, []);
 
-    const getTheNextThreeMonday = () => {
+    const getTheNextFourMonthlyMondays = () => {
         const today = new Date();
         const dayOfWeek = getDay(today);
         const daysUntilNextMonday = (8 - dayOfWeek) % 7 || 7;
     
         const mondays = [];
+        let nextMonday = addDays(today, daysUntilNextMonday);
     
         for (let i = 0; i < 4; i++) {
-            const nextMonday = addDays(today, daysUntilNextMonday + i * 7);
-            mondays.push(format(nextMonday, 'dd / MM / yyyy'));
+            mondays.push(format(nextMonday, 'dd/MM/yyyy'));
+            nextMonday = addMonths(nextMonday, 4);
+            // Find the next Monday after adding 4 months
+            nextMonday = addDays(nextMonday, (8 - getDay(nextMonday)) % 7 || 7);
         }
     
         return mondays;
     }
 
     useEffect(() => {
-        setMondays(getTheNextThreeMonday());
+        setMondays(getTheNextFourMonthlyMondays());
     }, [])
 
     const spanContent = [mondays[0], 'Completed'];

@@ -4,10 +4,10 @@ export default function FooterFirstList() {
     <>
       <ul className="list-none footer-list">
         <li className="mb-3 mt-5">
-          <Link to={"/Ecole"}>L’école</Link>
+          <Link to={"/ecole"} onClick={() => window.scrollTo(0, 0)}>L’école</Link>
         </li>
         <li data-cy="contact-us-footer" className="mb-3">
-          <Link to={"/contact"}>Nous contacter</Link>
+          <Link to={"/contact"} onClick={() => window.scrollTo(0, 0)}>Nous contacter</Link>
         </li>
         <li className="mb-3">Egalité professionnelle</li>
         <li className="mb-3">Certificat Qualiopi</li>
