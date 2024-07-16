@@ -1,6 +1,5 @@
 import "../../assets/css/style.css";
 import { useEffect, useRef, useState } from "react";
-import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 import FirstName from "../../components/Contact_Form/Formcomponents/FirstName";
 import LastName from "../../components/Contact_Form/Formcomponents/LastName.jsx";
@@ -23,7 +22,6 @@ export default function ThirdSection({ date, time, setReserveDate, setReserveTim
         appointment_date: null,
         appointment_time: null
     });
-    console.log(date + ' ' + time);
 
     useEffect(() => {
         setFormData((prevData) => ({
@@ -37,46 +35,33 @@ export default function ThirdSection({ date, time, setReserveDate, setReserveTim
         setFormData({ ...formData, [name]: value });
     }
 
+
     const sendEmail = (e) => {
         e.preventDefault();
 
-        if (!isChecked1) {
-            toast.error("Veuillez accepter les champs obligatoires pour continuer.");
-            return;
-        }
-
         if (!date && !time) {
-            toast.error("Veuillez choisir un date de rondez-vous pour continuer.");
+            toast.error("Veuillez choisir un date de rondez-vous pour continuer");
             return;
         }
 
-        console.log(formData);
+        if (!isChecked1) {
+            toast.error("Veuillez accepter les champs obligatoires pour continuer");
+            return;
+        }
 
         axios.post('http://127.0.0.1:8000/api/reserve/appointment/', formData)
             .then(res => {
-                console.log(res.data.message);
+                e.target.reset();
                 toast.success(res.data.message);
                 setReserveDate(null);
                 setReserveTime(null);
-                e.target.reset();
             })
             .catch(error => {
                 if (error.response.status == 422) {
-                    toast.error(error.response.data.errors);
+                    toast.error(error.response.data.error);
                 }
             })
 
-        // emailjs.sendForm('service_j6ah8nq', 'template_dcvddqj', form.current, 'zS56IQ0vpT9z2884L')
-        //     .then(
-        //         (result) => {
-        //             toast.success("Le message a été envoyé avec succès");
-        //             e.target.reset();
-
-        //         },
-        //         (error) => {
-        //             toast.error(error.text);
-        //         }
-        //     );
     };
 
     return (

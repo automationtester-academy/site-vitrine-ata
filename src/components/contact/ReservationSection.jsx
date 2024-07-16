@@ -18,7 +18,7 @@ export default function ReservationSection() {
 
 
     const [selectedTime, setSelectedTime] = useState(null);
-    const [selectedDate, setSelectedDate] = useState(null); 
+    const [selectedDate, setSelectedDate] = useState(null);
     const [finalDate, setFinalDate] = useState(null);
     const [finalTime, setFinalTime] = useState(null);
 
@@ -111,11 +111,9 @@ export default function ReservationSection() {
                 </div>
             </div>
             <div className={`flex justify-center transition-opacity duration-1000 ${selectedTime ? 'opacity-100' : 'opacity-0'}`}>
-                <div className='w-[50%] px-16 py-5 contact-valide-button flex justify-end'>
-                    <ValideDateButtom date={dateValue} time={selectedTime} setReserveDate={setFinalDate} setReserveTime={setFinalTime} />
-                </div>
+                <ValideDateButtom date={dateValue} time={selectedTime} setReserveDate={setFinalDate} setReserveTime={setFinalTime} />
             </div>
-            <ThirdSection date={finalDate} time={finalTime} setReserveDate={setFinalDate} setReserveTime={setFinalTime}/>
+            <ThirdSection date={finalDate} time={finalTime} setReserveDate={setFinalDate} setReserveTime={setFinalTime} />
 
         </>
 

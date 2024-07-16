@@ -904,6 +904,16 @@ footer .footer-container {
     .reservation-container {
         width: 340px !important;
     }
+
+    .contact-valide-button {
+        width: 80% !important;
+        flex-direction: column !important;
+    }
+
+    .contact-valide-button .error-section {
+        width: 100% !important;
+        margin-bottom: 0.5rem;
+    }
 }
 
 @media (min-width: 610px) and (max-width: 1250px) {
