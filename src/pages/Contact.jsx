@@ -9,7 +9,6 @@ export default function Contact(){
             <FirstSection />
             <SecondSection />
             <ReservationSection />
-            <ThirdSection />
             <FooterPartenaires />
         </>
     )

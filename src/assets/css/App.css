@@ -287,9 +287,9 @@ footer .footer-container {
     width: 44%;
 }
 
-.reservation-calendar-section {
+/* .reservation-calendar-section {
     margin-bottom: 4rem;
-}
+} */
 
 .reservation-container div .reservation-container-first-section div {
     border-color: rgb(71, 90, 116);
@@ -888,6 +888,34 @@ footer .footer-container {
     }
 }
 
+@media (min-width: 800px) and (max-width: 900px){
+    .calendar-container, .reservation-container {
+        width: 40% !important;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .reservation-calendar-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .calendar-container,
+    .reservation-container {
+        width: 340px !important;
+    }
+
+    .contact-valide-button {
+        width: 80% !important;
+        flex-direction: column !important;
+    }
+
+    .contact-valide-button .error-section {
+        width: 100% !important;
+        margin-bottom: 0.5rem;
+    }
+}
+
 @media (min-width: 610px) and (max-width: 1250px) {
     .contact-text-container h2 {
         width: 60%;
@@ -901,16 +929,6 @@ footer .footer-container {
 }
 
 @media only screen and (max-width: 670px) {
-    .reservation-calendar-section {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .calendar-container,
-    .reservation-container {
-        width: 340px !important;
-    }
-
     .reconversion-first-section-container .reconversion-first-section-title h2 {
         font-size: 30px;
     }
@@ -976,6 +994,10 @@ footer .footer-container {
 
     .contact-text-container h2 {
         font-size: 1.5rem;
+    }
+
+    .contact-valide-button {
+        justify-content: center !important;
     }
 }
 
