@@ -28,7 +28,6 @@ export default function LeftSectionSecondPart() {
         for (let i = 0; i < 4; i++) {
             mondays.push(format(nextMonday, 'dd/MM/yyyy'));
             nextMonday = addMonths(nextMonday, 4);
-            // Find the next Monday after adding 4 months
             nextMonday = addDays(nextMonday, (8 - getDay(nextMonday)) % 7 || 7);
         }
     
