@@ -69,11 +69,11 @@ function FormationsSection() {
                     </div>
 
                     <div className="flex-shrink-0 my-2.5 lg:my-0 mx-auto text-center">
-                      <div className="relative inline-block p-[1.2px] pl-[1px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
+                      <a href={`http://localhost:8000/storage/${encodeURIComponent(formation.program)}`} className="relative inline-block p-[1.2px] pl-[1px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
                         <div className="Header-text block px-5 text-xs py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                           Télécharger le programme
                         </div>
-                      </div>
+                      </a>
                     </div>
 
                   </div> 

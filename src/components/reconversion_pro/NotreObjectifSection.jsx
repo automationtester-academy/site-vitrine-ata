@@ -44,7 +44,9 @@ export default function NotreObjectifSection() {
                     </div> */}
                     <div className="flex justify-center button-parent-container w-full">
                         <div className=" p-0.5 hover:bg-cyan-600 w-2/6 bg-gradient-to-r from-[#3390B2] hover:bg-none to-[#87E5EC] rounded-md">
-                            <Link to={'/contact'} className="rounded-md w-full flex justify-center font-bold bg-[#071323] text-xl p-2 hover:bg-cyan-600">
+                            <Link to={'/contact'} 
+                            className="rounded-md w-full flex justify-center font-bold bg-[#071323] text-xl p-2 hover:bg-cyan-600"
+                            onClick={() => window.scrollTo(0, 0)}>
                                 <span className="text-white">
                                     Nous Contacter
                                 </span>
