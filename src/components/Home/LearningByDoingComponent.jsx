@@ -5,7 +5,7 @@ export default function LearningByDoingComponent(){
     return(
         <>
         <section className="HeroSection_Learningbydoing border-b-[0.0001vh] border-slate-500 ">
-            <div className="HeroSection_Learningbydoing_main flex justify-between  h-[65vh] ml-56 mt-10 mb-20   lg:max-xl:mb-[0%] lg:max-xl:w-[100%] lg:max-xl:mx-[0%] lg:max-xl:h-[90%]  sm:max-lg:w-full sm:max-lg:mx-0  max-sm:mx-0 max-sm:flex-col  max-sm:h-fit">
+            <div className="HeroSection_Learningbydoing_main flex justify-between  h-[65vh] ml-56 mt-10 mb-20 2xl:max-3xl:bg-red-300   lg:max-xl:mb-[0%] lg:max-xl:w-[100%] lg:max-xl:mx-[0%] lg:max-xl:h-[90%]  sm:max-lg:w-full sm:max-lg:mx-0  max-sm:mx-0 max-sm:flex-col  max-sm:h-fit">
                 <div className="HeroSection_Learningbydoing_main_parentImg w-[65vh] lg:max-xl:w-[50%] sm:max-lg:w-[90%]   max-sm:w-[100%] max-sm:px-10" alt="image of two mates learning together">
                     <img className="HeroSection_Learningbydoing_main_Img w-full h-full max-sm:object-scale-down"src={WorkingTogetherImg} alt="two students are studiying together" />
                 </div>
