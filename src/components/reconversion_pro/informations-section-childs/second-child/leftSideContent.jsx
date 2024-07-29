@@ -1,9 +1,18 @@
-import certification from "../../assets/images/formation_court/starts.png";
-import preqeouis from "../../assets/images/formation_court/paper.png";
-import financement from "../../assets/images/formation_court/Group.png";
+import certification from "../../../../assets/images/formation_court/starts.png";
+import preqeouis from "../../../../assets/images/formation_court/paper.png";
+import financement from "../../../../assets/images/formation_court/Group.png";
+import { useQuery } from "@tanstack/react-query";
+import { fetchMixLearningFormation } from "../API";
 
 export default function LeftSideContent()
 {
+    const {data} = useQuery({
+        queryKey: ['Mix-Learning Formation', 2],
+        queryFn: () => fetchMixLearningFormation(2),
+        refetchOnWindowFocus: false,
+        // refetchOnMount: false,
+        cacheTime: 1000 * 60
+    });
     return (
         <>
              <div className="rightcontent">
@@ -35,7 +44,7 @@ export default function LeftSideContent()
                         <span>FINANCEMENT</span>
                     </div>
                     <div className="list-title">
-                        Prix: <span>8400 euros TTC</span>
+                        Prix: <span>{data ? data.formation.price : ""} euros TTC</span>
                         <p>Toutes nos formations sont éligibles aux dispositifs de financement.</p>
                         <br/>
                         <p>Vous pouvez ainsi bénéficier d'une formation prise en charge jusqu'à 100% selon votre situation.</p>

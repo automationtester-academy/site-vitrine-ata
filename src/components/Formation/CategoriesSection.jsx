@@ -8,7 +8,7 @@ import MixLearningSection from "./MixLearningSection";
 export default function CategoriesSection() {
     const bootcampRef = useRef(null);
     const formationCourteRef = useRef(null);
-    const abonnementRef = useRef(null);
+    // const abonnementRef = useRef(null);
     const reconversionProRef = useRef(null);
     const mixLearningRef = useRef(null);
 
@@ -36,13 +36,13 @@ export default function CategoriesSection() {
                         >
                             Formation courte
                         </button>
-                        <button
+                        {/* <button
                             onClick={() => scrollToSection(abonnementRef)}
                             className="text-white font-bold py-2 px-4 rounded hover:bg-cyan-600"
                             aria-label="Aller à la section Abonnement"
                         >
                             Abonnement
-                        </button>
+                        </button> */}
                         <button
                             onClick={() => scrollToSection(reconversionProRef)}
                             className="text-white font-bold py-2 px-4 rounded hover:bg-cyan-600"
@@ -73,9 +73,9 @@ export default function CategoriesSection() {
                 <ReconversionProSection />
             </div>
         
-            <div ref={abonnementRef}>
+            {/* <div ref={abonnementRef}>
                 <AbonnementSection />
-            </div>
+            </div> */}
            
           
         </>
