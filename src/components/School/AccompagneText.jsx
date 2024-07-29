@@ -3,7 +3,7 @@ export default function AccompagnerText() {
         <>
         <div className='financer-text-background school-text-background  flex flex-col justify-between'>
             <div className="text-center mb-4">
-                <h2 className='text-gray-200 text-3xl font-bold'>Seul tout en <span className='text-[#39DDF5]'>étant accompagné</span></h2>
+                <h2 className='text-gray-200 text-3xl font-bold'>Seul, tout en <span className='text-[#39DDF5]'>étant accompagné</span></h2>
             </div>
             <div className="mb-4">
                 <p className="text-center">Être confronté seul à l’apprentissage d’une nouvelle compétence peut s’avérer effrayant. N’ayez pas peur ! Chez ATA vous avancez de manière autonome tout en étant encadré. </p>
