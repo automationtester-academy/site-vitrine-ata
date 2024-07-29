@@ -75,7 +75,6 @@ function FormationsSection() {
                         </div>
                       </a>
                     </div>
-
                   </div> 
                 </div>
               </div>
