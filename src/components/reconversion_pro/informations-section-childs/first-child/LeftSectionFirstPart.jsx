@@ -1,6 +1,17 @@
+import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
+import { fetchMixLearningFormation } from "../API";
 
 export default function LeftSectionFirstPart() {
+
+    const {data} = useQuery({
+        queryKey: ['Mix-Learning Formation', 2],
+        queryFn: () => fetchMixLearningFormation(2),
+        refetchOnWindowFocus: false,
+        // refetchOnMount: false,
+        cacheTime: 1000 * 60
+    });
+
     return (
         <>
             <div className="content-div py-8">
@@ -25,11 +36,21 @@ export default function LeftSectionFirstPart() {
                         </div>
                         <div className="telecharger-le-programme-button">
                             <div className="p-0.5 flex hover:bg-none hover:bg-cyan-600 bg-gradient-to-r  from-[#3390B2] to-[#87E5EC] rounded-md">
-                                <Link to={'/'} className="rounded-md flex justify-center h-full bg-[#071323] w-full text-xl p-2 hover:bg-cyan-600">
-                                    <span className="text-white text-center">
-                                        Télécharger le programme
-                                    </span>
-                                </Link>
+                            {data ? (
+                                <a
+                                    target="_blank"
+                                    href={`http://localhost:8000/storage/${encodeURIComponent(data.formation.program)}`}
+                                    className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold"
+                                >
+                                    Télécharger le programme
+                                </a>
+                            ) : (
+                                <div
+                                className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold"
+                                >
+                                    Télécharger le programme
+                                </div>
+                            )}
                             </div>
                         </div>
                     </div>
