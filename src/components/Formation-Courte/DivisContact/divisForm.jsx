@@ -20,14 +20,6 @@ export default function DivisForm() {
     const [numberOfCondidates, setNumberOfCondidates] = useState("");
     const [startingDate, setStartingDate] = useState("");
 
-    // const handleChange = (e) => {
-    //     const { name, value } = e.target;
-    //     setFormData(prevState => ({
-    //         ...prevState,
-    //         [name]: value
-    //     }));
-    // };
-
     const handleSubmit = async (e) => {
         e.preventDefault();
 
