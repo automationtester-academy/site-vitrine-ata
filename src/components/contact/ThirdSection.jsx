@@ -13,6 +13,8 @@ export default function ThirdSection() {
     const [phoneNumber, setPhoneNumber] = useState("");
     const [message, setMessage] = useState("");
     const [isChecked1, setChecked1] = useState(false);
+    const [isChecked, setChecked] = useState(false);
+
   
     const handleSubmit = async (e) => {
       e.preventDefault();
@@ -65,6 +67,8 @@ export default function ThirdSection() {
       setEmail("");
       setPhoneNumber("");
       setMessage("");
+      setChecked("");
+      setChecked1("");
     };
   
 
@@ -145,10 +149,7 @@ export default function ThirdSection() {
                                 </div>
 
 
-                                <PrivacyPolicy 
-                                    isChecked1={isChecked1}
-                                    setChecked1={setChecked1}
-                                />
+                                <PrivacyPolicy isChecked1={isChecked1} setChecked1={setChecked1} isChecked={isChecked} setChecked={setChecked}/>
                                 <SendMessage />
                             </form>
                         </div>
