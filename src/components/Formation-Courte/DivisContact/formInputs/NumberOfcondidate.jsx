@@ -3,12 +3,9 @@ import React from 'react';
 function NumberOfCondidates({ value, onChange }) {
     return (
         <div className="flex-1 px-2">
-<<<<<<< HEAD
-=======
 
 
 
->>>>>>> 2b3c21c6cc5cc3604c359d11922b0584b282addd
             <div className="relative h-11 w-full min-w-[200px]    max-sm:mb-10">
                 <label for="underline_select" class="sr-only">Underline select</label>
                 <select id="underline_select" name="numberOfCondidates"

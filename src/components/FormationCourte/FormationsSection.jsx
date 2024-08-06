@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import axios from 'axios';
 import TimeIcon from '../../assets/images/formationCourte/icons/TimeIcon.png';
 import prixIcon from '../../assets/images/formationCourte/icons/prixIcon.png';
 import GroupIcon from '../../assets/images/formationCourte/icons/GroupIcon.png';

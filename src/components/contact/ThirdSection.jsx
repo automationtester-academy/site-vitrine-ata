@@ -5,7 +5,6 @@ import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import SendMessage from "../../components/Contact_Form/Formcomponents/SendMessage.jsx";
 import PrivacyPolicy from "../../components/Contact_Form/Formcomponents/PrivacyPolicy";
-import axios from "axios";
 
 export default function ThirdSection() {
     const [firstName, setFirstName] = useState("");
