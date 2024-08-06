@@ -1,25 +1,35 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import TimeIcon from '../../assets/images/formationCourte/icons/TimeIcon.png';
 import prixIcon from '../../assets/images/formationCourte/icons/prixIcon.png';
 import GroupIcon from '../../assets/images/formationCourte/icons/GroupIcon.png';
 
+
 function FormationsSection() {
   const [formations, setFormations] = useState([]);
-
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get('http://127.0.0.1:8000/api/formations'); 
-        const filteredFormations = response.data.filter(formation => formation.status === 1);
-        setFormations(filteredFormations); 
-      } catch (error) {
-        console.error('Error fetching formations:', error);
-      }
-    };
-
-    fetchData();
+    fetch('../../../src/components/FormationCourte/FormationCourte.json')
+      .then(response => response.json())
+      .then(data => setFormations(data))
+      .catch(error => console.error('Error fetching data:', error));
   }, []);
+
+
+  //If you want to use the backend, you can use this code .
+
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const response = await axios.get('http://127.0.0.1:8000/api/formations'); 
+  //       const filteredFormations = response.data.filter(formation => formation.status === 1);
+  //       setFormations(filteredFormations); 
+  //     } catch (error) {
+  //       console.error('Error fetching formations:', error);
+  //     }
+  //   };
+
+  //   fetchData();
+  // }, []);
+
 
   return (
     <div>
@@ -32,11 +42,12 @@ function FormationsSection() {
                   <div className="w-[100%] border-2 border-cyan-400 pt-6 pr-8 pb-8 pl-8 rounded-3xl">
                     <div className="flex flex-row items-center border-b border-cyan-400 pb-2 mb-4">
                       <div className="w-1/6 mr-4"> 
-                        <img 
+                        {/* <img 
                           src={`http://127.0.0.1:8000/storage/${formation.image}`} 
                           alt="image_formation" 
                           className="w-full h-full object-cover fixed-size"
-                        />
+                        /> */}
+                        <img src={formation.image} alt={formation.titre} className="w-full h-full object-cover fixed-size" />
                       </div>
                       <div className="w-5/6">
                         <h1 className="text-cyan-400 text-lg font-semibold">
@@ -69,11 +80,11 @@ function FormationsSection() {
                     </div>
 
                     <div className="flex-shrink-0 my-2.5 lg:my-0 mx-auto text-center">
-                      <a target='blank' href={`http://localhost:8000/storage/${encodeURIComponent(formation.program)}`} className="relative inline-block p-[1.2px] pl-[1px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
-                        <div className="Header-text block px-5 text-xs py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
+                      <div className="relative inline-block p-[1.2px] pl-[1px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
+                        <a href={formation.program} className="Header-text block px-5 text-xs py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                           Télécharger le programme
-                        </div>
-                      </a>
+                        </a>
+                      </div>
                     </div>
                   </div> 
                 </div>
