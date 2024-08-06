@@ -29,8 +29,8 @@ export default function  ATALogo(){
             <path d="M234.951 39.9999H232.857L234.306 36.2125L230.324 26.3104H232.399L235.333 33.9606L238.057 26.3104H240L234.951 39.9999Z" fill="#39DDF5"/>
             <defs>
             <linearGradient id="paint0_linear_245_12042" x1="42.6395" y1="37.2763" x2="43.1763" y2="11.8904" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#1299C0"/>
-            <stop offset="1" stop-color="#39DDF5"/>
+            <stop stopColor="#1299C0"/>
+            <stop offset="1" stopColor="#39DDF5"/>
             </linearGradient>
             </defs>
             </svg>
