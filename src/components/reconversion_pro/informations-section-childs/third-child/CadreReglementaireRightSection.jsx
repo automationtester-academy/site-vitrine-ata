@@ -1,11 +1,16 @@
 import StatistixsImg from "../../../../assets/images/formation_court/statistics.png"
 export default function CadreReglementaireRightSection() {
+
+    const currentYear = new Date();
+    const nextYear = new Date();
+    nextYear.setFullYear(currentYear.getFullYear() + 1);
+
     return (
         <div className="p-3 h-100 overflow-auto">
             <div className="flex">
                 <img src={StatistixsImg} alt="" className="w-14 h-14 self-center mr-6" />
                 <h4 className="uppercase text-2xl font-medium text-[#39DDF5] cadre-reglementaire-titles">
-                    TAUX D'OBTENTION <br /> 2022 / 2023
+                    TAUX D'OBTENTION <br /> {currentYear.getFullYear()} / {nextYear.getFullYear()}
                 </h4>
             </div>
             <div className="mt-4 pl-7">
@@ -34,7 +39,7 @@ export default function CadreReglementaireRightSection() {
                 <div className="flex">
                     <img src={StatistixsImg} alt="" className="w-14 h-14 mr-6 self-center" />
                     <h4 className="uppercase text-2xl font-medium text-[#39DDF5] cadre-reglementaire-titles">
-                        TAUX D'OBTENTION <br /> 2022 / 2023
+                        TAUX D'OBTENTION <br /> {currentYear.getFullYear()} / {nextYear.getFullYear()}
                     </h4>
                 </div>
                 <div className="pl-8 mt-5">

@@ -1,5 +1,5 @@
 import TeachingMethod from "./informations-section-childs/first-child/TeachingMethod";
-import InfoPratique from "./InfoPratice";
+import InfoPratique from "./informations-section-childs/second-child/InfoPratice";
 import CadreReglementaire from "./informations-section-childs/third-child/CadreReglementaire";
 
 export default function InformationsSection(){

@@ -1,7 +1,7 @@
 import LeftSideContent from "./leftSideContent";
 import RightSideContent from "./RightSideContent";
-import "../../assets/css/style.css";
-import "../../assets/css/App.css";
+import "../../../../assets/css/style.css";
+import "../../../../assets/css/App.css";
 
 
 export default function InfoPratice()

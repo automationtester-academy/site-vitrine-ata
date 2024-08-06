@@ -45,7 +45,7 @@ export const router = createBrowserRouter([
                 element: <FormationCourte/>
             },
             {
-                path:'/Formation-courte',
+                path:'/formation-courte',
                 element: <FormationCourte/>
             },
             {

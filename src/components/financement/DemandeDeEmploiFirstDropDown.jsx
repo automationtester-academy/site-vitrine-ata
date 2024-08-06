@@ -30,7 +30,7 @@ export default function DemandeDeEmploiFirstDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">CPF: Compte personnel de formation</p>
+                                <p className="text-xl text-white">Compte personnel de formation</p>
                             </div>
                         </div>
                         <div>
@@ -46,7 +46,7 @@ export default function DemandeDeEmploiFirstDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">AVANTAGES :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Vous pouvez utiliser votre compte CPF pour financer votre formation O’clock. Si la somme disponible ne couvre pas la totalité des frais de formation, vous pouvez compléter soit par un autofinancement, soit par une demande d’AIF (Aide individuelle de formation) auprès de France Travail.</p>
+                                <p className="text-xl text-white">Vous pouvez utiliser votre compte CPF pour financer votre formation Automation Tester Academy. Si la somme disponible ne couvre pas la totalité des frais de formation</p>
                             </div>
                         </div>
                         <div>
