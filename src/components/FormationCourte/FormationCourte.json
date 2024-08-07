@@ -1,0 +1,113 @@
+[
+    {
+      "titre": "Course 1",
+      "description": "This is a description for Course 1.",
+      "owner": "salima",
+      "price": 100,
+      "status": 1,
+      "duration": "4 weeks",
+      "category_id": 1,
+      "program": "https://drive.google.com/file/d/11ql1CD2rqrZ_H1YmJLfEnmogkHJoRsTk/view?usp=sharing",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "titre": "Course 2",
+      "description": "This is a description for Course 2.",
+      "owner": "salima",
+      "price": 150,
+      "status": 1,
+      "duration": "6 weeks",
+      "category_id": 1,
+      "program": "https://drive.google.com/file/d/11ql1CD2rqrZ_H1YmJLfEnmogkHJoRsTk/view?usp=sharing",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "titre": "Course 3",
+      "description": "This is a description for Course 3.",
+      "owner": "salima",
+      "price": 200,
+      "status": 1,
+      "duration": "8 weeks",
+      "category_id": 1,
+      "program": "https://drive.google.com/file/d/11ql1CD2rqrZ_H1YmJLfEnmogkHJoRsTk/view?usp=sharing",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "titre": "Course 4",
+      "description": "This is a description for Course 4.",
+      "owner": "salima",
+      "price": 250,
+      "status": 1,
+      "duration": "10 weeks",
+      "category_id": 1,
+      "program": "https://drive.google.com/file/d/11ql1CD2rqrZ_H1YmJLfEnmogkHJoRsTk/view?usp=sharing",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "titre": "Course 5",
+      "description": "This is a description for Course 5.",
+      "owner": "salima",
+      "price": 300,
+      "status": 1,
+      "duration": "12 weeks",
+      "category_id": 1,
+      "program": "https://drive.google.com/file/d/11ql1CD2rqrZ_H1YmJLfEnmogkHJoRsTk/view?usp=sharing",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "titre": "Course 6",
+      "description": "This is a description for Course 6.",
+      "owner": "salima",
+      "price": 350,
+      "status": 1,
+      "duration": "14 weeks",
+      "category_id": 1,
+      "program": "https://drive.google.com/file/d/11ql1CD2rqrZ_H1YmJLfEnmogkHJoRsTk/view?usp=sharing",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "titre": "Course 7",
+      "description": "This is a description for Course 7.",
+      "owner": "salima",
+      "price": 400,
+      "status": 1,
+      "duration": "16 weeks",
+      "category_id": 1,
+      "program": "https://drive.google.com/file/d/11ql1CD2rqrZ_H1YmJLfEnmogkHJoRsTk/view?usp=sharing",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "titre": "Course 8",
+      "description": "This is a description for Course 8.",
+      "owner": "salima",
+      "price": 450,
+      "status": 1,
+      "duration": "18 weeks",
+      "category_id": 1,
+      "program": "https://drive.google.com/file/d/11ql1CD2rqrZ_H1YmJLfEnmogkHJoRsTk/view?usp=sharing",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "titre": "Course 9",
+      "description": "This is a description for Course 9.",
+      "owner": "salima",
+      "price": 500,
+      "status": 1,
+      "duration": "20 weeks",
+      "category_id": 1,
+      "program": "https://drive.google.com/file/d/11ql1CD2rqrZ_H1YmJLfEnmogkHJoRsTk/view?usp=sharing",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "titre": "Course 10",
+      "description": "This is a description for Course 10.",
+      "owner": "salima",
+      "price": 550,
+      "status": 1,
+      "duration": "22 weeks",
+      "category_id": 1,
+      "program": "https://drive.google.com/file/d/11ql1CD2rqrZ_H1YmJLfEnmogkHJoRsTk/view?usp=sharing",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  

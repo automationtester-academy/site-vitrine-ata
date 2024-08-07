@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Message({ onInputChange }) {
+function Message({ value, onChange }) {
 
     const handleChange = (event) => {
         onInputChange('message', event.target.value);
@@ -13,11 +13,12 @@ function Message({ onInputChange }) {
                 Message <span className={'text-cyan-400 ml-1'}>*</span>
             </label>
             <textarea name="message"
-                      className=" mt-4 textarea block w-full px-5 py-3  placeholder-gray-400 bg-slate-900 bg-opacity-0  border-2  rounded border-gray-200
+                className=" mt-4 textarea block w-full px-5 py-3  placeholder-gray-400 bg-slate-900 bg-opacity-0  border-2  rounded border-gray-200
                                             dark:placeholder-gray-600  text-white dark:border-gray-700 outline-none"
-                      placeholder=""
-                      onChange={handleChange}
-                      ></textarea>
+                placeholder=""
+                onChange={onChange}
+                value={value}
+            ></textarea>
         </div>
     );
 }
