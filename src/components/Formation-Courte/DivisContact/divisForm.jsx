@@ -142,7 +142,6 @@ export default function DivisForm() {
                                     <NumberOfCondidates value={numberOfCondidates} onChange={(e) => setNumberOfCondidates(e.target.value)} />
                                     <StartingDate value={startingDate} onChange={(e) => setStartingDate(e.target.value)} />
                                 </div>
-                                
                                 <SendMessage />
                             </form>
                         </div>
