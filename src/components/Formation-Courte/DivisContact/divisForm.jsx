@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import CompanyName from "./formInputs/CompanyName";
 import EmailAddress from "./formInputs/emailAddress";
 import Formation from "./formInputs/Formation";
@@ -6,11 +7,9 @@ import NumberOfCondidates from "./formInputs/NumberOfcondidate";
 import StartingDate from "./formInputs/startingDate";
 import SendMessage from "./formInputs/sendMessage";
 import ContactImg from "./ContactImg";
-import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
-import { useState } from "react";
-import "../../../assets/css/style.css";
 import axios from "axios";
+import "../../../assets/css/style.css";
 
 export default function DivisForm() {
     const [companyName, setCompanyName] = useState("");
@@ -19,28 +18,88 @@ export default function DivisForm() {
     const [modeDeFormation, setModeDeFormation] = useState("");
     const [numberOfCondidates, setNumberOfCondidates] = useState("");
     const [startingDate, setStartingDate] = useState("");
+    const [errors, setErrors] = useState({});
+
+    const validate = () => {
+        const newErrors = {};
+
+        if (!companyName) {
+            newErrors.companyName = "Le nom de l'entreprise est obligatoire.";
+            toast.error(newErrors.companyName);
+            setErrors(newErrors);
+            return false;
+        }
+
+        if (!email) {
+            newErrors.email = "L'email est obligatoire.";
+            toast.error(newErrors.email);
+            setErrors(newErrors);
+            return false;
+        } else if (!/\S+@\S+\.\S+/.test(email)) {
+            newErrors.email = "L'adresse e-mail est invalide.";
+            toast.error(newErrors.email);
+            setErrors(newErrors);
+            return false;
+        }
+
+        if (!formation) {
+            newErrors.formation = "La formation est obligatoire.";
+            toast.error(newErrors.formation);
+            setErrors(newErrors);
+            return false;
+        }
+
+        if (!modeDeFormation) {
+            newErrors.modeDeFormation = "Le mode de formation est obligatoire.";
+            toast.error(newErrors.modeDeFormation);
+            setErrors(newErrors);
+            return false;
+        }
+
+        if (!numberOfCondidates) {
+            newErrors.numberOfCondidates = "Le nombre de candidats est obligatoire.";
+            toast.error(newErrors.numberOfCondidates);
+            setErrors(newErrors);
+            return false;
+        } else if (isNaN(numberOfCondidates)) {
+            newErrors.numberOfCondidates = "Le nombre de candidats doit être un nombre.";
+            toast.error(newErrors.numberOfCondidates);
+            setErrors(newErrors);
+            return false;
+        }
+
+        if (!startingDate) {
+            newErrors.startingDate = "La date de début est obligatoire.";
+            toast.error(newErrors.startingDate);
+            setErrors(newErrors);
+            return false;
+        }
+
+        setErrors(newErrors);
+        return true;
+    };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const aboutUs = `[Company Email: ${email}], [Formation souhaité: ${formation}], [Mode de formation: ${modeDeFormation}], [Date de début souhaitée: ${startingDate}]`;
+        if (!validate()) {
+            return;
+        }
 
         const formattedData = {
-            properties: [
-                { name: "name", value: companyName },
-                { name: "numberofemployees", value: numberOfCondidates },
-                { name: "about_us", value: aboutUs }
-            ]
-            // companyName,
-            // numberOfCondidates,
-            // aboutUs
+            companyName,
+            numberOfCondidates,
+            email,
+            formation,
+            modeDeFormation,
+            startingDate
         };
 
-        console.log("Data to be sent:", formattedData);
+        // console.log("Data to be sent:", formattedData);
 
         try {
             const response = await axios.post(
-                "https://hook.eu2.make.com/gwppk44w2vxfiebchcmnr1rc6vn79c3c",
+                "https://hook.eu2.make.com/c4oiyt4ndhw4d5jimeb2ifw1abus3s99",
                 formattedData,
                 {
                     headers: {
@@ -68,39 +127,31 @@ export default function DivisForm() {
             <Toaster />
             <div className="container px-6 py-10 mx-auto flex items-center justify-center">
                 <div className="divisForm flex items-center lg:-mx-10 justify-between w-[85%] m-auto">
-                    <div className="lg:w-1/2 lg:mx-10">
-                        <form className="relative mb-[10%] mt-6 max-sm:mt-6" onSubmit={handleSubmit}>
-                            <div className="-mx-2 md:items-center md:flex mb-16">
-                                {/* <CompanyName value={companyName} onChange={(e) => setCompanyName(e.target.value)} /> */}
-                                <div className="flex-1 px-2 max-sm:mb-5">
-                                    <div className="relative h-11 w-full min-w-[200px]">
-                                        <input placeholder="" name="name" type="text" 
-                                            value={companyName} onChange={(e) => setCompanyName(e.target.value)}
-                                            className="text-white peer h-full w-full border-b border-blue-white bg-transparent pt-4 pb-1.5 font-sans text-sm font-normal text-blue-white outline outline-0 transition-all placeholder-shown:border-blue-white focus:border-white focus:outline-0 disabled:border-0 disabled:bg-blue-whiteplaceholder:opacity-0 focus:placeholder:opacity-100 " />
-                                        <label
-                                            className="after:content[''] pointer-events-none absolute left-0  -top-1.5 flex h-full w-full select-none !overflow-visible truncate text-[11px] leading-tight text-white transition-all after:absolute after:-bottom-1.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-gray-500 after:transition-transform after:duration-300 peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[4.25] peer-placeholder-shown:text-blue-gray-500 peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:after:scale-x-100 peer-focus:after:border-gray-900 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 font-normal">
-                                            Nome de l'entreprise <span className={'text-cyan-400 ml-1'}>*</span>
-                                        </label>
-                                    </div>
+                    <div className="divisForm flex items-center lg:-mx-10 justify-between w-[85%] m-auto">
+                        <div className="lg:w-1/2 lg:mx-10">
+                            <form className="relative mb-[10%] mt-6 max-sm:mt-6" onSubmit={handleSubmit}>
+                                <div className="-mx-2 md:items-center md:flex mb-16">
+                                    <CompanyName value={companyName} onChange={(e) => setCompanyName(e.target.value)} />
+                                    <EmailAddress value={email} onChange={(e) => setEmail(e.target.value)} />
                                 </div>
-                                <EmailAddress value={email} onChange={(e) => setEmail(e.target.value)} />
-                            </div>
-                            <div className="-mx-2 md:items-center md:flex mt-16 flex max-sm:gap-1 max-sm:flex-col">
-                                <Formation value={formation} onChange={(e) => setFormation(e.target.value)} />
-                                <ModeDeFormation value={modeDeFormation} onChange={(e) => setModeDeFormation(e.target.value)} />
-                            </div>
-                            <div className="-mx-2 md:items-center md:flex mt-16">
-                                <NumberOfCondidates value={numberOfCondidates} onChange={(e) => setNumberOfCondidates(e.target.value)} />
-                                <StartingDate value={startingDate} onChange={(e) => setStartingDate(e.target.value)} />
-                            </div>
-                            <SendMessage />
-                        </form>
-                    </div>
-                    <div className="divisrightForm lg:w-1/2">
-                        <ContactImg />
+                                <div className="-mx-2 md:items-center md:flex mt-16 flex max-sm:gap-1 max-sm:flex-col">
+                                    <Formation value={formation} onChange={(e) => setFormation(e.target.value)} />
+                                    <ModeDeFormation value={modeDeFormation} onChange={(e) => setModeDeFormation(e.target.value)} />
+                                </div>
+                                <div className="-mx-2 md:items-center md:flex mt-16">
+                                    <NumberOfCondidates value={numberOfCondidates} onChange={(e) => setNumberOfCondidates(e.target.value)} />
+                                    <StartingDate value={startingDate} onChange={(e) => setStartingDate(e.target.value)} />
+                                </div>
+                                <SendMessage />
+                            </form>
+                        </div>
+                        <div className="divisrightForm lg:w-1/2">
+                            <ContactImg />
+                        </div>
                     </div>
                 </div>
             </div>
         </>
     );
 }
+
