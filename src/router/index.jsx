@@ -38,12 +38,10 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/formation',
+                path:'/formation',
                 element: <Formation/>
             },
-            {
-                path:'/formationCourte',
-                element: <FormationCourte/>
-            },
+           
             {
                 path:'/formation-courte',
                 element: <FormationCourte/>
