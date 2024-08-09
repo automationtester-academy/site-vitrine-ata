@@ -7,7 +7,7 @@ import GroupIcon from '../../assets/images/formationCourte/icons/GroupIcon.png';
 function FormationsSection() {
   const [formations, setFormations] = useState([]);
   useEffect(() => {
-    fetch('../../../src/components/FormationCourte/FormationCourte.json')
+    fetch('/FormationCourte.json')
       .then(response => response.json())
       .then(data => setFormations(data))
       .catch(error => console.error('Error fetching data:', error));
