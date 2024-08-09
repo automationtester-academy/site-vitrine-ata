@@ -7,7 +7,7 @@ export default function FooterIcons() {
         <>
             <div className="footer-icons-container">
                 <div className="flex flex-row">
-                    <div className="w-1/6 footer-icons">
+                    <div className="w-5/6 footer-icons">
                         <div className="footer-icons-container-size">
                             <img src={CartIconHome} alt="" />
                         </div>

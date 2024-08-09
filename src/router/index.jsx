@@ -37,15 +37,12 @@ export const router = createBrowserRouter([
                 element: <NotFound/>
             },
             {
-                path:'/Formation',
+                path:'/formation',
                 element: <Formation/>
             },
+           
             {
-                path:'/FormationCourte',
-                element: <FormationCourte/>
-            },
-            {
-                path:'/Formation-courte',
+                path:'/formation-courte',
                 element: <FormationCourte/>
             },
             {
