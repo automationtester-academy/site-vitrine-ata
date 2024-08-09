@@ -27,7 +27,7 @@ export default function HerosectionCompnent() {
                                 </p>
                                 <div className="flex-shrink-0 mt-6">
                                     <div className="Header_Box_border relative inline-block p-[2px] pl-[1.75px] bg-gradient-to-r from-cyan-600 to-teal-200 rounded-md max-sm:w-full">
-                                        <Link to="" className="Header-text w-full block px-6 text-md py-1.5 text-white rounded-md hover:text-white font-semibold">
+                                        <Link to="/formation" className="Header-text w-full block px-6 text-md py-1.5 text-white rounded-md hover:text-white font-semibold" onClick={() => window.scrollTo(0, 0)}>
                                             Découvrer nos formations
                                         </Link>
                                     </div>

@@ -28,7 +28,7 @@ export const router = createBrowserRouter([
                 element: <Contact/>
             },
             {
-                path:'/Ecole',
+                path:'/ecole',
                 element: <Ecole />
 
             },
@@ -37,6 +37,7 @@ export const router = createBrowserRouter([
                 element: <NotFound/>
             },
             {
+                path:'/formation',
                 path:'/formation',
                 element: <Formation/>
             },

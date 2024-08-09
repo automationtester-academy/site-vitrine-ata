@@ -3,7 +3,7 @@ export default function SchoolText() {
         <>
         <div className='financer-text-background flex flex-col justify-between'>
             <div className="text-center mb-4">
-                <h2 className='text-gray-200 text-3xl font-bold'>Learning <span className='text-[#39DDF5]'>By doing!</span></h2>
+                <h2 className='text-gray-200 text-3xl font-bold'>Learning <span className='text-[#39DDF5]'>by doing!</span></h2>
             </div>
             <div className="mb-4">
                 <p className="text-center leading-6">Notre objectif : vous permettre de donner un nouvel élan à votre carrière en vous aidant à développer de nouvelles compétences ! </p>

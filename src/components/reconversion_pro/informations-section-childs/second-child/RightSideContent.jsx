@@ -1,8 +1,6 @@
-import ClockImg from "../../assets/images/formation_court/Vector.png";
-import Metiers from "../../assets/images/formation_court/studying.png";
-import Lieu from "../../assets/images/formation_court/location.png"
-
-
+import ClockImg from "../../../../assets/images/formation_court/Vector.png";
+import Metiers from "../../../../assets/images/formation_court/studying.png";
+import Lieu from "../../../../assets/images/formation_court/location.png"
 
 export default function RightSideContent()
 {
@@ -15,7 +13,7 @@ export default function RightSideContent()
                         <span>Durée</span>
                     </div>
                     <ul className="list-disc">
-                        <li className="listTitle ">Toute la formation : 3 mois (399h)</li>
+                        <li className="listTitle ">Toute la formation : 2 mois (280h)</li>
                     </ul>
                 </div>
                 <div className="rightcontent_title">

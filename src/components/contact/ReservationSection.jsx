@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, } from 'react';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
@@ -9,6 +9,8 @@ import '../../assets/css/Calendar.css'
 import ATAWhiteLogo from '../../assets/logos/ATAWhiteLogo'
 import dayjs from 'dayjs';
 import 'dayjs/locale/fr';
+import ValideDateButtom from './ValideDateButtom';
+import ThirdSection from './ThirdSection';
 
 
 
@@ -17,6 +19,8 @@ export default function ReservationSection() {
 
     const [selectedTime, setSelectedTime] = useState(null);
     const [selectedDate, setSelectedDate] = useState(null);
+    const [finalDate, setFinalDate] = useState(null);
+    const [finalTime, setFinalTime] = useState(null);
 
     const times = [];
     for (let hour = 9; hour < 17; hour++) {
@@ -56,7 +60,7 @@ export default function ReservationSection() {
                 </div>
 
             </div>
-            <div className='flex justify-center reservation-calendar-section mb-10'>
+            <div className={`flex justify-center reservation-calendar-section ${selectedTime ? '' : ''}`}>
                 <div className='calendar-container flex flex-col bg-[#475A74] w-1/4 pt-2'>
                     <div className='flex  justify-center'>
                         <ATAWhiteLogo />
@@ -106,6 +110,11 @@ export default function ReservationSection() {
                     </div>
                 </div>
             </div>
+            <div className={`flex justify-center transition-opacity duration-1000 ${selectedTime ? 'opacity-100' : 'opacity-0'}`}>
+                <ValideDateButtom date={dateValue} time={selectedTime} setReserveDate={setFinalDate} setReserveTime={setFinalTime} />
+            </div>
+            <ThirdSection date={finalDate} time={finalTime} setReserveDate={setFinalDate} setReserveTime={setFinalTime} />
+
         </>
 
     );

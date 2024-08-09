@@ -2,13 +2,17 @@ import AnalyseetRecherche from "../../assets/icons/AnalyseetRecherche";
 
 export default function Statistics(){
 
+    const currentYear = new Date();
+    const nextYear = new Date();
+    nextYear.setFullYear(currentYear.getFullYear() + 1);
+
     return(
         <>
         <section>
         <div className="Statistics bg-slate-900 rounded-r-xl w-[99%] pb-[4%] px-[4%] pt-[8%] max-sm:rounded-l-xl">
                     <div className="flex flex-row gap-3">
                         <AnalyseetRecherche/>
-                        <p className="text-xl font-medium leading-tight w-[100%] pt-[1%] text-cyan-400 max-sm:w-[96%] max-sm:py-[5%] max-lg:w-[96%] max-lg:py-[5%]">TAUX D'OBTENTION 2022/2023</p>
+                        <p className="text-xl font-medium leading-tight w-[100%] pt-[1%] text-cyan-400 max-sm:w-[96%] max-sm:py-[5%] max-lg:w-[96%] max-lg:py-[5%]">TAUX D'OBTENTION {currentYear.getFullYear()}/{nextYear.getFullYear()}</p>
                     </div>
                     <div className="flex gap-4 flex-col">
                         <div>
