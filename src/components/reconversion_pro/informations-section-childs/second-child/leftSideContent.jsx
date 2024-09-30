@@ -44,7 +44,7 @@ export default function LeftSideContent()
                         <span>FINANCEMENT</span>
                     </div>
                     <div className="list-title">
-                        Prix: <span>{data ? data.formation.price : ""} euros TTC</span>
+                        Prix: <span>8400 euros TTC</span>
                         <p>Toutes nos formations sont éligibles aux dispositifs de financement.</p>
                         <br/>
                         <p>Vous pouvez ainsi bénéficier d'une formation prise en charge jusqu'à 100% selon votre situation.</p>
