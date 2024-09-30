@@ -2,7 +2,7 @@
 import SchoolImageChild from "./sixedImage";
 import SchoolTextChild from "./seFocaliserSureLemployabilite__Text";
 
-export default function SeFocaliserSurLemployabilite(){
+export default function wSeFocaliserSurLemployabilite(){
     return(
         <>
          <section className="Recruiters w-full  max-sm:h-max ">
