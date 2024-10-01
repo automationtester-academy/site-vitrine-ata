@@ -20,7 +20,7 @@ export default function DemandeDeEmploiThirdDropDown() {
                     onClick={activeDropDown}
                 >
                     {isActive ? <img src={CartIcon2} alt="" /> : <img src={CartIcon} alt="" />}
-                    <span className={`ml-4 text-xl ${textColor}`}>Le Contrat de sécurisation professionnelle</span>
+                    <span className={`ml-4 text-xl ${textColor}`}>POEI</span>
                 </button>
                 {isActive && (
                     <div className="mt-4 w-11/12 p-4 drop-down-style">
@@ -29,7 +29,7 @@ export default function DemandeDeEmploiThirdDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">CPF: Compte personnel de formation</p>
+                                <p className="text-xl text-white">La POEI c’est la Préparation Opérationnelle à l’Emploi Individuelle</p>
                             </div>
                         </div>
                         <div>
@@ -37,7 +37,7 @@ export default function DemandeDeEmploiThirdDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">Conditions :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Avoir un compte CPF activé et done le solde est positif</p>
+                                <p className="text-xl text-white">Public : Demandeurs d’emploi et avoir une entreprise prête à vous embaucher</p>
                             </div>
                         </div>
                         <div>
@@ -45,7 +45,8 @@ export default function DemandeDeEmploiThirdDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">AVANTAGES :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Vous pouvez utiliser votre compte CPF pour financer votre formation O’clock. Si la somme disponible ne couvre pas la totalité des frais de formation, vous pouvez compléter soit par un autofinancement, soit par une demande d’AIF (Aide individuelle de formation) auprès de France Travail.</p>
+                                <p className="text-xl text-white">La POEI, c’est la Préparation Opérationnelle à l’Emploi Individuelle. Ce dispositif de financement est très différent des autres puisqu’il permet de suivre votre formation en lien direct avec une offre d’emploi d’une entreprise. Si le futur employeur se positionne sur votre profil, vous pouvez commencer votre intégration en douceur dans leurs équipes, le tout avec une formation financée par Pôle Emploi en partie ou intégralement. Pour l’entreprise, c’est une façon de former une future recrue selon leurs besoins c’est presque du sur-mesure.
+                                </p>
                             </div>
                         </div>
                         <div>
@@ -53,14 +54,20 @@ export default function DemandeDeEmploiThirdDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DEMARCHES A SUIVRE :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Inscrivez-vous et passez notre parcours d’admissibilité : le Chemin vers O’clock.<br />
-                                    Laissez-vous guider par votre référent admission de l’École O’clock dédié.</p>
+                                <p className="text-xl text-white">1 : Choisir votre formation et votre date de rentrée</p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Nous répondrons alors à cette demande sur la plateforme « Mon Compte Formation ».</p>
+                                <p className="text-xl text-white">2 : Remplir notre formulaire de contact, notre équipe prendra contact avec vous pour définir vos besoins et le mode de financement le plus adéquat en fonction de votre situation.</p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Si le montant de votre solde CPF ne couvre pas tous les frais de formation, vous pourrez autofinancer le reste à charge (en une ou plusieurs mensualités) ou faire une demande d’AIF à votre conseiller France Travail.</p>
+                                <p className="text-xl text-white">3 : Monter votre dossier de demande de financement Pole Emploi, Ce dossier consiste à exposer ton projet professionnel, ta motivation ainsi que ton choix de
+                                formation. Notre équipe vous enverras aussi des conseils pour préparer votre argumentaire pour votre demande. Ces conseils porteront sur la présentation et la cohérence de votre projet professionnel, la pertinence du parcours de formation et des modalités de financement ainsi que sur les perspectives d’emploi à l’issue de la formation.</p>
+                            </div>
+                            <div className="my-2">
+                                <p className="text-xl text-white">4 : Fournir les documents nécessaires à la demande de financement à notre gestionnaire formation, qui aura pris contact en amont avec vous,</p>
+                            </div>
+                            <div className="my-2">
+                                <p className="text-xl text-white">5 : Signer votre contrat et la convention PEOI</p>
                             </div>
                         </div>
                     </div>

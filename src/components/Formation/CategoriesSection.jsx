@@ -60,9 +60,7 @@ export default function CategoriesSection() {
                     </div>
                 </div>
             </div>
-            <div ref={bootcampRef}>
-                <BootcampSection />
-            </div>
+           
             <div ref={formationCourteRef}>
                 <FormationCourteSection />
             </div>
@@ -71,6 +69,9 @@ export default function CategoriesSection() {
             </div> 
             <div ref={reconversionProRef}>
                 <ReconversionProSection />
+            </div>
+            <div ref={bootcampRef}>
+                <BootcampSection />
             </div>
         
             {/* <div ref={abonnementRef}>
