@@ -29,7 +29,7 @@ export default function NotreObjectifSection() {
                 </div>
                 <div className="mb-7 ">
                     <p className="text-2xl text-white text-center reconversion-second-section-text">
-                        A la clés : une certification RS5044 “ Appliquer la méthode DevOps pour optimiser le cycle<br /> de vie des applications”. et un accompagnement RH intensif pour vous aider à décrocher<br /> votre premier contrat
+                        A la clés : une certification RS5044 “ Appliquer la méthode DevOps pour optimiser le cycle<br /> de vie des applications” et un accompagnement RH intensif pour vous aider à décrocher<br /> votre premier contrat
                     </p>
                 </div>
                 <div className="flex justify-ccenter w-full reconversion-second-section-buttons">

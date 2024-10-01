@@ -1,5 +1,6 @@
 import HandicapFirstDropDown from "./HandicapFirstDropDown";
 import HandicapSecondDropDown from "./HandicapSecondDropDown";
+import { Link } from "react-router-dom";
 export default function HandicapComponent() {
     return (
         <>
@@ -9,10 +10,10 @@ export default function HandicapComponent() {
                         Je suis en situation de handicap
                     </h2>
                 </div>
-                <div className="financement-button-container p-0.5 hover:bg-none hover:bg-cyan-600 bg-gradient-to-r from-[#3390B2] to-[#87E5EC] rounded-md">
-                    <button className="financement-button-style rounded-md font-bold bg-[#071323] text-white text-xl p-2 hover:bg-cyan-600">
+                <div className="financement-button-container p-0.5 hover:bg-none rounded-md">
+                    <Link to={'/contact'} className="financement-button-style rounded-md font-bold bg-[#071323] text-white text-xl p-2 hover:bg-cyan-600 border border-solid border-2 border-[#3adef5]">
                         Je m'inscris pour être accompagné
-                    </button>
+                    </Link>
                 </div>
                 <div className="w-3/4">
                     <HandicapFirstDropDown />

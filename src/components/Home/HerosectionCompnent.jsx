@@ -15,8 +15,9 @@ export default function HerosectionCompnent() {
                             <div className="Herosection_Text w-[31rem] mr-10 sm:max-lg:w-full max-sm:w-full max-sm:relative">
                                 <h1 className="Herosection_Text_Title w-[30rem] text-white text-[26px] font-bold mb-[2.7%] mt-[6.5%] leading-tight sm:max-lg:text-2xl sm:max-lg:w-full max-sm:w-full">
                                     Lancez votre carrière avec nos formations tremplin,
+                                    <span> </span> 
                                     <span className="Herosection_Text_Title_span text-cyan-400 sm:max-lg:text-2xl">
-                                        votre passeport vers l’automatisation des tests !
+                                         votre passeport vers l’automatisation des tests !
                                     </span>
                                 </h1>
                                 <p className="Herosection_Text_Title_paragraph text-white text-lg leading-[119%] mb-[2.8%] ml-1 sm:max-lg:text-base">
