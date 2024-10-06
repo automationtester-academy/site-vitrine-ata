@@ -1,5 +1,6 @@
 import IndependantFirstDropDown from "./IndependantFirstDropDown";
 import IndependantSecondDropDown from "./IndependantSecondDropDown";
+import IndependantthirdDropDown from './IndependantthirdDropDown';
 import { Link } from "react-router-dom";
 export default function IndependantComponent() {
     return (
@@ -10,14 +11,15 @@ export default function IndependantComponent() {
                         Je suis indépendant(e)
                     </h2>
                 </div>
-                <div className="financement-button-container p-0.5 hover:bg-none rounded-md">
-                    <Link to={'/contact'} className="financement-button-style rounded-md font-bold bg-[#071323] text-white text-xl p-2 hover:bg-cyan-600 border border-solid border-2 border-[#3adef5]">
+                <div className="financement-button-container p-0.5 hover:bg-none hover:bg-cyan-600  rounded-md">
+                    <Link to={'/contact'} className="financement-button-style rounded-md font-bold bg-[#071323] text-white text-[0.8rem] p-2 hover:bg-cyan-600 border border-solid border-2  border-[#3adef5]">
                         Je m'inscris pour être accompagné
                     </Link>
                 </div>
-                <div className="w-3/4">
+                <div className="w-3/4 faqLookLike">
                     <IndependantFirstDropDown />
                     <IndependantSecondDropDown />
+                    <IndependantthirdDropDown />
                 </div>
             </div>
         </>

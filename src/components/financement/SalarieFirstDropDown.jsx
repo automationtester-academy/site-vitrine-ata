@@ -30,7 +30,7 @@ export default function SalarieFirstDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">CPF: Compte personnel de formation</p>
+                                <p className="text-xl text-white">Financement personnel</p>
                             </div>
                         </div>
                         <div>
@@ -38,7 +38,8 @@ export default function SalarieFirstDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">Conditions :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Avoir un compte CPF activé et done le solde est positif</p>
+                                <p className="text-xl text-white">Etre inscrit dans l’une de nos formations et de valider le devis envoyé par notre
+                                commercial, un acompte de 30% sera demandé avant l’entrée en formation.</p>
                             </div>
                         </div>
                         <div>
@@ -46,7 +47,7 @@ export default function SalarieFirstDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">AVANTAGES :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Vous pouvez utiliser votre compte CPF pour financer votre formation O’clock. Si la somme disponible ne couvre pas la totalité des frais de formation, vous pouvez compléter soit par un autofinancement, soit par une demande d’AIF (Aide individuelle de formation) auprès de France Travail.</p>
+                                <p className="text-xl text-white">Étaler le paiement sur plusieurs mensualités permet de mieux gérer son budget</p>
                             </div>
                         </div>
                         <div>
@@ -54,14 +55,24 @@ export default function SalarieFirstDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DEMARCHES A SUIVRE :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Inscrivez-vous et passez notre parcours d’admissibilité : le Chemin vers O’clock.<br />
-                                    Laissez-vous guider par votre référent admission de l’École O’clock dédié.</p>
+                                <p className="text-xl text-white">1. Choisir votre formation et votre date de rentrée
+                                </p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Nous répondrons alors à cette demande sur la plateforme « Mon Compte Formation ».</p>
+                                <p className="text-xl text-white">2. Remplir notre formulaire de contact, notre équipe prendra contact avec vous pour définir vos besoins et le mode de financement le plus adéquat en fonction de votre situation.
+                                </p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Si le montant de votre solde CPF ne couvre pas tous les frais de formation, vous pourrez autofinancer le reste à charge (en une ou plusieurs mensualités) ou faire une demande d’AIF à votre conseiller France Travail.</p>
+                                <p className="text-xl text-white">3. signer le devis de formation
+                                </p>
+                            </div>
+                            <div className="my-2">
+                                <p className="text-xl text-white">4. fournir les éléments à la validation du dossier d’inscription
+                                </p>
+                            </div>
+                            <div className="my-2">
+                                <p className="text-xl text-white">5. signer le contrat de formation
+                                </p>
                             </div>
                         </div>
                     </div>

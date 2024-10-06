@@ -372,8 +372,13 @@ footer .footer-container {
     }
 
     .financement-button-container {
-        width: 75%;
+        
         font-size: 1.5rem;
+    }
+
+    .faqLookLike
+    {
+        width: 90% !important;
     }
 
     .financement-button-style {
