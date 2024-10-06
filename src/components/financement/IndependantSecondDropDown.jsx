@@ -21,16 +21,16 @@ export default function IndependantSecondDropDown() {
                     onClick={activeDropDown}
                 >
                     {isActive ? <img src={CartIcon2} alt="" /> : <img src={CartIcon} alt="" />}
-                    <span className={`ml-4 text-xl ${textColor}`}>Le fond d'assurance à la formation</span>
+                    <span className={`ml-4 text-xl ${textColor}`}>FIPPL</span>
                 </button>
                 {isActive && (
                     <div className="mt-4 w-11/12 p-4 drop-down-style">
                         <div>
                             <div className="my-2">
-                                <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
+                                <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFsssINITION :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">CPF: Compte personnel de formation</p>
+                                <p className="text-xl text-white">Fonds interprofessionnel de formation des professions libérales (F.I.P.-P.L.)</p>
                             </div>
                         </div>
                         <div>
@@ -38,7 +38,10 @@ export default function IndependantSecondDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">Conditions :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Avoir un compte CPF activé et done le solde est positif</p>
+                                <p className="text-xl text-white">Public : Travailleurs indépendants, leurs conjoints collaborateurs et les micro- entrepreneurs</p>
+                            </div>
+                            <div className="my-4">
+                                <p className="text-xl text-white">Description : Le FIF-PL est un fonds créé à l’initiative de l’Union nationale des professions libérales (UNAPL) et destiné à participer au financement de la formation continue des professions libérales. Ce dispositif est financé par la Contribution à la formation professionnelle (CFP) versée chaque année par les travailleurs indépendants.</p>
                             </div>
                         </div>
                         <div>
@@ -46,7 +49,7 @@ export default function IndependantSecondDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">AVANTAGES :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Vous pouvez utiliser votre compte CPF pour financer votre formation O’clock. Si la somme disponible ne couvre pas la totalité des frais de formation, vous pouvez compléter soit par un autofinancement, soit par une demande d’AIF (Aide individuelle de formation) auprès de France Travail.</p>
+                                <p className="text-xl text-white">Le plafond annuel et les critères de prise en charge sont fixés chaque année pour les quatre domaines d’activité relevant du FIF-PL (Cadre de vie, Juridique, Santé et Technique).</p>
                             </div>
                         </div>
                         <div>
@@ -54,14 +57,7 @@ export default function IndependantSecondDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DEMARCHES A SUIVRE :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Inscrivez-vous et passez notre parcours d’admissibilité : le Chemin vers O’clock.<br />
-                                    Laissez-vous guider par votre référent admission de l’École O’clock dédié.</p>
-                            </div>
-                            <div className="my-2">
-                                <p className="text-xl text-white">Nous répondrons alors à cette demande sur la plateforme « Mon Compte Formation ».</p>
-                            </div>
-                            <div className="my-2">
-                                <p className="text-xl text-white">Si le montant de votre solde CPF ne couvre pas tous les frais de formation, vous pourrez autofinancer le reste à charge (en une ou plusieurs mensualités) ou faire une demande d’AIF à votre conseiller France Travail.</p>
+                                <p className="text-xl text-white">Pour en bénéficier, le formé doit soumettre une demande préalable de prise en charge avant le début de l’action de formation.</p>
                             </div>
                         </div>
                     </div>

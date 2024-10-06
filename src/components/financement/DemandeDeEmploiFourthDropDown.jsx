@@ -20,16 +20,16 @@ export default function DemandeDeEmploiFourthDropDown() {
                     onClick={activeDropDown}
                 >
                     {isActive ? <img src={CartIcon2} alt="" /> : <img src={CartIcon} alt="" />}
-                    <span className={`ml-4 text-xl ${textColor}`}>Les Aides de votre région</span>
+                    <span className={`ml-4 text-xl ${textColor}`}>LECSP</span>
                 </button>
                 {isActive && (
                     <div className="mt-4 w-11/12 p-4 drop-down-style">
                         <div>
                             <div className="my-2">
-                                <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
+                                <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">Définition :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">AIRE : Aide individuelle régionale vers l’emploi</p>
+                                <p className="text-xl text-white">contrat de sécurisation professionnelle. C’est un dispositif d’accompagnement renforcé avec un suivi individualisé en cas de licenciement économique</p>
                             </div>
                         </div>
                         <div>
@@ -37,7 +37,7 @@ export default function DemandeDeEmploiFourthDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">Conditions :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Public : Demandeurs d’emploi résident en Ile-De-France</p>
+                                <p className="text-xl text-white">être salarié dans un cas de licenciement économique dans une entreprise de moins de 1000 salariés, cette entreprise doit te proposer le CSP. Il n’y a pas de conditions d’ancienneté pour en bénéficier. Tu dois simplement justifier que tu rentres bien dans les cases de la Convention du 14 avril 2017. C’est-à-dire, être éligible à l’allocation de retour à l’emploi ARE et être physiquement apte à travailler.</p>
                             </div>
                         </div>
                         <div>
@@ -45,16 +45,22 @@ export default function DemandeDeEmploiFourthDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">AVANTAGES :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Destinée à faciliter l'accès ou le retour dans l'emploi des Franciliens, l’Aide individuelle régionale vers l’emploi (AIRE) <strong>finance 80% des frais de certaines formations certifiantes</strong>, du CAP au diplôme d’ingénieur. Et cela, tout en ouvrant droit au statut de stagiaire de la formation professionnelle rémunéré.</p>
+                                <p className="text-xl text-white">Si tu es dans cette situation, le CSP fait office de filet de sécurité et prévoit ton retour à l’emploi. Tu auras donc des rendez-vous avec un conseiller attitré et <strong>la possibilité de suivre des formations</strong> pour une éventuelle reconversion, le tout, <strong>en étant payé, pendant 12 mois.,</strong></p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">AIRE à mis en place un nouveau règlement par délibération n°2023-402 du 17 novembre 2023 et est applicable <strong>à compter du 1er janvier 2024</strong> avec comme nouveau dispositif un taux maximal de 80% de prise en charge du coût de la formation après instruction et financement du reste à charge de 20% (par d'autres voies de co-financement de type Pôle Emploi, OPCO, fonds propres.)</p>
+                                <p className="text-xl text-white">Demander un financement alors qu’on est en CSP, c’est avoir bien plus de chance d’obtenir une réponse positive qu’en demandant un financement hors dispositif CSP.</p>
                             </div>
                         </div>
                         <div>
                             <div className="my-2">
-                                <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DEMARCHES A SUIVRE :</h2>
+                                <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">Démarches à suivre :</h2>
                             </div>
+                            <div className="my-2">
+                                <p className="text-xl text-white">Prendre contact avec notre équipe pour vous aidez à préparer votre dossier.</p>
+                            </div>
+                        </div>
+                        <div>
+                           
                             <div className="my-2">
                                 <p className="text-xl text-white">1 : Choisir votre formation et votre date de rentrée</p>
                             </div>

@@ -30,7 +30,7 @@ export default function HandicapSecondDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">CPF: Compte personnel de formation</p>
+                                <p className="text-xl text-white">L’AGEFIPH est l’Association de Gestion des Fonds pour l’Insertion des Personnes Handicapées. L’objectif de l’AGEFIPH, c’est de favoriser l’accès et le maintien dans l’emploi des personnes en situation de handicap en milieu ordinaire de travail. Pour y parvenir, son rôle est d’informer, de conseiller et de financer tes frais pédagogiques</p>
                             </div>
                         </div>
                         <div>
@@ -38,7 +38,13 @@ export default function HandicapSecondDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">Conditions :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Avoir un compte CPF activé et done le solde est positif</p>
+                                <p className="text-xl text-white">L’AGEFIPH peut aider au financement des formations des demandeurs d’emploi reconnus handicapés.
+                                </p>
+                            </div>
+                            <br/>
+                            <div className="my-2">
+                                <p className="text-xl text-white">Pour valider votre situation et votre éligibilité, deux interlocuteurs possibles : le conseiller Pôle Emploi ou le conseiller Cap Emploi.
+                                </p>
                             </div>
                         </div>
                         <div>
@@ -46,22 +52,27 @@ export default function HandicapSecondDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">AVANTAGES :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Vous pouvez utiliser votre compte CPF pour financer votre formation O’clock. Si la somme disponible ne couvre pas la totalité des frais de formation, vous pouvez compléter soit par un autofinancement, soit par une demande d’AIF (Aide individuelle de formation) auprès de France Travail.</p>
+                                <p className="text-xl text-white">L’AGEFIPH fait en sorte que vous soyez dans les conditions les plus optimales selon vos besoins, en adaptant votre poste de travail</p>
                             </div>
                         </div>
                         <div>
                             <div className="my-2">
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DEMARCHES A SUIVRE :</h2>
                             </div>
+                            < br/>
+                            
                             <div className="my-2">
-                                <p className="text-xl text-white">Inscrivez-vous et passez notre parcours d’admissibilité : le Chemin vers O’clock.<br />
-                                    Laissez-vous guider par votre référent admission de l’École O’clock dédié.</p>
+                                <p className="text-xl text-white">votre conseiller vous communique un dossier à renseigner. Habituellement, vous le remplirez avec son aide.
+                                .</p>
                             </div>
+                            < br/>
+
                             <div className="my-2">
-                                <p className="text-xl text-white">Nous répondrons alors à cette demande sur la plateforme « Mon Compte Formation ».</p>
+                                <p className="text-xl text-white"> Par la suite, une commission examinera la demande et acceptera ou non de prendre en charge le coût de la formation ainsi que votre maintien de salaire. Elle définit au passage le montant de l’aide.</p>
                             </div>
+                            < br/>
                             <div className="my-2">
-                                <p className="text-xl text-white">Si le montant de votre solde CPF ne couvre pas tous les frais de formation, vous pourrez autofinancer le reste à charge (en une ou plusieurs mensualités) ou faire une demande d’AIF à votre conseiller France Travail.</p>
+                                <p className="text-xl text-white">Vous pouvez également compter sur l’aide de notre référente Handicap Mme BENNOUF Asmaa (asmaa@automationtesteracademy.com pour vous aider dans vos démarches..</p>
                             </div>
                         </div>
                     </div>

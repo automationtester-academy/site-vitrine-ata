@@ -32,7 +32,6 @@ export default function FinancementPage() {
                 onIndependantClick={() => handleScrollTo(independantRef)}
                 onHandicapClick={() => handleScrollTo(handicapRef)}
             />
-
             <section className="financement-situation-sections" ref={demandeurRef}>
                 <DemandeDeEmploiComponent />
             </section>

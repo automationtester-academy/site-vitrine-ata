@@ -30,7 +30,14 @@ export default function SalarieThirdDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">CPF: Compte personnel de formation</p>
+                                <p className="text-xl text-white">Les OPCO remplacent les anciens Organismes Paritaires Collecteurs Agréés (OPCA).
+                                    Les principales missions des OPCO sont :
+                                    <br/>
+                                    Financer les contrats d’alternance.
+                                    <br/>
+                                    Venir en aide aux branches professionnelles pour construire des certifications.
+                                    <br/>   
+                                    Vous aidez si vous êtes TPE (une Très Petite Entreprise) ou une PME (Petite ou Moyenne Entreprise) à déterminer quels sont vos besoins en formations.</p>
                             </div>
                         </div>
                         <div>
@@ -38,7 +45,7 @@ export default function SalarieThirdDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">Conditions :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Avoir un compte CPF activé et done le solde est positif</p>
+                                <p className="text-xl text-white">Vous pouvez bénéficier d’un financement pour vos actions de formation de la part de l’OPCO dont vous dépendez si vous êtes une entreprise de moins de 50 salariés. Cependant, si vous dépassez ce nombre, vous devrez utiliser votre budget formation.</p>
                             </div>
                         </div>
                         <div>
@@ -46,7 +53,8 @@ export default function SalarieThirdDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">AVANTAGES :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Vous pouvez utiliser votre compte CPF pour financer votre formation O’clock. Si la somme disponible ne couvre pas la totalité des frais de formation, vous pouvez compléter soit par un autofinancement, soit par une demande d’AIF (Aide individuelle de formation) auprès de France Travail.</p>
+                                <p className="text-xl text-white">Votre entreprise peut prendre en charge le financement de votre formation via leur OPCO ou enveloppe formation.
+                                </p>
                             </div>
                         </div>
                         <div>
@@ -54,14 +62,7 @@ export default function SalarieThirdDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DEMARCHES A SUIVRE :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Inscrivez-vous et passez notre parcours d’admissibilité : le Chemin vers O’clock.<br />
-                                    Laissez-vous guider par votre référent admission de l’École O’clock dédié.</p>
-                            </div>
-                            <div className="my-2">
-                                <p className="text-xl text-white">Nous répondrons alors à cette demande sur la plateforme « Mon Compte Formation ».</p>
-                            </div>
-                            <div className="my-2">
-                                <p className="text-xl text-white">Si le montant de votre solde CPF ne couvre pas tous les frais de formation, vous pourrez autofinancer le reste à charge (en une ou plusieurs mensualités) ou faire une demande d’AIF à votre conseiller France Travail.</p>
+                                <p className="text-xl text-white">Prendre contact avec notre équipe pour vous aider à préparer votre dossier</p>
                             </div>
                         </div>
                     </div>
