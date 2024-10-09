@@ -13,7 +13,6 @@ function FormationsSection() {
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
-
   //If you want to use the backend, you can use this code .
 
   // useEffect(() => {
@@ -41,13 +40,13 @@ function FormationsSection() {
                 <div className="relative">
                   <div className="w-[100%] border-2 border-cyan-400 pt-6 pr-8 pb-8 pl-8 rounded-3xl">
                     <div className="flex flex-row items-center border-b border-cyan-400 pb-2 mb-4">
-                      <div className="w-1/6 mr-4"> 
+                      <div className="w-1/6 mr-4 h-[3rem]"> 
                         {/* <img 
                           src={`http://127.0.0.1:8000/storage/${formation.image}`} 
                           alt="image_formation" 
                           className="w-full h-full object-cover fixed-size"
                         /> */}
-                        <img src={formation.image} alt={formation.titre} className="w-full h-full object-cover fixed-size" />
+                        <img src={formation.image} alt={formation.titre} className="w-full h-full object-cover fixed-size rounded-[50%]" />
                       </div>
                       <div className="w-5/6">
                         <h1 className="text-cyan-400 text-lg font-semibold">
