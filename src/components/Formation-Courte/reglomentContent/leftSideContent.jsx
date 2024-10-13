@@ -20,7 +20,7 @@ export default function LeftSideContent()
                         <img src={Calendry} alt="" />
                         <span>DÉLAI D’ACCÈS À LA FORMATION</span>
                     </div>
-                    <ul className="list-disc">
+                    <ul className="list-disc ms:pl-4 iconsLists">
                         <li className="listTitleRegle ">Financement via entreprise : 2 semaines</li>
                         <li className="listTitleRegle ">Paiement personnel : 2 semaines avant la session visée</li>
                         <li className="listTitleRegle ">OPCO : 2 semaines avant la session visée</li>

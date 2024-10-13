@@ -8,7 +8,7 @@ export default function FooterSecondtList() {
                     <Link 
                     to={'/formation'} 
                     onClick={() => window.scrollTo(0, 0)}>
-                    Formation b2b
+                    Formation Courte
                     </Link>
                    </li>
                 <li className="mb-3">
@@ -18,8 +18,8 @@ export default function FooterSecondtList() {
                     Formation mix-learning
                     </Link>
                     </li>
-                <li className="mb-3">Testflix</li>
-                <li className="mb-3">Bootcamp</li>
+                {/* <li className="mb-3">Testflix</li>
+                <li className="mb-3">Bootcamp</li> */}
                 <li className="mb-5">
                     <Link 
                     to={'/reconversion'} 

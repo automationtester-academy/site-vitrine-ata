@@ -36,21 +36,14 @@ export default function LeftSectionFirstPart() {
                         </div>
                         <div className="telecharger-le-programme-button">
                             <div className="p-0.5 flex hover:bg-none hover:bg-cyan-600 bg-gradient-to-r  from-[#3390B2] to-[#87E5EC] rounded-md">
-                            {data ? (
                                 <a
                                     target="_blank"
-                                    href={`http://localhost:8000/storage/${encodeURIComponent(data.formation.program)}`}
+                                    href={`https://drive.google.com/drive/folders/1x4tBH83a1-8itp6pE8EAB0kRBj6Cmwj-`}
                                     className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold"
                                 >
                                     Télécharger le programme
                                 </a>
-                            ) : (
-                                <div
-                                className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold"
-                                >
-                                    Télécharger le programme
-                                </div>
-                            )}
+                            
                             </div>
                         </div>
                     </div>

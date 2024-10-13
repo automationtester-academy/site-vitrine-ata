@@ -18,7 +18,7 @@ export default function FooterIcons() {
                         </div>
                         <div className="w-5/6">
                             <p className="text-gray-200">
-                                Automation Tester Academy 14 rue Beffroy 92 200 Neuilly-sur-<br />Seine
+                                Automation Tester Academy 14 Rue Beffroy 92200 Neuilly-Rur-<br />Seine
                             </p>
                         </div>
                     </a>

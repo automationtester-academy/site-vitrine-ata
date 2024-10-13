@@ -30,7 +30,7 @@ export default function DemandeDeEmploiFirstDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Aide individuelle régionale vers l’emploi</p>
+                                <p className="text-xl text-white">AIDE individuelle régionale vers l’emploi</p>
                             </div>
                         </div>
                         <div>
@@ -51,7 +51,8 @@ export default function DemandeDeEmploiFirstDropDown() {
                                     </p>
                                 <br/>
                                 <p className="text-xl text-white">
-                                    AIRE à mis en place un nouveau règlement par délibération n°2023-402 du 17 novembre 2023 et est applicable à compter du 1er janvier 2024 avec comme nouveau dispositif un taux maximal de 80% de prise en charge du coût de la formation après instruction et financement du reste à charge de 20% (par d'autres voies de co-financement de type Pôle Emploi, OPCO, fonds propres.
+                                AIRE à mis en place un nouveau règlement par délibération n°2023-402 du 17 novembre 2023 et est applicable à compter du ler janvier 2024 avec comme nouveau dispositif un taux maximal de 80% de prise en charge du coût de la formation après instruction et financement du reste à charge de 20%
+                                (par d'autres voies de co-financement de type Pôle Emploi, OPCO, fonds propres)
                                 </p>
                             </div>
                         </div>
@@ -73,7 +74,7 @@ export default function DemandeDeEmploiFirstDropDown() {
                                 Le délai de réponse de la Région Ile-De-France est de 6 semaines</p>
                             </div>  
                             <div className="my-2">
-                                <p className="text-xl text-white">5 : signer votre convention de formation</p>
+                                <p className="text-xl text-white">5 : Signer votre convention de formation</p>
                             </div>  
                         </div>
                     </div>

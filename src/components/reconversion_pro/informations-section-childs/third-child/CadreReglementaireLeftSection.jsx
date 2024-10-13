@@ -10,7 +10,7 @@ export default function CadreReglementaireLeftSection() {
             </div>
             <div className="">
                 <div className="mb-4">
-                    <p className="text-white font-medium text-xl cadre-reglementaire-p">Sur la base d’un cas d’entreprise réelle ou fictive, le candidat v doit présenter l’analyse des enjeux rencontrés par l’équipe DevOps afin d’identifier un ou des objectifs communs. Il doit décrire les ateliers mis en place pour y répondre, définir les pratiques, méthodologies et outils nécessaires à <br /> l’organisation du travail de l’équipe DevOps.</p>
+                    <p className="text-white font-medium text-xl cadre-reglementaire-p">Sur la base d’un cas d’entreprise réelle ou fictive, le candidat doit présenter l’analyse des enjeux rencontrés par l’équipe DevOps afin d’identifier un ou des objectifs communs. Il doit décrire les ateliers mis en place pour y répondre, définir les pratiques, méthodologies et outils nécessaires à <br /> l’organisation du travail de l’équipe DevOps.</p>
                 </div>
                 <div className="mb-5">
                     <p className="text-white font-medium text-xl cadre-reglementaire-p">

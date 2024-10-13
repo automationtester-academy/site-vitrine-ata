@@ -72,7 +72,7 @@ export default function DemandeDeEmploiSecondDropDown() {
                                 <p className="text-xl text-white">C’est aussi à ce moment-là que le conseiller te parlera des éventuels plafonds de financements et de co-financement possibles (uniquement pour l’AIF).</p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Bien entendu, pour préparer tout cela, l’équipe d’Automation Tester Academy serra là pour t’accompagner dans ces démarches.</p>
+                                <p className="text-xl text-white">Bien entendu, pour préparer tout cela, l’équipe d’Automation Tester Academy sera là pour t’accompagner dans ces démarches.</p>
                             </div>
                         </div>
                     </div>

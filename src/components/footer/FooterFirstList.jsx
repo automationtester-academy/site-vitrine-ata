@@ -9,7 +9,6 @@ export default function FooterFirstList() {
         <li data-cy="contact-us-footer" className="mb-3">
           <Link to={"/contact"} onClick={() => window.scrollTo(0, 0)}>Nous contacter</Link>
         </li>
-        <li className="mb-3">Egalité professionnelle</li>
         <li className="mb-3">
           <a
             target="_blank"
@@ -18,6 +17,7 @@ export default function FooterFirstList() {
           </a>
         </li>
         <li className="mb-5">Mentions légales</li>
+        <li className="mb-3">Egalité professionnelle</li>
       </ul>
     </>
   );

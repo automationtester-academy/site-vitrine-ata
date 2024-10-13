@@ -19,7 +19,7 @@ export default function LearningByDoingComponent(){
                         <div className="flex-shrink-0 mt-8 ml-32 flex lg:max-xl:justify-center lg:max-xl:w-[100%] lg:max-xl:mx-[0%]  sm:max-lg:justify-center sm:max-lg:w-full sm:max-lg:mx-0 max-sm:justify-center max-sm:my-5 max-sm:mx-0 max-sm:w-full">
                             <div className="Header_Box_border  relative inline-block p-[2px] pl-[1.75px] bg-gradient-to-r from-cyan-600 to-teal-200 rounded-md max-sm:w-[80%]  ">
                                 <Link to="/formation"  className="Header-text w-full text-center block px-6 text-md py-1.5    text-white rounded-md hover:text-white font-semibold" onClick={() => window.scrollTo(0, 0)}>
-                                Découvrer nos formations                            
+                                Découvrir nos formations                            
                                 </Link>
                             </div>
                         </div>

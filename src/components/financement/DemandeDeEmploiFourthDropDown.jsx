@@ -20,7 +20,7 @@ export default function DemandeDeEmploiFourthDropDown() {
                     onClick={activeDropDown}
                 >
                     {isActive ? <img src={CartIcon2} alt="" /> : <img src={CartIcon} alt="" />}
-                    <span className={`ml-4 text-xl ${textColor}`}>LECSP</span>
+                    <span className={`ml-4 text-xl ${textColor}`}>LE CSP</span>
                 </button>
                 {isActive && (
                     <div className="mt-4 w-11/12 p-4 drop-down-style">
@@ -29,7 +29,7 @@ export default function DemandeDeEmploiFourthDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">Définition :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">contrat de sécurisation professionnelle. C’est un dispositif d’accompagnement renforcé avec un suivi individualisé en cas de licenciement économique</p>
+                                <p className="text-xl text-white">Contrat de sécurisation professionnelle. C’est un dispositif d’accompagnement renforcé avec un suivi individualisé en cas de licenciement économique</p>
                             </div>
                         </div>
                         <div>
@@ -37,7 +37,7 @@ export default function DemandeDeEmploiFourthDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">Conditions :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">être salarié dans un cas de licenciement économique dans une entreprise de moins de 1000 salariés, cette entreprise doit te proposer le CSP. Il n’y a pas de conditions d’ancienneté pour en bénéficier. Tu dois simplement justifier que tu rentres bien dans les cases de la Convention du 14 avril 2017. C’est-à-dire, être éligible à l’allocation de retour à l’emploi ARE et être physiquement apte à travailler.</p>
+                                <p className="text-xl text-white">Être salarié dans un cas de licenciement économique dans une entreprise de moins de 1000 salariés, cette entreprise doit te proposer le CSP. Il n’y a pas de conditions d’ancienneté pour en bénéficier. Tu dois simplement justifier que tu rentres bien dans les cases de la Convention du 14 avril 2017. C’est-à-dire, être éligible à l’allocation de retour à l’emploi ARE et être physiquement apte à travailler.</p>
                             </div>
                         </div>
                         <div>
@@ -76,7 +76,7 @@ export default function DemandeDeEmploiFourthDropDown() {
                                 </p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">5 : signer votre convention de formation</p>
+                                <p className="text-xl text-white">5 : Signer votre convention de formation</p>
                             </div>
                         </div>
                     </div>
