@@ -15,7 +15,7 @@ export default function FormationCourte(){
       
       <HeroSectionFc/>
       <DescriptionFC/>
-      <BorderSection/>
+      {/* <BorderSection/> */}
       <FormationsSection/>
       <Infopratice />
       <CardreReglementaire />

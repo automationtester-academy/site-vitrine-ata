@@ -126,8 +126,8 @@ export default function DivisForm() {
         <>
             <Toaster />
             <div className="container px-6 py-10 mx-auto flex items-center justify-center">
-                <div className="divisForm flex items-center lg:-mx-10 justify-between w-[85%] m-auto">
-                    <div className="divisForm flex items-center lg:-mx-10 justify-between w-[85%] m-auto">
+                <div className="divisForm flex ">
+                    <div className="divisForm flex items-center lg:-mx-10 justify-center w-[85%] m-auto">
                         <div className="lg:w-1/2 lg:mx-10">
                             <form className="relative mb-[10%] mt-6 max-sm:mt-6" onSubmit={handleSubmit}>
                                 <div className="-mx-2 md:items-center md:flex mb-16">

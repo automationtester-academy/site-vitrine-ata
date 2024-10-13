@@ -6,7 +6,7 @@ export default function ModaliteEvaluation(){
         <>
             <div className="InfoEvaluation w-[54%] flex-col max-sm:w-[100%]">
                 <div className="Evaluation ">
-                    <div className="flex flex-row gap-3">
+                    <div className="flex flex-row gap-3 Evaluation-content">
                         <Evaluation/>
                         <p className="text-xl font-medium leading-tight w-[100%] pt-[1%] text-cyan-400 max-sm:text-lg max-sm:py-[5%] max-lg:w-[96%] max-lg:py-[5%]">MODALITÉS D’ÉVALUATION</p>
                     </div>
@@ -16,7 +16,7 @@ export default function ModaliteEvaluation(){
                 </div>
 
                 <div className="Duration">
-                    <div className="flex flex-row gap-3">
+                    <div className="flex flex-row gap-3 Evaluation-content">
                         <Calendrier/>
                         <p className="text-xl font-medium leading-tight w-[100%] pt-[1%] text-cyan-400 max-sm:w-[96%] max-sm:py-[5%] max-lg:w-[96%] max-lg:py-[5%]">DÉLAI D’ACCÈS À LA FORMATION</p>
                     </div>

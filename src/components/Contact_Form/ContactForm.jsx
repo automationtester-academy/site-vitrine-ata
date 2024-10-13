@@ -142,7 +142,7 @@ function ContactForm() {
                 <div className="lg:flex lg:items-center lg:-mx-10 justify-between">
                     <div className="lg:w-1/2 lg:mx-10">
                         <p className="mt-4 text-white text-sm">
-                            Nous sommes ravis de vous entendre ! Veuillez utiliser ce formulaire pour nous envoyer vos questions, commentaires ou demandes de renseignements. Remplissez simplement les champs ci-dessous et nous vous répondrons dans les plus brefs délais.
+                              Veuillez utiliser ce formulaire pour nous envoyer vos questions, commentaires ou demandes de renseignements. Remplissez simplement les champs ci-dessous et nous vous répondrons dans les plus brefs délais.
                         </p>
                         <form className={'relative mb-[10%] mt-6 max-sm:mt-6'} onSubmit={handleSubmit}>
                             <div className="-mx-2 md:items-center md:flex">

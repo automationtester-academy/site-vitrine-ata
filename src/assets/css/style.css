@@ -297,7 +297,7 @@ ul {
     margin-left: 2rem;
 }
 
-
+.infopratices,
 .infopratice
 {
     width: 70%;
@@ -406,7 +406,7 @@ ul {
     {
         width: 48% !important;
     }
-
+    .infopratices,
     .infopratice
     {
         width: 75%;
@@ -449,6 +449,10 @@ ul {
         flex-direction: column;
         align-items: start;
     }
+    .testimonials_image_profile
+    {
+        display: none;
+    }
 }
 
 @media (max-width:1000px)
@@ -466,6 +470,11 @@ ul {
     {
         flex-direction: column;
     }
+    .testimonials_image_profile
+    {
+        display: block;
+    }
+    
 }
 
 
@@ -475,6 +484,89 @@ ul {
     {
         width: 90%;
     }
+    .description-container 
+    {
+       padding: 0.3rem !important;
+       margin-top: 4rem;
+    }
+
+    .containerInfoPratice
+    {
+        padding: 0.5rem !important;
+    }
+
+    .left_container
+    {
+        margin: 2rem 0 ;
+    }
+
+    .iconsLists
+    {
+        padding-left: 1rem;
+    }
+
+    .card_title
+    {
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+    .financer-text-background
+    {
+        margin-top: 1rem;
+    }
+
+    .card_content
+    {
+        padding: 1rem !important;
+        margin-top: 1rem;
+    }
+
+    .financement-img-container.mt-3 img
+    {
+        width: 100%;
+    }
+
+    .financement-situation-title 
+    {
+        font-size: 1.9rem !important;
+    }
+
+    .financement-button-container
+    {
+        margin-bottom: 1rem;
+    }
+
+    .infopratice,
+    .lesProgram
+    {
+        width: 90%  !important; 
+        margin: auto  !important;
+    }
+
+
+    .Evaluation-content
+    {
+        flex-direction: column !important;
+        margin-left: 1.5rem;
+    }
+
+    .cadre-reglementaire-left-section
+    {
+        margin-bottom: 2rem !important;
+    }
+
+    .reconversion-second-section
+    {
+        width: 90% !important;
+    }
+
+
+    .testimonials_image_profile
+    {
+        display: block;
+    }
+
 }
 
 

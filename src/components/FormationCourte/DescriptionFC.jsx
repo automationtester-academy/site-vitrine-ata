@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function DescriptionFC() {
   return (
-    <div className="description-container text-center p-10">
+    <div className="description-container text-center p-10 ">
       <h2 className="text-3xl md:text-5xl font-bold text-[#39DDF5] mb-4">
         Nos formations courtes
       </h2>

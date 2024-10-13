@@ -9,13 +9,13 @@ export default function AccompagnerText() {
                 <p className="text-center">Être confronté seul à l’apprentissage d’une nouvelle compétence peut s’avérer effrayant. N’ayez pas peur ! Chez ATA vous avancez de manière autonome tout en étant encadré. </p>
             </div>
             <div>
-                <p className="text-center mb-6">Intégré à notre communauté slack, vous avez la possibilité d’échanger avec des formateurs experts, des anciennes élèves ou encore des élèves qui suivent la même formation. </p>
+                <p className="text-center mb-6">Intégré à notre communauté slack, vous avez la possibilité d’échanger avec des formateurs experts, des anciens élèves ou encore des élèves qui suivent la même formation. </p>
             </div>
             <div>
                 <p className="text-center mb-6">Des points récurrents sont organisés avec nos référents techniques et pédagogiques afin de suivre vos avancements et vous conseillez au mieux lors de votre apprentissage.</p>
             </div>
             <div>
-                <p className="text-center mb-2">Rejoindre Automation Tester Academy c’est un rejoindre tout un eco-système autour de la qualité logicielle grâce à nos partenariats.</p>
+                <p className="text-center mb-2">Rejoindre Automation Tester Academy c’est rejoindre tout un eco-système autour de la qualité logicielle grâce à nos partenariats.</p>
             </div>
         </div>
         </>

@@ -33,7 +33,7 @@ export default function LeftSideContent() {
                     </div>
                     <ul className="list-disc">
                         <li className="listTitle">Des connaissances de base en test logiciel</li>
-                        <li className="listTitle">beaucoup beaucoup beaucoup (ce n’est pas une erreur de copier-coller) de motivation</li>
+                        <li className="listTitle">Beaucoup beaucoup beaucoup (ce n’est pas une erreur de copier-coller) de motivation</li>
                     </ul>
                 </div>
 
@@ -43,7 +43,7 @@ export default function LeftSideContent() {
                         <span>FINANCEMENT</span>
                     </div>
                     <div className="list-title">
-                        Prix: <span>{data ? data.formation.price : ""} euros.</span>
+                        Prix: <span>2500 euros.</span>
                         <p>Toutes nos formations sont éligibles aux dispositifs de financement.</p>
                         <br />
                         <p>Vous pouvez ainsi bénéficier d'une formation prise en charge jusqu'à 100% selon votre situation.</p>

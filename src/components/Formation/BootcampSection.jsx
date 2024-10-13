@@ -1,7 +1,17 @@
 import React from 'react';
 import BootcampPic from '../../assets/images/formation/BootcampPic.png';
+import { Link } from 'react-router-dom';
+
+
 
 const BootcampSection = () => {
+
+
+    const scrollToSection = (sectionRef) => {
+        sectionRef.current?.scrollIntoView({ behavior: "smooth" });
+    };
+
+    
     return (
         <section className="pt-10 pb-10 bg-slate-900 text-white flex items-center justify-center">
             <div className="flex flex-col md:flex-row justify-between items-center max-w-4xl w-full">
@@ -13,9 +23,9 @@ const BootcampSection = () => {
                         Notre bootcamp est un programme de formation intensif et dynamique en petit groupe qui dure quelques semaines et allie théorie et pratique pour acquérir des compétences en automatisation de tests logiciels. Pour faire simple, c’est la version concentrée d’une formation qui aurait pu s'étaler sur plusieurs mois.
                     </p>
                     <div className="relative inline-block p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
-                        <div className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
+                        <Link to={"/contact"} onClick={() => scrollToSection(mixLearningRef)} className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">
                             En savoir plus
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="w-full md:w-auto flex justify-center md:ml-16"> 

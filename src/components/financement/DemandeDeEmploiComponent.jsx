@@ -4,6 +4,10 @@ import DemandeDeEmploiThirdDropDown from "./DemandeDeEmploiThirdDropDown";
 import DemandeDeEmploiFourthDropDown from "./DemandeDeEmploiFourthDropDown";
 import DemandeDeEmploiFifthDropDown from "./DemandeDeEmploiFifthDropDown";
 import DemandeDeEmploiSixthDropDown from "./DemandeDeEmploiSixthDropDown";
+import PEOI from "./PEOI";
+
+
+
 import { Link } from "react-router-dom";
 export default function DemandeDeEmploiComponent() {
     return (
@@ -20,11 +24,12 @@ export default function DemandeDeEmploiComponent() {
                     </Link>
                 </div>
                 <div className="w-3/4 faqLookLike">
+                    <DemandeDeEmploiFifthDropDown />
+                    <PEOI />
+                    <DemandeDeEmploiFourthDropDown />
                     <DemandeDeEmploiSecondDropDown />
                     <DemandeDeEmploiFirstDropDown />
                     <DemandeDeEmploiSixthDropDown />
-                    <DemandeDeEmploiFourthDropDown />
-                    <DemandeDeEmploiFifthDropDown />
                 
                 </div>
             </div>
