@@ -15,7 +15,7 @@ export default function RightSideContent()
                         <span>Durée</span>
                     </div>
                     <ul className="list-disc">
-                        <li className="listTitle ">2 jours (14)</li>
+                        <li className="listTitle ">2 jours (14h)</li>
                     </ul>
                 </div>
                 <div className="rightcontent_title">

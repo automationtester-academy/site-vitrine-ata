@@ -27,7 +27,7 @@ export default function IndependantSecondDropDown() {
                     <div className="mt-4 w-11/12 p-4 drop-down-style">
                         <div>
                             <div className="my-2">
-                                <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFsssINITION :</h2>
+                                <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
                             </div>
                             <div className="my-2">
                                 <p className="text-xl text-white">Fonds interprofessionnel de formation des professions libérales (F.I.P.-P.L.)</p>

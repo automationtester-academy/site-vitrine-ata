@@ -30,7 +30,7 @@ export default function HandicapSecondDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">L’AGEFIPH est l’Association de Gestion des Fonds pour l’Insertion des Personnes Handicapées. L’objectif de l’AGEFIPH, c’est de favoriser l’accès et le maintien dans l’emploi des personnes en situation de handicap en milieu ordinaire de travail. Pour y parvenir, son rôle est d’informer, de conseiller et de financer tes frais pédagogiques</p>
+                                <p className="text-xl text-white">L’AGEFIPH est l’Association de Gestion des Fonds pour l’Insertion des Personnes Handicapées. L’objectif de l’AGEFIPH, c’est de favoriser l’accès et le maintien dans l’emploi des personnes en situation de handicap en milieu ordinaire de travail. Pour y parvenir, son rôle est d’informer, de conseiller et de financer tes frais pédagogiques .</p>
                             </div>
                         </div>
                         <div>
@@ -41,7 +41,6 @@ export default function HandicapSecondDropDown() {
                                 <p className="text-xl text-white">L’AGEFIPH peut aider au financement des formations des demandeurs d’emploi reconnus handicapés.
                                 </p>
                             </div>
-                            <br/>
                             <div className="my-2">
                                 <p className="text-xl text-white">Pour valider votre situation et votre éligibilité, deux interlocuteurs possibles : le conseiller Pôle Emploi ou le conseiller Cap Emploi.
                                 </p>
@@ -59,20 +58,18 @@ export default function HandicapSecondDropDown() {
                             <div className="my-2">
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DEMARCHES A SUIVRE :</h2>
                             </div>
-                            < br/>
                             
                             <div className="my-2">
-                                <p className="text-xl text-white">votre conseiller vous communique un dossier à renseigner. Habituellement, vous le remplirez avec son aide.
+                                <p className="text-xl text-white">Votre conseiller vous communique un dossier à renseigner. Habituellement, vous le remplirez avec son aide.
                                 .</p>
                             </div>
-                            < br/>
 
                             <div className="my-2">
                                 <p className="text-xl text-white"> Par la suite, une commission examinera la demande et acceptera ou non de prendre en charge le coût de la formation ainsi que votre maintien de salaire. Elle définit au passage le montant de l’aide.</p>
                             </div>
                             < br/>
                             <div className="my-2">
-                                <p className="text-xl text-white">Vous pouvez également compter sur l’aide de notre référente Handicap Mme BENNOUF Asmaa (asmaa@automationtesteracademy.com pour vous aider dans vos démarches..</p>
+                                <p className="text-xl text-white">Vous pouvez également compter sur l’aide de notre référente Handicap Mme BENNOUF Asmaa (<a href="mailto:asmaa@automationtesteracademy.com">asmaa@automationtesteracademy.com</a>) pour vous aider dans vos démarches.</p>
                             </div>
                         </div>
                     </div>
