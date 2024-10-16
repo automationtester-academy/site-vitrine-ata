@@ -19,8 +19,8 @@ export default function LeftSideContent()
                         <li className="listTitle">100% taux d'achèvement</li>
                     </ul>
                     <div>
-                        <div className="textbottomContent">
-                            <p>TAUX DE SATISFACTION GLOBAL ANNUEL <span><ul className="list-disc"><li>95%</li></ul></span></p>
+                        <div className="textbottomContent ml-[1rem]">
+                            <p>TAUX DE SATISFACTION GLOBAL ANNUEL <br/> <span>95%</span></p>
                         </div>
                     </div>
                 </div>

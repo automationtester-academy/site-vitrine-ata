@@ -51,7 +51,7 @@ export default function HandicapSecondDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">AVANTAGES :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">L’AGEFIPH fait en sorte que vous soyez dans les conditions les plus optimales selon vos besoins, en adaptant votre poste de travail</p>
+                                <p className="text-xl text-white">L’AGEFIPH fait en sorte que vous soyez dans les conditions les plus optimales selon vos besoins, en adaptant votre poste de travail.</p>
                             </div>
                         </div>
                         <div>
@@ -61,7 +61,7 @@ export default function HandicapSecondDropDown() {
                             
                             <div className="my-2">
                                 <p className="text-xl text-white">Votre conseiller vous communique un dossier à renseigner. Habituellement, vous le remplirez avec son aide.
-                                .</p>
+                                </p>
                             </div>
 
                             <div className="my-2">
