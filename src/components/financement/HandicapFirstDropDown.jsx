@@ -38,7 +38,7 @@ export default function HandicapFirstDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">Conditions :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Avoir un compte CPF activé et done le solde est positif</p>
+                                <p className="text-xl text-white">Avoir un compte CPF activé et dont le solde est positif</p>
                             </div>
                         </div>
                         <div>

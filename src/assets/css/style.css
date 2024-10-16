@@ -567,6 +567,7 @@ ul {
         display: block;
     }
 
+   
 }
 
 
@@ -581,4 +582,11 @@ ul {
     {
         font-size: 1.1rem;
     }
+    
+    .rightcontent_title .listTitle
+    {
+        margin-left: 1rem !important; 
+    }
 }
+
+
