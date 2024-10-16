@@ -63,15 +63,15 @@ export default function SalarieFirstDropDown() {
                                 </p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">3. signer le devis de formation
+                                <p className="text-xl text-white">3. Signer le devis de formation
                                 </p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">4. fournir les éléments à la validation du dossier d’inscription
+                                <p className="text-xl text-white">4. Fournir les éléments à la validation du dossier d’inscription
                                 </p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">5. signer le contrat de formation
+                                <p className="text-xl text-white">5. Signer le contrat de formation
                                 </p>
                             </div>
                         </div>

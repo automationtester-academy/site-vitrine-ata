@@ -48,19 +48,24 @@ export default function IndependantthirdDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DEMARCHES A SUIVRE :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Choisir votre formation et votre date de rentrée</p>
+                                <p className="text-xl text-white">1. Choisir votre formation et votre date de rentrée
+                                </p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Remplir notre formulaire de contact, notre équipe prendra contact avec vous pour définir vos besoins et le mode de financement le plus adéquat en fonction de votre situation</p>
+                                <p className="text-xl text-white">2. Remplir notre formulaire de contact, notre équipe prendra contact avec vous pour définir vos besoins et le mode de financement le plus adéquat en fonction de votre situation.
+                                </p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">signer le devis de formation</p>
+                                <p className="text-xl text-white">3. Signer le devis de formation
+                                </p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">fournir les éléments à la validation du dossier d’inscription</p>
+                                <p className="text-xl text-white">4. Fournir les éléments à la validation du dossier d’inscription
+                                </p>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">signer le contrat de formation</p>
+                                <p className="text-xl text-white">5. Signer le contrat de formation
+                                </p>
                             </div>
                         </div>
                     </div>
