@@ -1,4 +1,4 @@
-import CartIcon from '../images/agefiph.png';
+import CartIcon from '../logos/logoPart.png';
 export default function AgefiphLogo() {
     return (
         <>

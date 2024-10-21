@@ -7,7 +7,7 @@ export default function ResterSerieuxText() {
                 Rester sérieux, sans se prendre au sérieux</span></h2>
             </div>
             <div className="mb-4">
-                <p className="text-center">Chez nous, l’humour et la bonhomie font partie intrinsèquement de notre méthode pédagogique. Avoir l’ambition de faire carrière dans la tech est déjà suffisamment complexe que pour y ajouter une couche de stress avec un discours trop pesant. Cette dose de légèreté insufflée au gré des cours et des challenges permet d’appréhender chaque problématique avec plaisir, recul et motivation pour se surpasser.</p>
+                <p className="text-center"><strong>Notre pédagogie repose sur deux piliers essentiels : l'humour et la convivialité</strong>. Nous croyons fermement qu'apprendre ne doit pas être synonyme de stress. Entrer dans le secteur technologique est déjà un défi en soi, alors pourquoi compliquer les choses ? Avec une approche alliant légèreté et rigueur, nous créons un environnement où chaque étudiant progresse à son rythme, tout en restant motivé et inspiré. Professionnel mais accessible</p>
             </div>
         </div>
         </>

@@ -2,7 +2,7 @@ import CommentOfSaraYaakoubi from '../Home/User-Comments/CommentOfChaimaaSassni.
 import CommentOfYassineAllami from "../Home/User-Comments/CommentOfMougonFredy.jsx"
 import CommentOfAnasBoukhari from "../Home/User-Comments/CommentOfKemalCherifi.jsx"
 import '../../assets/css/style.css'
-import FirstImage from './testimonialsImages/FirstImage.jsx';
+import FirstImage from '../../assets/logos/testimonials.png';
 import SecondImage from './testimonialsImages/SecondImage.jsx';
 import ThirdImage from  './testimonialsImages/ThirdImage.jsx';
 
@@ -19,11 +19,12 @@ export default function TestemonialSchool(){
                 <blockquote className="rounded-3xl bg-gray-50 p-[1.7rem] shadow-sm sm:p-[1.7rem]">
                     <div className="flex items-center gap-4  max-sm:flex-wrap ">
                         <div className="testimonials_image_profile small_image_container">
-                            <FirstImage />
+                            {/* <FirstImage /> */}
+                            <img src={FirstImage} alt="" />
                         </div>
-                        <div>
-                            <p className="mt-0.5 text-lg font-medium text-gray-900">Les référents
-                            admissions</p>
+                        <div className="loading-4">
+                            <p className="mt-0.5 text-lg font-medium text-gray-900">Asmaa BENNOUF</p>
+                            <span className='mt-[-4rem]'>gestionnaire RH formation</span>
                         </div>
                     </div>
 
@@ -39,7 +40,9 @@ export default function TestemonialSchool(){
                         </div>
 
                         <div>
-                            <p className="mt-0.5 text-lg font-medium text-gray-900">L'ingénierie pédagogique</p>
+                            <p className="mt-0.5 text-lg font-medium text-gray-900">Samira Ladghami</p>
+                            <span className='mt-[-4rem]'>Gestionnaire formation</span>
+
                         </div>
                     </div>
 

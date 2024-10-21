@@ -3,6 +3,9 @@ import SimplonLogo from "../../assets/logos/SimplonLogo";
 import QualiopiLogo from "../../assets/logos/QualiopiLogo";
 import TransitionsLogo from "../../assets/logos/TransitionsLogo";
 import CPFLogo from "../../assets/logos/CPFLogo";
+import DataDocke from "../../assets/logos/datadocke.png";
+import Qualiopi from "../../assets/logos/qualiopi.png"
+import "../../assets/css/style.css"
 
 export default function FooterPartenaires(){
     return (
@@ -20,8 +23,12 @@ export default function FooterPartenaires(){
             <div>
                 <AgefiphLogo />
             </div>
+            <div style={{ display: "contents"}} className="Qualiopi">
+                {/* <Qualiopi /> */}
+                <img src={Qualiopi} style={{width:"10%"}} alt="DataDocke Logo" />
+            </div>
             <div>
-                <QualiopiLogo />
+            <img src={DataDocke} style={{width:"70%", margin:"auto"}} alt="DataDocke Logo" />
             </div>
         </div>
         </>
