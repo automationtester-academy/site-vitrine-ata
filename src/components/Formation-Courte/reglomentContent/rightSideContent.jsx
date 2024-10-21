@@ -16,11 +16,11 @@ export default function LeftSideContent()
                         <span>TAUX D'OBTENTION {currentYear.getFullYear()}/{nextYear.getFullYear()}</span>
                     </div>
                     <ul className="list-disc">
-                        <li className="listTitle">100% taux d'achèvement</li>
+                        <li className="listTitle"><span  style={{color:'#3adef5'}}>100% </span>taux d'achèvement</li>
                     </ul>
                     <div>
                         <div className="textbottomContent ml-[1rem]">
-                            <p>TAUX DE SATISFACTION GLOBAL ANNUEL <br/> <span>95%</span></p>
+                            <p>TAUX DE SATISFACTION GLOBAL ANNUEL <br/> <span  style={{color:'#3adef5'}}>95%</span></p>
                         </div>
                     </div>
                 </div>

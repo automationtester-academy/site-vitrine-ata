@@ -480,6 +480,11 @@ ul {
 
 @media (max-width:548px)
 {
+
+    .Qualiopi img
+    {
+        width: 50% !important;
+    }
     .infopratice
     {
         width: 90%;

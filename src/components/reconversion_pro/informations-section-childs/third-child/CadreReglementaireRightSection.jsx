@@ -15,15 +15,15 @@ export default function CadreReglementaireRightSection() {
             </div>
             <div className="mt-4 pl-7">
                 <ul>
-                    <li className="list-disc text-xl font-medium text-white cadre-reglementaire-p">100% taux d'achèvement</li>
-                    <li className="list-disc text-xl font-medium text-white cadre-reglementaire-p">100% taux de réussite de la <br /> certifications</li>
+                    <li className="list-disc text-xl font-medium text-white cadre-reglementaire-p"><span style={{color:'#3adef5'}}>100%</span> taux d'achèvement</li>
+                    <li className="list-disc text-xl font-medium text-white cadre-reglementaire-p"><span  style={{color:'#3adef5'}}>100%</span> taux de réussite de la <br /> certifications</li>
                 </ul>
             </div>
             <div className="mt-4">
                 <h4 className="font-semibold text-white" style={{ fontSize: '18px' }}>TAUX DE SATISFACTION GLOBAL ANNUEL</h4>
                 <div className="pl-8 mt-4">
                     <ul>
-                        <li className="list-disc text-2xl font-semibold text-[#3390B2] cadre-reglementaire-p">100%</li>
+                        <li className="list-disc text-2xl font-semibold text-[#3390B2] cadre-reglementaire-p"> <span  style={{color:'#3adef5'}}>100%</span> </li>
                     </ul>
                 </div>
             </div>
@@ -31,7 +31,7 @@ export default function CadreReglementaireRightSection() {
                 <h4 className="font-semibold text-white" style={{ fontSize: '18px' }}>TAUX D'INSERTION PROFESSIONNELLE</h4>
                 <div className="pl-8 mt-4">
                     <ul>
-                        <li className="list-disc text-2xl font-semibold text-[#3390B2] cadre-reglementaire-p">100% <span className="text-xl font-medium text-white">3 mois post formation</span></li>
+                        <li className="list-disc text-2xl font-semibold text-[#3390B2] cadre-reglementaire-p"> <span  style={{color:'#3adef5'}}>100%</span> <span className="text-xl font-medium text-white">3 mois post formation</span></li>
                     </ul>
                 </div>
             </div>
@@ -39,7 +39,7 @@ export default function CadreReglementaireRightSection() {
                 <div className="flex">
                     <img src={StatistixsImg} alt="" className="w-14 h-14 mr-6 self-center" />
                     <h4 className="uppercase text-2xl font-medium text-[#39DDF5] cadre-reglementaire-titles">
-                        TAUX D'OBTENTION <br /> {currentYear.getFullYear()} / {nextYear.getFullYear()}
+                    Les délais d’accès<br /> {currentYear.getFullYear()} / {nextYear.getFullYear()}
                     </h4>
                 </div>
                 <div className="pl-8 mt-5">

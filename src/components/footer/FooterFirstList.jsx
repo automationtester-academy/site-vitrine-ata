@@ -17,7 +17,7 @@ export default function FooterFirstList() {
           </a>
         </li>
         <li className="mb-5">Mentions légales</li>
-        <li className="mb-3">Egalité professionnelle</li>
+        {/* <li className="mb-3">Egalité professionnelle</li> */}
       </ul>
     </>
   );

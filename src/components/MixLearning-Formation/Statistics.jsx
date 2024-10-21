@@ -17,19 +17,19 @@ export default function Statistics(){
                     <div className="flex gap-4 flex-col">
                         <div>
                         <ul className="list-disc pl-[8%] p-[2%] max-sm:pl-[14%]">
-                            <li className="text-white text-md max-sm:text-lg">90% taux d'achèvement</li>
+                            <li className="text-white text-md max-sm:text-lg"><span  style={{color:'#3adef5'}}>90% </span>taux d'achèvement</li>
                         </ul>
                         </div>
                         <div className="max-sm:w-[100%]">
                             <p className="text-white font-medium max-sm:text-base ">TAUX DE SATISFACTION GLOBAL ANNUEL</p>
                             <ul className="list-disc pl-[8%]  p-[2%] max-sm:pl-[14%]">
-                                <li className="text-cyan-500 font-bold text-md max-sm:text-lg">95%</li>
+                                <li className="text-cyan-500 font-bold text-md max-sm:text-lg"><span  style={{color:'#3adef5'}}>95%</span></li>
                             </ul>
                         </div>
                         <div className="max-sm:w-[100%]">
                             <p className="text-white font-medium max-sm:text-base">TAUX D'INSERTION PROFESSIONNELLE</p>
                             <ul className="list-disc pl-[8%] p-[2%] max-sm:pl-[14%]">
-                                <li className="text-cyan-500 font-bold text-md max-sm:text-lg">70% <span className="text-white font-normal">3 mois post formation</span></li>
+                                <li className="text-cyan-500 font-bold text-md max-sm:text-lg"><span  style={{color:'#3adef5'}}>70% </span> <span className="text-white font-normal">3 mois post formation</span></li>
                             </ul>
                         </div>
                         </div>

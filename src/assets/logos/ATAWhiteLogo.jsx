@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import CartIcon from '../images/ATAWhiteLogo.png';
+import CartIcon from '../logos/logoNew.png';
 export default function ATAWhiteLogo() {
     return (
         <>

@@ -47,7 +47,7 @@ export default function LeftSideContent()
                         Prix: <span>8400 euros TTC</span>
                         <p>Toutes nos formations sont éligibles aux dispositifs de financement.</p>
                         <br/>
-                        <p>Vous pouvez ainsi bénéficier d'une formation prise en charge jusqu'à 100% selon votre situation.</p>
+                        <p>Vous pouvez ainsi bénéficier d'une formation prise en charge jusqu'à<span  style={{color:'#3adef5'}}> 100%</span>  selon votre situation.</p>
                     </div>
                 </div>
             </div>
