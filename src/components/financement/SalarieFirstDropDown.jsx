@@ -30,7 +30,7 @@ export default function SalarieFirstDropDown() {
                                 <h2 className="uppercase text-xl text-[#39DDF5] font-semibold">DÉFINITION :</h2>
                             </div>
                             <div className="my-2">
-                                <p className="text-xl text-white">Financement personnel <br/>
+                                <p className="text-xl text-white">Financement personnel <br/><br/> 
                                     L’autofinancement est le fait de payer sa formation, en totalité ou en partie avec un paiement en plusieurs mensualités.
                                 </p>
                             </div>
