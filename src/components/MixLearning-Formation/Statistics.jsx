@@ -17,7 +17,7 @@ export default function Statistics(){
                     <div className="flex gap-4 flex-col">
                         <div>
                         <ul className="list-disc pl-[8%] p-[2%] max-sm:pl-[14%]">
-                            <li className="text-white text-md max-sm:text-lg"><span  style={{color:'#3adef5'}}>90% </span>taux d'achèvement</li>
+                            <li className="text-cyan-500 text-md max-sm:text-lg font-bold"><span  style={{color:'#3adef5'}}>90% </span><span className="text-white font-normal">taux d'achèvement</span></li>
                         </ul>
                         </div>
                         <div className="max-sm:w-[100%]">
