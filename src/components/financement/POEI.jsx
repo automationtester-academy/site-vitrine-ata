@@ -2,7 +2,7 @@ import { useState } from "react";
 import CartIcon from "../../assets/icons/droDownIcon.png";
 import CartIcon2 from "../../assets/icons/closeDropDownIcon.png";
 
-export default function CPF() {
+export default function POEI() {
   const [isActive, setActive] = useState(false);
 
   const activeDropDown = () => {
@@ -23,7 +23,7 @@ export default function CPF() {
           ) : (
             <img src={CartIcon} alt="" />
           )}
-          <span className={`ml-4 text-xl ${textColor}`}>CPF</span>
+          <span className={`ml-4 text-xl ${textColor}`}>POEI</span>
         </button>
         {isActive && (
           <div className="mt-4 w-11/12 p-4 drop-down-style">
@@ -35,7 +35,8 @@ export default function CPF() {
               </div>
               <div className="my-2">
                 <p className="text-xl text-white">
-                  Compte personnel de formation
+                  La POEI c’est la Préparation Opérationnelle à l’Emploi
+                  Individuelle
                 </p>
               </div>
             </div>
