@@ -9,7 +9,7 @@ import Ecole from '../pages/Ecole'
 import MixLearning from '../pages/MixLearning'
 import FormationCourte from '../pages/FormationCourte';
 import ReconversionPro from '../pages/ReconversionPro'
-
+import DevOps from "../pages/devOps";
 
 export const router = createBrowserRouter([
     {
@@ -53,7 +53,13 @@ export const router = createBrowserRouter([
             {
                 path:'/reconversion',
                 element: <ReconversionPro />
+            },
+            {
+                path:'/devops',
+                element: <DevOps />
             }
+
+
 
 
         ]
