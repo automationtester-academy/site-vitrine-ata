@@ -27,7 +27,7 @@ export default function CategoriesSection() {
                             className="text-white font-bold py-2 px-4 rounded hover:bg-cyan-600"
                             aria-label="Aller à la section Bootcamp"
                         >
-                            Bootcamp
+                            DevOps
                         </button>
                         <button
                             onClick={() => scrollToSection(formationCourteRef)}
