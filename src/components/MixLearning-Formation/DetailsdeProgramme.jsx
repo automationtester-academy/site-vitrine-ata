@@ -3,6 +3,7 @@ import Rocket from "../../assets/images/MixLearning/rocket.png"
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import { fetchMixLearningFormation } from "./API";
+import Program  from "../MixLearning-Formation/program/program.pdf"
 
 export default function DetailsdeProgramme() {
 
@@ -15,7 +16,6 @@ export default function DetailsdeProgramme() {
         queryKey: ['Mix-Learning Formation', 3],
         queryFn: () => fetchMixLearningFormation(3),
         refetchOnWindowFocus: false,
-        // refetchOnMount: false,
         cacheTime: 1000 * 60
     });
 
@@ -30,20 +30,17 @@ export default function DetailsdeProgramme() {
                     <p className="text-white text-xl max-lg:px-[2%] max-lg:text-center max-sm:text-lg mb-[3%] max-sm:px-[2%]">
                         Découvrez notre programme
                     </p>
-
                     <div className="NavBarLinks_button flex flex-shrink-0   lg:my-0   max-lg:justify-center max-lg:items-center max-lg:w-[80%] max-sm:w-[80%]">
                         <div className="relative inline-block w-[100%] p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md max-lg:w-[80%] max-xl:w-[100%] ">
                             <a
                                 target="_blank"
-                                href={`https://drive.google.com/drive/folders/1x4tBH83a1-8itp6pE8EAB0kRBj6Cmwj-`}
+                                href={Program}
                                 className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold"
-                            >
+                            download={Program}>
                                 Télécharger le programme
                             </a>
-                            
                         </div>
                     </div>
-
                 </div>
                 <div className="border-2 border-cyan-400 pt-[9%] pb-[4%] flex  justify-center items-center flex-col rounded-xl xl:max-2xl:h-[80%]">
                     <h1 className="card_title text-cyan-400 text-2xl text-justify  font-semibold  max-sm:text-2xl flex max-sm:text-center max-sm:pt-[1%]">
