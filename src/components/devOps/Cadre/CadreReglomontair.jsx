@@ -6,7 +6,7 @@ import CadreReglementaireRightSection from "../informations-section-childs/third
 export default function CadreReglementaire() {
     return (
         <>
-            <div className=" cadre-reglementaire-container w-[75%]">
+            <div className=" cadre-reglementaire-container w-[75%] max-sm:w-[90%]">
                 <div className="background-gradiant-div">
                     <div className="background-color-div">
                         <div className="w-full py-8 flex justify-center">
