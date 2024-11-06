@@ -9,7 +9,7 @@
       "Heures": "14h",
       "format": "Inter-intra",
       "category_id": 1,
-      "program": "https://drive.google.com/drive/folders/1x4tBH83a1-8itp6pE8EAB0kRBj6Cmwj-",
+      "program": "src/assets/programs/cypress.pdf",
       "image": "https://gcdnb.pbrd.co/images/DwkzMSe4CMk4.png"
     },
     {
@@ -22,7 +22,7 @@
       "Heures": "14h",
       "format": "Inter-intra",
       "category_id": 1,
-      "program": "https://drive.google.com/drive/folders/1x4tBH83a1-8itp6pE8EAB0kRBj6Cmwj-",
+      "program": "src/assets/programs/postman.pdf",
       "image": "https://cdn.worldvectorlogo.com/logos/postman.svg"
     },
     {
@@ -35,7 +35,7 @@
       "Heures": "14h",
       "format": "Inter-intra",
       "category_id": 1,
-      "program": "https://drive.google.com/drive/folders/1x4tBH83a1-8itp6pE8EAB0kRBj6Cmwj-",
+      "program": "src/assets/programs/selenium.pdf",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png"
     },
     {
@@ -48,8 +48,8 @@
       "Heures": "14h",
       "format": "Inter-intra",
       "category_id": 1,
-      "program": "https://drive.google.com/drive/folders/1x4tBH83a1-8itp6pE8EAB0kRBj6Cmwj-",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Robot-framework-logo.png"
+      "program": "src/assets/programs/robot.pdf",
+      "image": "src/assets/images/robot.png"
     },
     {
       "titre": "Playwright",
@@ -61,7 +61,7 @@
       "Heures": "14h",
       "format": "Inter-intra",
       "category_id": 1,
-      "program": "https://drive.google.com/drive/folders/1x4tBH83a1-8itp6pE8EAB0kRBj6Cmwj-",
+      "program": "src/assets/programs/playwright.pdf",
       "image": "https://media.licdn.com/dms/image/v2/C4D0BAQHR4FRsX8orMA/company-logo_200_200/company-logo_200_200/0/1632954819046?e=2147483647&v=beta&t=m7V3m3luaOF8am-LciW1FfAajg6l2mfk-T0DAr_KuYM"
     },
     {
@@ -74,7 +74,7 @@
       "Heures": "14h",
       "format": "Inter-intra",
       "category_id": 1,
-      "program": "https://drive.google.com/drive/folders/1x4tBH83a1-8itp6pE8EAB0kRBj6Cmwj-",
+      "program": "src/assets/programs/k6.pdf",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/K6-logo.svg"
     }
   ]
