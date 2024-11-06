@@ -136,7 +136,7 @@ function ContactForm() {
         <Toaster />
         <section className="min-h-screen .bg-slate-900 text-amber-50 overflow-x-hidden  w-[85vw] m-auto">
             <div className={"title"}>
-                <h1 className={"contactUS"}>Contactez<span>-Nous</span></h1>
+                <h1 className={"contactUS"}>Contactez<span>-nous</span></h1>
             </div>
             <div className="container px-6 py-10 mx-auto">
                 <div className="lg:flex lg:items-center lg:-mx-10 justify-between">

@@ -2,10 +2,10 @@ import CommentOfSaraYaakoubi from '../Home/User-Comments/CommentOfChaimaaSassni.
 import CommentOfYassineAllami from "../Home/User-Comments/CommentOfMougonFredy.jsx"
 import CommentOfAnasBoukhari from "../Home/User-Comments/CommentOfKemalCherifi.jsx"
 import '../../assets/css/style.css'
-import FirstImage from '../../assets/logos/testimonials.png';
-import FourthImage from '../../assets/images/Samira.png';
-import ThirdImage from  '../../assets/images/mimoun.png';
-import SecondImage from "../../assets/images/ali.png";
+import FirstImage from '../../assets/images/asma.jpeg';
+import FourthImage from '../../assets/images/Samira.jpeg';
+import ThirdImage from  '../../assets/images/mimoun.jpeg';
+import SecondImage from "../../assets/images/ali.jpeg";
 
 
 export default function TestemonialSchool(){
@@ -21,13 +21,13 @@ export default function TestemonialSchool(){
                 <blockquote className="rounded-3xl bg-gray-50 p-[1.7rem] shadow-sm sm:p-[1.7rem]">
                     <div className='d-flex'>
                         <div className="flex items-center gap-4  max-sm:flex-wrap mb-4">
-                            <div className="testimonials_image_profile small_image_container">
+                            <div className="testimonials_image_profile small_image_container ">
                                 {/* <FirstImage /> */}
-                                <img src={FourthImage} className='w-[100%]' alt="" />
+                                <img src={FourthImage} className='w-[100%] h-[100%]' alt="" />
                             </div>
                             <div className="loading-4">
                                 <p className="mt-0.5 text-lg font-medium text-gray-900">Samira Ladghami</p>
-                                <span className='mt-[-4rem]'>Consultante Administratif</span>
+                                <span className='mt-[-4rem]'>Gestionnaire Formation  </span>
                             </div>
                         </div>
                         <div className="flex items-center gap-4  max-sm:flex-wrap ">
@@ -37,7 +37,7 @@ export default function TestemonialSchool(){
                         </div>
                         <div className="loading-4">
                             <p className="mt-0.5 text-lg font-medium text-gray-900">Asmaa BENNOUF</p>
-                            <span className='mt-[-4rem]'>Gestionnaire RH Formation</span>
+                            <span className='mt-[-4rem]'>Directrice commercial</span>
                         </div>
                     </div>
                     </div>
@@ -57,7 +57,7 @@ export default function TestemonialSchool(){
                             </div>
                             <div className="loading-4">
                                 <p className="mt-0.5 text-lg font-medium text-gray-900">Mimoun Kissi</p>
-                                <span className='mt-[-4rem]'>Automation Test Engineer</span>
+                                <span className='mt-[-4rem]'>CEO + Responsable Pédagogiques</span>
                             </div>
                         </div>
                         <div className="flex items-center gap-4  max-sm:flex-wrap ">
@@ -67,7 +67,7 @@ export default function TestemonialSchool(){
                         </div>
                         <div className="loading-4">
                             <p className="mt-0.5 text-lg font-medium text-gray-900">Mohammed Ali EL MALHOUFF</p>
-                            <span className='mt-[-4rem]'>QA Automation Engineer</span>
+                            <span className='mt-[-4rem]'>Head Of Training </span>
                         </div>
                     </div>
                     </div>

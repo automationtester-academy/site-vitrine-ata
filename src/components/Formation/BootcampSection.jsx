@@ -18,7 +18,7 @@ const BootcampSection = () => {
                         DevOps
                     </h1>
                     <p className="text-lg mb-4">
-                        Notre bootcamp est un programme de formation intensif et dynamique en petit groupe qui dure quelques semaines et allie théorie et pratique pour acquérir des compétences en automatisation de tests logiciels. Pour faire simple, c’est la version concentrée d’une formation qui aurait pu s'étaler sur plusieurs mois.
+                        Une formation DevOps permet de maîtriser l’automatisation des processus de développement et de déploiement, favorisant ainsi la collaboration entre équipes et l’accélération des cycles de production. Elle améliore l’efficacité, l qualité des logiciels et répond à la forte demande sur la marché du travail.
                     </p>
                     <div className="relative inline-block p-[1.2px] pl-[1.75px] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
                         <Link to={"/devops"} onClick={() => window.scrollTo(0, 0)} className="Header-text block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold">

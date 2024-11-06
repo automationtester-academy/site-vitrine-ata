@@ -8,4 +8,9 @@ export default defineConfig({
     host: "0.0.0.0",
     port: 8080,
   },
+  resolve: {
+    alias: {
+      'slick-carousel/slick': '/node_modules/slick-carousel/slick' // Alias for direct import
+    }
+  }
 });

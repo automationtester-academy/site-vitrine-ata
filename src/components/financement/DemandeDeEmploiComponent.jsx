@@ -30,7 +30,7 @@ export default function DemandeDeEmploiComponent() {
           <DemandeDeEmploiFourthDropDown />
           <DemandeDeEmploiSecondDropDown />
           <DemandeDeEmploiFirstDropDown />
-          <DemandeDeEmploiSixthDropDown />
+          {/* <DemandeDeEmploiSixthDropDown /> */}
         </div>
       </div>
     </>
