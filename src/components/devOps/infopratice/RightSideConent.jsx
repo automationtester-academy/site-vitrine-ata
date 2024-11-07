@@ -13,7 +13,7 @@ export default function RightSideContent()
                         <span>Durée</span>
                     </div>
                     <ul className="list-disc">
-                        <li className="listTitle ">Toute la formation : 7 jours
+                        <li className="listTitle ">Toute la formation : 5 jours
                         </li>
                         {/* <p>(399h)</p> */}
                     </ul>
