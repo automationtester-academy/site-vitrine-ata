@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 import { fetchMixLearningFormation } from "../API";
-
+import ConvPro from "./conPro.pdf"
 export default function LeftSectionFirstPart() {
 
     const {data} = useQuery({
@@ -38,7 +38,8 @@ export default function LeftSectionFirstPart() {
                             <div className="p-0.5 flex hover:bg-none hover:bg-cyan-600 bg-gradient-to-r  from-[#3390B2] to-[#87E5EC] rounded-md">
                                 <a
                                     target="_blank"
-                                    href={`https://drive.google.com/drive/folders/1x4tBH83a1-8itp6pE8EAB0kRBj6Cmwj-`}
+                                    href={ConvPro}
+                                    download={ConvPro}
                                     className="Header-text text-center block px-5 text-md py-2.5 leading-none bg-slate-900 text-white rounded-md hover:text-white hover:bg-cyan-600 font-semibold"
                                 >
                                     Télécharger le programme
