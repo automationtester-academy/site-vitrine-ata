@@ -2,10 +2,10 @@ import CommentOfSaraYaakoubi from '../Home/User-Comments/CommentOfChaimaaSassni.
 import CommentOfYassineAllami from "../Home/User-Comments/CommentOfMougonFredy.jsx"
 import CommentOfAnasBoukhari from "../Home/User-Comments/CommentOfKemalCherifi.jsx"
 import '../../assets/css/style.css'
-import FirstImage from '../../assets/images/asma.jpeg';
-import FourthImage from '../../assets/images/Samira.jpeg';
-import ThirdImage from  '../../assets/images/mimoun.jpeg';
-import SecondImage from "../../assets/images/ali.jpeg";
+import FirstImage from '../../assets/images/asma.png';
+import FourthImage from '../../assets/images/samira.png';
+import ThirdImage from  '../../assets/images/mimoun.png';
+import SecondImage from "../../assets/images/ali.png";
 
 
 export default function TestemonialSchool(){
