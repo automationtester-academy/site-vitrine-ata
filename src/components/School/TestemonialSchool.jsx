@@ -3,7 +3,7 @@ import CommentOfYassineAllami from "../Home/User-Comments/CommentOfMougonFredy.j
 import CommentOfAnasBoukhari from "../Home/User-Comments/CommentOfKemalCherifi.jsx"
 import '../../assets/css/style.css'
 import FirstImage from '../../assets/images/asma.png';
-import FourthImage from '../../assets/images/samira.png';
+import FourthImage from '../../assets/images/Samira.png';
 import ThirdImage from  '../../assets/images/mimoun.png';
 import SecondImage from "../../assets/images/ali.png";
 
