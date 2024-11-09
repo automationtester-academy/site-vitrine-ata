@@ -44,7 +44,7 @@ export default function LeftSectionFirstPart() {
                                 >
                                     Télécharger le programme
                                 </a>
-                            
+                        
                             </div>
                         </div>
                     </div>
