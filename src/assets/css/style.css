@@ -167,6 +167,11 @@ p.mt-0\.5.text-lg.font-medium.text-gray-900 {
     
 }
 
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px rgba(15, 23, 42, 0.8) inset; /* Change the color to your desired background */
+  -webkit-text-fill-color: white; /* Ensure text color is white */
+}
 
 .testimonials_image_profile.testimonials_image_profile_custom {
     width: 7rem;
@@ -182,6 +187,25 @@ p.mt-0\.5.text-lg.font-medium.text-gray-900 {
     height: 100%;
 }
 
+.date-input {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    color: white;
+    position: relative;
+   
+}
+
+.date-input::-webkit-calendar-picker-indicator {
+    filter: invert(1); 
+    cursor: pointer;
+}
+
+.date-input::-moz-calendar-picker-indicator {
+    filter: invert(1); 
+    cursor: pointer;
+}
 
 
 .financement-img-container .mt-4 {
@@ -189,11 +213,9 @@ p.mt-0\.5.text-lg.font-medium.text-gray-900 {
     width: 31rem;
 }
 
-
 .financement-img-container.mt-3 img {
     width: 60%;
 }
-
 
 .school-img-container
 {
