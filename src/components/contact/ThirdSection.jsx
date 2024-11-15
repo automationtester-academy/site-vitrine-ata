@@ -124,15 +124,10 @@ export default function ThirdSection() {
                                             
                                         </div>
                                     </div>
-
-
-
                                 </div>
                                 <div className="w-full mt-8">       
-                                    
                                     <textarea name="Message" placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)} className=" mt-4 textarea block w-full px-5 py-3  placeholder-gray-400 bg-slate-900 bg-opacity-0  border-2  rounded border-white   text-white dark:border-gray-700 outline-none" ></textarea>
                                 </div>
-
                                 <PrivacyPolicy isChecked1={isChecked1} setChecked1={setChecked1} isChecked={isChecked} setChecked={setChecked}/>
                                 <SendMessage />
                             </form>
