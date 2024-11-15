@@ -59,7 +59,7 @@ function FormationsSection() {
                       <div className="flex flex-row items-center pb-6">
                         <img src={TimeIcon} alt="Time Icon" className="mr-4" />
                         <h1 className="text-cyan-400">
-                          {formation.duration} <span className="text-white">jours</span>
+                          {formation.duration} <span className="text-white"></span>
                         </h1>
                       </div>
 
